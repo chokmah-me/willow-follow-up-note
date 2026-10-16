@@ -1,8 +1,10 @@
 # Willow, Tested Again: working repo
 
 Private working repo for the follow-up note to "Notes on Google
-Willow (2024)." Status: DRAFT v2 (2026-10-16). Not published, no
-DOI reserved. Publication is the author's decision alone.
+Willow (2024)." Status: evidence-ready (2026-10-16). Not minted,
+not published, no DOI reserved. Publication is the author's
+decision alone. Evidence-ready means the integrity residual is
+named and deferred. It does not mean scientifically verified.
 
 ## The draft
 
@@ -50,10 +52,12 @@ should be invented.
 `results/integrity_audit.json` is the 2026-10-16 online scan of
 v2. I1 is limited (eight unbound percents). I2 and I4 are not
 applicable. I5 is clear. I3 fails on one identifier:
-`10.13140/RG.2.2.30911.01443` is not in Crossref. The reference
-keeps that DOI and also links the ResearchGate page. Eight other
-DOIs resolved. The scan does not mark the note scientifically
-verified.
+`10.13140/RG.2.2.30911.01443` is not in Crossref. Eight other
+DOIs resolved. The scan file is unchanged. The deferral is
+`results/i3-researchgate-deferral.md`: keep the DOI, send readers
+to the ResearchGate page already in reference [1], and do not
+treat the Crossref miss as a repaired citation. The scan does not
+mark the note scientifically verified.
 
 A robustness check of v2 (own-draft mode, same day) was not saved
 as a file. Its conclusion: the conditional leakage score, the
@@ -73,10 +77,8 @@ reference removed, challenge-table grading direction stated.
 Still open, on purpose:
 
 - The removal experiment in Section V. Only the cultivation team
-  can run it.
-- `sources/SOURCES.md` now uses Nature 614, 676-681 for the 2023
-  paper, matching reference [14] in v2. The rest of that pin file
-  was left as written.
+  can run it. That is a scientific residual, not an integrity-scan
+  residual.
 
 ## Working on the desktop
 

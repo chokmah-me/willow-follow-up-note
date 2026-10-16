@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-Draft only. No DOI, no public posting.
+Evidence-ready. Not minted. No public posting. The integrity
+scan is not a scientific verification.
 
 ### 2026-10-16
 
@@ -29,3 +30,6 @@ Draft only. No DOI, no public posting.
   676-687 to 676-681.
 - Regenerated `AI-USE-STATEMENT.md` from the v2 section, including
   the no-co-author line and the Chokmah LLC affiliation.
+- Deferred the I3 ResearchGate DOI miss. Record:
+  `results/i3-researchgate-deferral.md`. The scan JSON is
+  unchanged. Status in this repo is evidence-ready, not verified.
