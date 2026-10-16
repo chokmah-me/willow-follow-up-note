@@ -43,3 +43,5 @@ is not a scientific verification. v3 has not been re-scanned.
   story, not corroboration of the correlated channel. One TL;DR.
   CC BY 4.0 in the body. No Zenodo DOI minted. SEARCH-META in
   `draft/search-meta-v3.html` with PLACEHOLDER identifiers.
+- Regenerated `AI-USE-STATEMENT.md` from the v3 AI Utilization
+  Statement.

@@ -14,8 +14,8 @@ scientifically verified. v3 has not been re-scanned.
 `draft/follow-up-note-draft.md` stay as the audit trail. Edit v3.
 Process notes that used to sit above the title are in
 `draft/process-log.md` and are not part of the note.
-`AI-USE-STATEMENT.md` still matches v2. Copy the v3 AI
-Utilization Statement into it after the statement is frozen.
+`AI-USE-STATEMENT.md` is a copy of the v3 AI Utilization
+Statement.
 
 House style for this draft, enforced in every pass so far: no em
 dashes; simple words; the leakage attribution keeps the authors'
@@ -28,7 +28,7 @@ alternative, and the no-ablation fact all survive the edit.
 
 - `draft/` the note itself, plus `process-log.md` and
   `search-meta-v3.html`.
-- `AI-USE-STATEMENT.md` standalone copy of the v2 statement.
+- `AI-USE-STATEMENT.md` standalone copy of the v3 statement.
 - `held-note/cultivation-leakage-note.md` the earlier held
   postscript note for the Zenodo paper, with the primary-source
   check and the follow-up assessment that led to this draft. It
@@ -86,7 +86,6 @@ Still open, on purpose:
 - A Zenodo DOI. None is reserved. SEARCH-META placeholders stay
   until mint.
 - Re-scan of v3 with `manuscript-integrity-gate`.
-- `AI-USE-STATEMENT.md` regeneration from v3.
 
 ## Working on the desktop
 
