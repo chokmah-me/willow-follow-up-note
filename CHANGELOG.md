@@ -51,3 +51,7 @@ DOI.
   spurious `[49]` missing-ref fail was a wording parse; the
   draft now says "bibliography number 49".
 - Robustness check of v3 saved (results/robustness-check-v3.md): 16 frozen rows run against v3 at 5b632ef; channel claims survive; one mild weakening (unqualified 40-fold at Section III.4).
+- Saved `results/external-sme-review-instructions.md` (identical
+  SME brief for the Section V simulation design) and
+  `results/external-sme-review-simulation-design.md` (independent
+  pass; verdict BUILD AFTER FIXES).
