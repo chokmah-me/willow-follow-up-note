@@ -1,21 +1,13 @@
 {
   "schema": "cd-manuscript-integrity/v1",
   "ok": false,
-  "status_line": "willow-follow-up-note \u2014 fail (I1 limited unbound 8; I3 fail (8 resolved, 1 unresolved))",
+  "status_line": "willow-follow-up-note \u2014 fail (I1 limited unbound 7; I3 fail (7 resolved, 1 unresolved))",
   "unbound_result_claims": [
-    {
-      "value": 8.0,
-      "token": "8%",
-      "context": "cuts the T-state error by a factor of 40, to a fidelity of at least 0.9999(1), retaining 8% of attempts. The grafted-code memory experiment in the supplement then runs about seven t",
-      "suggested_id": "cuts-the-t-state-error-by-a-factor-o-8%",
-      "in_table": false,
-      "bucket": "other"
-    },
     {
       "value": 0.143,
       "token": "0.143",
-      "context": "ote accepted the surface-code result on its own terms: a distance-7 logical error rate of 0.143% plus or minus 0.003% per cycle, a logical lifetime 2.4 times the best physical qubit, an",
-      "suggested_id": "ote-accepted-the-surface-code-result-0.143",
+      "context": "[1] accepted the surface-code result on its own terms: a distance-7 logical error rate of 0.143% plus or minus 0.003% per cycle, a logical lifetime 2.4 times the best physical qubit, an",
+      "suggested_id": "1-accepted-the-surface-code-result-o-0.143",
       "in_table": false,
       "bucket": "other"
     },
@@ -30,16 +22,16 @@
     {
       "value": 80.0,
       "token": "80%",
-      "context": "t 63 microseconds. Its argument was about the fine print. Google's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified n",
-      "suggested_id": "t-63-microseconds-its-argument-was-a-80%",
+      "context": "or minus 0.02, and real-time decoding at 63 microseconds. Google's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified n",
+      "suggested_id": "or-minus-0-02-and-real-time-decoding-80%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 10.0,
       "token": "10%",
-      "context": "nt was about the fine print. Google's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified noise model behind the headlin",
-      "suggested_id": "nt-was-about-the-fine-print-google-s-10%",
+      "context": "decoding at 63 microseconds. Google's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified noise model behind the headlin",
+      "suggested_id": "decoding-at-63-microseconds-google-s-10%",
       "in_table": false,
       "bucket": "other"
     },
@@ -54,44 +46,32 @@
     {
       "value": 14.0,
       "token": "14%",
-      "context": "ssumed independent gate errors, did not explicitly model leakage or crosstalk, and left a 14% discrepancy between simulated and experimental error suppression, which Google itself att",
-      "suggested_id": "ssumed-independent-gate-errors-did-n-14%",
+      "context": "77) assumed independent gate errors and did not explicitly model leakage or crosstalk. A 14% discrepancy between simulated and experimental error suppression was attributed by Google",
+      "suggested_id": "77-assumed-independent-gate-errors-a-14%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 8.0,
       "token": "8%",
-      "context": "fidelity bound is 0.9999(1), at least that in the Science abstract's wording, with 8% of attempts retained. 2. Metrology. The team could not measure that result with standard",
-      "suggested_id": "fidelity-bound-is-0-9999-1-at-least--8%",
+      "context": "the error by a factor of 40, with a state fidelity of at least 0.9999(1) (retaining 8% of attempts). The v1 preprint gives injection-only error 4.4(2)e-3 and cultivated full",
+      "suggested_id": "the-error-by-a-factor-of-40-with-a-s-8%",
       "in_table": false,
       "bucket": "other"
     }
   ],
   "unbound_buckets": {
-    "other": 8
+    "other": 7
   },
   "status": "fail",
   "project": "willow-follow-up-note",
-  "manuscript": "draft/follow-up-note-draft-v2.md",
+  "manuscript": "draft/follow-up-note-draft-v3.md",
   "bibliography": null,
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-16T17:25:06Z",
+  "timestamp_utc": "2026-10-16T19:15:27Z",
   "citations": [
-    {
-      "kind": "numbered",
-      "token": "6",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "numbered",
-      "token": "7",
-      "needs_bib_key": false,
-      "identifier": null
-    },
     {
       "kind": "numbered",
       "token": "1",
@@ -106,9 +86,27 @@
     },
     {
       "kind": "numbered",
+      "token": "7",
+      "needs_bib_key": false,
+      "identifier": "10.3390/e23121577"
+    },
+    {
+      "kind": "numbered",
       "token": "3",
       "needs_bib_key": false,
       "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "13",
+      "needs_bib_key": false,
+      "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "12",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41586-022-05434-1"
     },
     {
       "kind": "numbered",
@@ -118,51 +116,39 @@
     },
     {
       "kind": "numbered",
+      "token": "9",
+      "needs_bib_key": false,
+      "identifier": "10.26421/QIC15.11-12-8"
+    },
+    {
+      "kind": "numbered",
+      "token": "10",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41467-021-21982-y"
+    },
+    {
+      "kind": "numbered",
+      "token": "11",
+      "needs_bib_key": false,
+      "identifier": "10.1103/PRXQuantum.2.030314"
+    },
+    {
+      "kind": "numbered",
+      "token": "8",
+      "needs_bib_key": false,
+      "identifier": null
+    },
+    {
+      "kind": "numbered",
       "token": "5",
       "needs_bib_key": false,
       "identifier": null
     },
     {
       "kind": "numbered",
-      "token": "8",
-      "needs_bib_key": false,
-      "identifier": "10.3390/e23121577"
-    },
-    {
-      "kind": "numbered",
-      "token": "9",
+      "token": "6",
       "needs_bib_key": false,
       "identifier": null
-    },
-    {
-      "kind": "numbered",
-      "token": "10",
-      "needs_bib_key": false,
-      "identifier": "10.1103/PhysRevLett.124.090504"
-    },
-    {
-      "kind": "numbered",
-      "token": "11",
-      "needs_bib_key": false,
-      "identifier": "10.26421/QIC15.11-12-8"
-    },
-    {
-      "kind": "numbered",
-      "token": "12",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41467-021-21982-y"
-    },
-    {
-      "kind": "numbered",
-      "token": "13",
-      "needs_bib_key": false,
-      "identifier": "10.1103/PRXQuantum.2.030314"
-    },
-    {
-      "kind": "numbered",
-      "token": "14",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41586-022-05434-1"
     },
     {
       "kind": "doi",
@@ -190,12 +176,6 @@
     },
     {
       "kind": "doi",
-      "token": "10.1103/PhysRevLett.124.090504",
-      "needs_bib_key": false,
-      "identifier": "10.1103/PhysRevLett.124.090504"
-    },
-    {
-      "kind": "doi",
       "token": "10.26421/QIC15.11-12-8",
       "needs_bib_key": false,
       "identifier": "10.26421/QIC15.11-12-8"
@@ -220,36 +200,12 @@
     },
     {
       "kind": "author_year",
-      "token": "Bilar 2024",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "author_year",
-      "token": "Rosenfeld et al. 2026",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "author_year",
       "token": "Willow 2024",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "author_year",
-      "token": "Gambetta 2015",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "author_year",
-      "token": "Terhal 2021",
       "needs_bib_key": false,
       "identifier": null
     }
   ],
-  "result_claim_count": 8,
+  "result_claim_count": 7,
   "bib_keys": [],
   "numbered_refs": [
     "1",
@@ -264,8 +220,7 @@
     "10",
     "11",
     "12",
-    "13",
-    "14"
+    "13"
   ],
   "checks": {
     "I1": "limited",
@@ -291,19 +246,19 @@
       "check": "I3",
       "severity": "info",
       "code": "resolved",
-      "detail": "10.1038/s41586-024-08449-y via crossref-doi"
-    },
-    {
-      "check": "I3",
-      "severity": "info",
-      "code": "resolved",
       "detail": "10.3390/e23121577 via crossref-doi"
     },
     {
       "check": "I3",
       "severity": "info",
       "code": "resolved",
-      "detail": "10.1103/PhysRevLett.124.090504 via crossref-doi"
+      "detail": "10.1038/s41586-022-05434-1 via crossref-doi"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1038/s41586-024-08449-y via crossref-doi"
     },
     {
       "check": "I3",
@@ -324,16 +279,10 @@
       "detail": "10.1103/PRXQuantum.2.030314 via crossref-doi"
     },
     {
-      "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.1038/s41586-022-05434-1 via crossref-doi"
-    },
-    {
       "check": "I1",
       "severity": "limited",
       "code": "unbound_result_claim",
-      "detail": "8 unbound (other=8)"
+      "detail": "7 unbound (other=7)"
     }
   ],
   "errors": [],

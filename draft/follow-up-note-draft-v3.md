@@ -191,7 +191,8 @@ the simulations, which do not include leakage:
 
 The circuits did not contain the leakage removal units described
 in previous work. The v1 supplement points to Google's 2023
-surface-code scaling paper [12] (its reference [49]). This note
+surface-code scaling paper [12] (bibliography number 49 in
+that supplement). This note
 uses the supplement's phrase, leakage removal units, for that
 citation. The 2024 Willow paper [4] named a DQLR step. I do not
 treat those two names as the same mechanism here.

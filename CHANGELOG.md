@@ -2,8 +2,9 @@
 
 ## Unreleased
 
-DRAFT v3. Not minted. No public posting. The v2 integrity scan
-is not a scientific verification. v3 has not been re-scanned.
+DRAFT v3. Not minted. No public posting. The v3 integrity scan
+is not a scientific verification. I3 is the deferred ResearchGate
+DOI.
 
 ### 2026-10-16
 
@@ -45,3 +46,7 @@ is not a scientific verification. v3 has not been re-scanned.
   `draft/search-meta-v3.html` with PLACEHOLDER identifiers.
 - Regenerated `AI-USE-STATEMENT.md` from the v3 AI Utilization
   Statement.
+- Ran the online integrity scan on v3. I1 limited (7 unbound
+  percents). I3 fail is the deferred ResearchGate DOI. A
+  spurious `[49]` missing-ref fail was a wording parse; the
+  draft now says "bibliography number 49".

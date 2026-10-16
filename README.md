@@ -5,7 +5,8 @@ Willow (2024)." Status: DRAFT v3, evidence-ready residual from v2
 still named. Not minted, not published, no DOI reserved.
 Publication is the author's decision alone. Evidence-ready means
 the integrity residual is named and deferred. It does not mean
-scientifically verified. v3 has not been re-scanned.
+scientifically verified. v3 was scanned 2026-10-16. The JSON
+fail is the same ResearchGate DOI, already deferred.
 
 ## The draft
 
@@ -51,14 +52,12 @@ the 2024 note). There is no local results artifact, and none
 should be invented.
 
 `results/integrity_audit.json` is the 2026-10-16 online scan of
-v2. I1 is limited (eight unbound percents). I2 and I4 are not
-applicable. I5 is clear. I3 fails on one identifier:
-`10.13140/RG.2.2.30911.01443` is not in Crossref. Eight other
-DOIs resolved. The scan file is unchanged. The deferral is
-`results/i3-researchgate-deferral.md`: keep the DOI, send readers
-to the ResearchGate page already in reference [1], and do not
-treat the Crossref miss as a repaired citation. The scan does not
-mark the note scientifically verified.
+v3. I1 is limited (seven unbound percents). I2, I4, and I5 are
+not applicable. I3 fails on one identifier:
+`10.13140/RG.2.2.30911.01443` is not in Crossref. Seven other
+DOIs resolved. The deferral is
+`results/i3-researchgate-deferral.md`. The scan does not mark the
+note scientifically verified.
 
 A robustness check of v2 is in `results/robustness-check-v2.md`
 (own-draft, 2026-10-16, 18 frozen rows). It is a survival map,
@@ -85,7 +84,7 @@ Still open, on purpose:
   residual.
 - A Zenodo DOI. None is reserved. SEARCH-META placeholders stay
   until mint.
-- Re-scan of v3 with `manuscript-integrity-gate`.
+
 
 ## Working on the desktop
 
