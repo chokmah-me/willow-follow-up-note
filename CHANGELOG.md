@@ -27,3 +27,5 @@ Draft only. No DOI, no public posting.
   unresolved on the ResearchGate DOI, I5 clear.
 - Corrected the 2023 Nature page range in `sources/SOURCES.md` from
   676-687 to 676-681.
+- Regenerated `AI-USE-STATEMENT.md` from the v2 section, including
+  the no-co-author line and the Chokmah LLC affiliation.

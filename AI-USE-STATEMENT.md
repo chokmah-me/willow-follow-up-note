@@ -14,8 +14,15 @@ are preserved with the draft. The author selected all sources,
 made every publish and revise decision, and takes responsibility
 for the claims, the scoring, and the conclusions. AI output was
 treated as draft throughout, and nothing in this note rests on a
-claim that was not checked against a primary source.
+claim that was not checked against a primary source. No AI system
+is listed as a co-author.
+
+Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.
 
 ---
 
-This statement also appears in the draft itself, as the AI Use Statement section before the References. Edit it there; this file is a standalone copy for reuse (for example in a Zenodo deposit description).
+Copied from the AI Use Statement in
+`draft/follow-up-note-draft-v2.md`, the section before the
+References. Edit it there, then copy it here. This file is the
+standalone copy for reuse, for example in a Zenodo deposit
+description.

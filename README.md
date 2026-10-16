@@ -12,7 +12,7 @@ the audit trail for the external-review pass. Edit v2. It carries
 its own status header, the disclosure line, and an AI Use
 Statement section (also kept standalone in `AI-USE-STATEMENT.md`
 for reuse, for example in a deposit description). The standalone
-statement matches the earlier draft; v2 adds the house closer
+statement is a copy of the v2 section, including the house closer
 (no AI co-author; Chokmah LLC, Norwich, VT).
 
 House style for this draft, enforced in every pass so far: no em
@@ -77,7 +77,6 @@ Still open, on purpose:
 - `sources/SOURCES.md` now uses Nature 614, 676-681 for the 2023
   paper, matching reference [14] in v2. The rest of that pin file
   was left as written.
-- `AI-USE-STATEMENT.md` was not regenerated from v2.
 
 ## Working on the desktop
 
