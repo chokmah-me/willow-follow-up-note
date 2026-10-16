@@ -2,8 +2,8 @@
 
 ## Unreleased
 
-Evidence-ready. Not minted. No public posting. The integrity
-scan is not a scientific verification.
+DRAFT v3. Not minted. No public posting. The v2 integrity scan
+is not a scientific verification. v3 has not been re-scanned.
 
 ### 2026-10-16
 
@@ -33,4 +33,13 @@ scan is not a scientific verification.
 - Deferred the I3 ResearchGate DOI miss. Record:
   `results/i3-researchgate-deferral.md`. The scan JSON is
   unchanged. Status in this repo is evidence-ready, not verified.
-- Saved results/robustness-check-v2.md (own-draft robustness check, 18 frozen rows) and annotated results/integrity_brief.md (I3 resolver scope, I1 advise-only).
+- Saved `results/robustness-check-v2.md` (own-draft robustness
+  check, 18 frozen rows) and annotated `results/integrity_brief.md`
+  (I3 resolver scope, I1 advise-only).
+- Added `draft/follow-up-note-draft-v3.md` from the MUST-FIX
+  pass. Process notes moved to `draft/process-log.md`. Six
+  channels scored once. "Direct hit" removed. SI numbers labeled
+  preprint v1. Akshay row dropped. Phase noise is a measurement
+  story, not corroboration of the correlated channel. One TL;DR.
+  CC BY 4.0 in the body. No Zenodo DOI minted. SEARCH-META in
+  `draft/search-meta-v3.html` with PLACEHOLDER identifiers.

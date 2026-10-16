@@ -1,21 +1,21 @@
 # Willow, Tested Again: working repo
 
 Private working repo for the follow-up note to "Notes on Google
-Willow (2024)." Status: evidence-ready (2026-10-16). Not minted,
-not published, no DOI reserved. Publication is the author's
-decision alone. Evidence-ready means the integrity residual is
-named and deferred. It does not mean scientifically verified.
+Willow (2024)." Status: DRAFT v3, evidence-ready residual from v2
+still named. Not minted, not published, no DOI reserved.
+Publication is the author's decision alone. Evidence-ready means
+the integrity residual is named and deferred. It does not mean
+scientifically verified. v3 has not been re-scanned.
 
 ## The draft
 
-`draft/follow-up-note-draft-v2.md` is the current working copy.
-`draft/follow-up-note-draft.md` is the prior copy and stays as
-the audit trail for the external-review pass. Edit v2. It carries
-its own status header, the disclosure line, and an AI Use
-Statement section (also kept standalone in `AI-USE-STATEMENT.md`
-for reuse, for example in a deposit description). The standalone
-statement is a copy of the v2 section, including the house closer
-(no AI co-author; Chokmah LLC, Norwich, VT).
+`draft/follow-up-note-draft-v3.md` is the current working copy.
+`draft/follow-up-note-draft-v2.md` and
+`draft/follow-up-note-draft.md` stay as the audit trail. Edit v3.
+Process notes that used to sit above the title are in
+`draft/process-log.md` and are not part of the note.
+`AI-USE-STATEMENT.md` still matches v2. Copy the v3 AI
+Utilization Statement into it after the statement is frozen.
 
 House style for this draft, enforced in every pass so far: no em
 dashes; simple words; the leakage attribution keeps the authors'
@@ -26,8 +26,9 @@ alternative, and the no-ablation fact all survive the edit.
 
 ## Contents
 
-- `draft/` the note itself.
-- `AI-USE-STATEMENT.md` standalone copy of the statement.
+- `draft/` the note itself, plus `process-log.md` and
+  `search-meta-v3.html`.
+- `AI-USE-STATEMENT.md` standalone copy of the v2 statement.
 - `held-note/cultivation-leakage-note.md` the earlier held
   postscript note for the Zenodo paper, with the primary-source
   check and the follow-up assessment that led to this draft. It
@@ -59,7 +60,15 @@ to the ResearchGate page already in reference [1], and do not
 treat the Crossref miss as a repaired citation. The scan does not
 mark the note scientifically verified.
 
-Robustness check of v2 (own-draft mode, 2026-10-16): saved at results/robustness-check-v2.md. 18 frozen rows. Verdict: the conditional leakage score, the other-channels-untested score, and the five-to-six-orders arithmetic survive the frozen perturbations; the score flips if "likely" is dropped (no ablation run exists) or if a removal run leaves the gap unchanged (the Section V experiment, which only the cultivation team can run). One recorded weakening: the 40x headline is 22 to 44 over the draft's own stated range.
+A robustness check of v2 is in `results/robustness-check-v2.md`
+(own-draft, 2026-10-16, 18 frozen rows). It is a survival map,
+not a verification stamp. The conditional leakage score, the
+other-channels-untested score, and the five-to-six-orders
+arithmetic survive the frozen perturbations. The score flips if
+"likely" is dropped, or if a removal run leaves the gap
+unchanged. That run is the one in Section V. This repo cannot
+perform it. One recorded weakening: the 40x headline is 22 to 44
+over the draft's own stated range. v3 has not been re-checked.
 
 ## Open items
 
@@ -74,10 +83,14 @@ Still open, on purpose:
 - The removal experiment in Section V. Only the cultivation team
   can run it. That is a scientific residual, not an integrity-scan
   residual.
+- A Zenodo DOI. None is reserved. SEARCH-META placeholders stay
+  until mint.
+- Re-scan of v3 with `manuscript-integrity-gate`.
+- `AI-USE-STATEMENT.md` regeneration from v3.
 
 ## Working on the desktop
 
-Clone, edit `draft/follow-up-note-draft-v2.md`, commit, push. The
+Clone, edit `draft/follow-up-note-draft-v3.md`, commit, push. The
 review folders are the audit trail; add new passes as new files
 rather than editing the old ones. Do not overwrite
-`follow-up-note-draft.md`.
+`follow-up-note-draft.md` or `follow-up-note-draft-v2.md`.
