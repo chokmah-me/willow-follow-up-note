@@ -59,12 +59,7 @@ to the ResearchGate page already in reference [1], and do not
 treat the Crossref miss as a repaired citation. The scan does not
 mark the note scientifically verified.
 
-A robustness check of v2 (own-draft mode, same day) was not saved
-as a file. Its conclusion: the conditional leakage score, the
-"other channels untested" score, and the five-to-six-orders
-arithmetic survive the frozen perturbations. The score flips if
-"likely" is dropped, or if a removal run leaves the gap unchanged.
-That run is the one in Section V. This repo cannot perform it.
+Robustness check of v2 (own-draft mode, 2026-10-16): saved at results/robustness-check-v2.md. 18 frozen rows. Verdict: the conditional leakage score, the other-channels-untested score, and the five-to-six-orders arithmetic survive the frozen perturbations; the score flips if "likely" is dropped (no ablation run exists) or if a removal run leaves the gap unchanged (the Section V experiment, which only the cultivation team can run). One recorded weakening: the 40x headline is 22 to 44 over the draft's own stated range.
 
 ## Open items
 

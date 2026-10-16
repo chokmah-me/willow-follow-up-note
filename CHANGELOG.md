@@ -33,3 +33,4 @@ scan is not a scientific verification.
 - Deferred the I3 ResearchGate DOI miss. Record:
   `results/i3-researchgate-deferral.md`. The scan JSON is
   unchanged. Status in this repo is evidence-ready, not verified.
+- Saved results/robustness-check-v2.md (own-draft robustness check, 18 frozen rows) and annotated results/integrity_brief.md (I3 resolver scope, I1 advise-only).
