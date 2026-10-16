@@ -36,7 +36,7 @@ against these.
 
 - Google Quantum AI and Collaborators (2023). "Suppressing
   quantum errors by scaling a surface code logical qubit."
-  Nature 614, 676-687. The cultivation supplement's ref 49; its
+  Nature 614, 676-681. The cultivation supplement's ref 49; its
   leakage removal step is DQLR.
 - Akshay, V., et al. (2020). PRL 124, 090504.
 - Suchara, M., Cross, A. W., Gambetta, J. M. (2015). QIC 15,

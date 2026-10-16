@@ -1,0 +1,6 @@
+{
+  "schema": "cd-manuscript-integrity/v1",
+  "manuscript": "draft/follow-up-note-draft-v2.md",
+  "i1_policy": "advise",
+  "notes": "Commentary note. Reported rates are cited from Rosenfeld et al. 2026, Google Quantum AI 2024, and Bilar 2024. No local results artifact. Unbound numeric claims are prior_cited, not new measurements."
+}

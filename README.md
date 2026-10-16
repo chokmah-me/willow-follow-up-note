@@ -1,17 +1,19 @@
 # Willow, Tested Again: working repo
 
 Private working repo for the follow-up note to "Notes on Google
-Willow (2024)." Status: DRAFT, revised after internal adversarial
-review and two external reviews (2026-10-16). Not published, no
+Willow (2024)." Status: DRAFT v2 (2026-10-16). Not published, no
 DOI reserved. Publication is the author's decision alone.
 
 ## The draft
 
-`draft/follow-up-note-draft.md` is the single working copy. Edit
-it here. It carries its own status header, the disclosure line,
-and an AI Use Statement section (also kept standalone in
-`AI-USE-STATEMENT.md` for reuse, for example in a deposit
-description).
+`draft/follow-up-note-draft-v2.md` is the current working copy.
+`draft/follow-up-note-draft.md` is the prior copy and stays as
+the audit trail for the external-review pass. Edit v2. It carries
+its own status header, the disclosure line, and an AI Use
+Statement section (also kept standalone in `AI-USE-STATEMENT.md`
+for reuse, for example in a deposit description). The standalone
+statement matches the earlier draft; v2 adds the house closer
+(no AI co-author; Chokmah LLC, Norwich, VT).
 
 House style for this draft, enforced in every pass so far: no em
 dashes; simple words; the leakage attribution keeps the authors'
@@ -38,18 +40,48 @@ alternative, and the no-ablation fact all survive the edit.
 - `sources/` SOURCES.md (pins, DOIs, hashes) plus the arXiv full
   text of the cultivation paper, PDF and extracted text.
 
-## Open items (author's calls, not yet applied)
+## Checks on v2
 
-From the external reviews' split findings, recorded in
-external-review/REVISIONS-APPLIED.md: an inventory-level
-falsifiability paragraph; an abstract rewrite in the Non-Hype
-register; a scale caveat; an explicit disconfirming-evidence
-scorecard entry; softening the channel 1 header; two unused
-references to cut or use; the challenge table's grading
-direction to define.
+`integrity-manifest.json` sets `i1_policy` to `advise`. The rates
+in the note are cited priors (Rosenfeld et al. 2026, Google 2024,
+the 2024 note). There is no local results artifact, and none
+should be invented.
+
+`results/integrity_audit.json` is the 2026-10-16 online scan of
+v2. I1 is limited (eight unbound percents). I2 and I4 are not
+applicable. I5 is clear. I3 fails on one identifier:
+`10.13140/RG.2.2.30911.01443` is not in Crossref. The reference
+keeps that DOI and also links the ResearchGate page. Eight other
+DOIs resolved. The scan does not mark the note scientifically
+verified.
+
+A robustness check of v2 (own-draft mode, same day) was not saved
+as a file. Its conclusion: the conditional leakage score, the
+"other channels untested" score, and the five-to-six-orders
+arithmetic survive the frozen perturbations. The score flips if
+"likely" is dropped, or if a removal run leaves the gap unchanged.
+That run is the one in Section V. This repo cannot perform it.
+
+## Open items
+
+The split findings listed in `external-review/REVISIONS-APPLIED.md`
+were applied in v2: inventory-level falsifiability paragraph,
+shorter abstract, scale caveat, disconfirming scorecard row,
+channel 1 header softened, Kalai 2023 cited, Stethoscopes
+reference removed, challenge-table grading direction stated.
+
+Still open, on purpose:
+
+- The removal experiment in Section V. Only the cultivation team
+  can run it.
+- `sources/SOURCES.md` now uses Nature 614, 676-681 for the 2023
+  paper, matching reference [14] in v2. The rest of that pin file
+  was left as written.
+- `AI-USE-STATEMENT.md` was not regenerated from v2.
 
 ## Working on the desktop
 
-Clone, edit `draft/follow-up-note-draft.md`, commit, push. The
+Clone, edit `draft/follow-up-note-draft-v2.md`, commit, push. The
 review folders are the audit trail; add new passes as new files
-rather than editing the old ones.
+rather than editing the old ones. Do not overwrite
+`follow-up-note-draft.md`.
