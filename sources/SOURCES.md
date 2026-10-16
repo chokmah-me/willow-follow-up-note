@@ -44,3 +44,13 @@ against these.
 - McEwen, M., et al. (2021). Nature Communications 12, 1761.
 - Battistel, F., Varbanov, B., Terhal, B. (2021). PRX Quantum 2,
   030314.
+
+## Added 2026-10-16 (SI and peer review rule)
+
+Downloaded under the standing rule: a paper download includes its supplementary information and its peer review file where the journal publishes one.
+
+- google-2023-surface-code-arxiv-2207.06431.pdf (arXiv version of Nature 614, 676-681; main text plus Supplementary Information, including the Pauli+ simulator specification in SI Section XIV). SHA-256 38e1fc02adb0737b72a48fe329b994d536157508473e05d2fe74907f31922896. Extracted text alongside.
+- google-2024-willow-arxiv-2408.13687.pdf (arXiv version of Nature 638, 920-926; main text plus Supplementary Information). SHA-256 9ba05a64dfec13f5d733e0e22484e8f22db2482dc2a5a0d63e6f0766c9c3d368. Extracted text alongside.
+- google-2023-surface-code-peer-review-file.pdf (Nature peer review file for the 2023 paper, 70 pp). SHA-256 5c5d06d315b814db4941dddb5dca994ee64af89daa09c1e342e1d817fa2b4c89. Extracted text alongside.
+- google-2024-willow-peer-review-file.pdf (Nature peer review file for the 2024 paper, 34 pp, four referees with author responses). SHA-256 94cd3975a958ac39f61799fb9420701b2350d2bc823044970784b3cdd6e5d270. Extracted text alongside.
+- Science publishes no peer review file for Rosenfeld et al. 2026; its supplementary information is the arXiv:2512.13908v1 supplement already pinned above.
