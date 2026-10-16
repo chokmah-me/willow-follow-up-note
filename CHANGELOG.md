@@ -51,3 +51,4 @@ DOI.
   spurious `[49]` missing-ref fail was a wording parse; the
   draft now says "bibliography number 49".
 - Robustness check of v3 saved (results/robustness-check-v3.md): 16 frozen rows run against v3 at 5b632ef; channel claims survive; one mild weakening (unqualified 40-fold at Section III.4).
+- Sources completed under the SI and peer review rule (2023 and 2024 papers plus both Nature peer review files, recorded in sources/SOURCES.md). Section V simulation design saved with its SME review and the peer-review-files assessment (results/). Section III.4 of v3 now qualifies the 40-fold with the 22 to 44 range, closing the robustness check's one weakening.
