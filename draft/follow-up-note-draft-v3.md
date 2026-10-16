@@ -240,8 +240,10 @@ would double-count the leakage evidence.
 ### 4. Gate: baseline
 
 The cultivation result is framed against gate error from the
-start: the 40-fold improvement is measured from an injection-only
-error close to the physical gate error rate. Nothing in the
+start: the improvement the paper headlines as about 40-fold
+(22 to 44 on the preprint v1 endpoints, Section II) is measured
+from an injection-only error close to the physical gate error
+rate. Nothing in the
 experiment reopens the 2024 questions about the gate error
 budget.
 
