@@ -55,3 +55,4 @@ DOI.
   SME brief for the Section V simulation design) and
   `results/external-sme-review-simulation-design.md` (independent
   pass; verdict BUILD AFTER FIXES).
+  - Sources completed under the SI and peer review rule (2023 and 2024 papers plus both Nature peer review files, recorded in sources/SOURCES.md). Section V simulation design saved with its SME review and the peer-review-files assessment (results/). Section III.4 of v3 now qualifies the 40-fold with the 22 to 44 range, closing the robustness check's one weakening.
