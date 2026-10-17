@@ -65,3 +65,8 @@ DOI.
   "no open-source Pauli+" line is too strong (leaky, deltakit-stim,
   public Tesseract). qevol remains unpublished. Search only; nothing
   run.
+- Archived the Kimi second-opinion tooling report as
+  `results/kimi-leakage-tooling-report.md` with
+  `results/fig_recommended_stack.png` and
+  `results/fig_tesseract_pypi_cadence.png`. Search only. Names SOFT
+  as an open qevol-class engine; omits leaky; qevol unpublished.
