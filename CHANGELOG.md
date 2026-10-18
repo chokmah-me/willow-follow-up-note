@@ -6,6 +6,38 @@ DRAFT v3. Not minted. No public posting. The v3 integrity scan
 is not a scientific verification. I3 is the deferred ResearchGate
 DOI.
 
+### 2026-10-17
+
+- Built the leakage hybrid simulator for Section V's
+  re-simulation check (`simulator/`). v0: the qevol-style
+  branch engine fused with the Pauli+ leakage layer of the 2023
+  supplement, one label trajectory per shot. v1: grafted-memory
+  circuit runner, Tesseract decoder pin (behavioral), metrics,
+  and the design's four-arm sweep. Code written by GPT-6 Astra
+  via OpenRouter (four calls, $1.6821 total), reviewed line by
+  line; contract check PASS against the brief (BREAK 0,
+  WEAKENS 3, all dispositioned). 59 of 59 tests pass. A
+  distance-3 demonstration run behaves as designed; it is
+  machinery, not evidence.
+- Digitized the device figures of the cultivation supplement
+  (`simulator/digitize/`). Figs. S5, S7, and S9 print every
+  value as text in its cell: 54 qubits by 15 quantities and 89
+  CZ pairs by 2, extracted by cell geometry, error limited to
+  the print rounding. The S7 site-centered "0.00" strings are a
+  plotting artifact and are excluded on evidence. Finding: the
+  EDCF medians in Figs. S6 and S8 do not all reproduce from the
+  map values (operating frequency 6.553 against a map median of
+  6.46; CZ error 2.058 against 1.9, in units of 10^-3), so the
+  EDCFs rest on a different sample than the maps.
+- Recorded the 2023-signature substitution analysis
+  (`results/2023-signature-substitution.md`): the joint test's
+  rise leg can be scored against the 2023 paper's published
+  signature, at the cost of rewording that leg from a fit to an
+  instrument calibration. The design file and the draft are
+  unchanged; adopting it is the author's call.
+- The draft itself is untouched in this batch. No run at design
+  scale has been made.
+
 ### 2026-10-16
 
 - Kept `draft/follow-up-note-draft.md` as the post-review copy.

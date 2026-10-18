@@ -43,6 +43,23 @@ alternative, and the no-ablation fact all survive the edit.
   received), raw/ (the four raw API responses).
 - `sources/` SOURCES.md (pins, DOIs, hashes) plus the arXiv full
   text of the cultivation paper, PDF and extracted text.
+- `simulator/` the leakage hybrid simulator built 2026-10-17
+  for the re-simulation check in Section V (v0 core plus the
+  v1 grafting runner, decoder pin, metrics, and sweep driver;
+  59 of 59 tests pass). Code was written by GPT-6 Astra via
+  OpenRouter from the briefs kept beside it, then reviewed and
+  contract-checked (BREAK 0). Its `digitize/` holds the device
+  table extracted from Figs. S5 to S9 of the supplement: 54
+  qubits by 15 quantities and 89 CZ pairs by 2, read from the
+  printed cell values, with the extraction report.
+- `results/2023-signature-substitution.md` the 2026-10-17
+  analysis of scoring the design's rise leg against the 2023
+  paper's published signature (12% experiment, 7% their
+  Pauli+, risetime about 5 cycles) instead of the cultivation
+  supplement's unscored Fig. S23. It buys a scoreable leg and a
+  published tolerance; it costs a rewording, from a fit to the
+  2026 experiment to an instrument calibration. Analysis only;
+  the design and the draft are unchanged.
 
 ## Checks on v2
 
@@ -82,6 +99,13 @@ Still open, on purpose:
 - The removal experiment in Section V. Only the cultivation team
   can run it. That is a scientific residual, not an integrity-scan
   residual.
+- A verdict-grade run of the re-simulation check. The
+  instrument exists (`simulator/`); what remains is a
+  distance-5 run at design shot counts (a compute job, hours to
+  days) and a scoring decision on the rise leg (see
+  `results/2023-signature-substitution.md`). The covariance leg
+  stays unscoreable from outside: the supplement publishes no
+  detector-level data.
 - A Zenodo DOI. None is reserved. SEARCH-META placeholders stay
   until mint.
 
