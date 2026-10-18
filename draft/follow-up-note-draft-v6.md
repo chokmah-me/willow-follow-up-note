@@ -302,6 +302,22 @@ their conditions.
   The factor of 40 and the factor of seven are different
   measurements: state error against injection, and memory LER
   against SI1000.
+
+Figure 1 draws that gap beside the two rules in Section IV.
+
+![Figure 1. Grafted-code memory fits and this note's two rules](../results/fig_sevenfold_gap.png)
+
+Figure 1. Top: the Fig. S22 exponential-fit labels, experiment
+5.3% and SI1000 simulation 0.8%, drawn from zero. That caption
+does not say the percents are per cycle. Bottom: the ratio
+5.3/0.8 = 6.6. The capped bar is only the rounding span of the
+one-significant-figure 0.8% (6.2 to 7.1). It is the published v1
+ratio. The rerun is read against same-run baseline B, which need
+not equal 6.6. The solid line at 2 is the close line: an arm is
+closed when its upper 95% bound is below 2. The dashed line at 3
+is the gate: the run counts only if B's lower 95% bound exceeds 3.
+Both lines were fixed before any rerun. No 2 by 2 arm has been run.
+
 - Two noise strengths. The main text uses p = 3.0e-3 for Fig. 2 and
   p = 2.3e-3 for Figs. 3 and 4, attributes the change to shifted
   qubit frequencies and different control calibrations, and reports
@@ -407,8 +423,9 @@ every publish and revise decision, and takes responsibility for the
 claims and the conclusions. AI output was treated as draft
 throughout. Claims here were checked against arXiv:2512.13908v1 and
 the Science abstract [1], and the scored items were compared against
-the published Science supplement. No AI system is listed as a
-co-author.
+the published Science supplement. Grok 4.7 drew Figure 1 and the
+whiteboard sketchnote from numbers already in this note. Neither
+is a new measurement. No AI system is listed as a co-author.
 
 Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.
 

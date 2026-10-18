@@ -56,6 +56,11 @@ alternative, and the no-ablation fact all survive the edit.
   table extracted from Figs. S5 to S9 of the supplement: 54
   qubits by 15 quantities and 89 CZ pairs by 2, read from the
   printed cell values, with the extraction report.
+- `results/fig_sevenfold_gap.png` Figure 1 of v6 (PDF and
+  `plot_sevenfold_gap.py` beside it). The capped bar is the v1
+  rounding span. The lines at 2 and 3 are the Section IV rules.
+- `results/sketchnote-v6.png` whiteboard summary of v6. The
+  results panel copies Figure 1. SVG source sits beside the PNG.
 - `results/2023-signature-substitution.md` the 2026-10-17
   analysis of scoring the design's rise leg against the 2023
   paper's published signature (12% experiment, 7% their
@@ -122,7 +127,7 @@ Still open, on purpose:
 
 ## Working on the desktop
 
-Clone, edit `draft/follow-up-note-draft-v3.md`, commit, push. The
+Clone, edit `draft/follow-up-note-draft-v6.md`, commit, push. The
 review folders are the audit trail; add new passes as new files
 rather than editing the old ones. Do not overwrite
 `follow-up-note-draft.md` or `follow-up-note-draft-v2.md`.

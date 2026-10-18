@@ -1,7 +1,13 @@
 # Process log (not part of the note)
 
 Moved out of the paper body 2026-10-16. The shipping text is
-`follow-up-note-draft-v3.md`.
+`follow-up-note-draft-v6.md`. Older drafts stay as the audit trail.
+
+## 2026-10-18 figure and sketchnote
+
+Figure 1 was added to Section V of v6. The sketchnote is
+`results/sketchnote-v6.png`, and its results panel copies that
+figure. No DOI minted. No push.
 
 ## Status trail
 

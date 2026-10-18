@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1080" width="1500" height="1080">
+  <rect width="1500" height="1080" fill="#FAF8F0"/>
+
+  <!-- title -->
+  <rect x="20" y="16" width="1460" height="88" rx="8" fill="#1B4F72"/>
+  <text x="40" y="48" fill="#F5F0E8" font-family="Georgia, serif" font-size="26" font-weight="700">What Would Settle the Leakage Attribution</text>
+  <text x="40" y="80" fill="#F5F0E8" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="15">Magic-state cultivation on Willow. Daniyel Yaacov Bilar, Chokmah LLC. Draft v6, 18 Oct 2026. No DOI. Attribution stays likely.</text>
+
+  <!-- insight, largest -->
+  <rect x="20" y="120" width="900" height="500" rx="8" fill="#FDEBD0" stroke="#D35400" stroke-width="3"/>
+  <text x="40" y="156" fill="#D35400" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="20" font-weight="700">Key question: does the gap travel with |2&gt;?</text>
+  <text x="40" y="188" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="14">Section XIV names one chain. A readout fix that closes the gap</text>
+  <text x="40" y="208" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="14">would not, by itself, refute leakage.</text>
+
+  <!-- route (a) -->
+  <rect x="40" y="228" width="250" height="70" rx="8" fill="#F5CBA7" stroke="#D35400" stroke-width="2"/>
+  <text x="52" y="254" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13" font-weight="700">(a) the claim</text>
+  <text x="52" y="276" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">readout, then |2&gt;, then leakage</text>
+  <path d="M290 263 C320 263, 330 263, 360 263" fill="none" stroke="#D35400" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M352 256 L368 263 L352 270" fill="none" stroke="#D35400" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="372" y="228" width="250" height="70" rx="8" fill="#F5CBA7" stroke="#D35400" stroke-width="2"/>
+  <text x="384" y="254" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13" font-weight="700">then the gap</text>
+  <text x="384" y="276" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">about 7 times the simulation</text>
+  <path d="M622 263 C652 250, 670 230, 700 200" fill="none" stroke="#D35400" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M688 208 L706 196 L694 188" fill="none" stroke="#D35400" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="680" y="120" width="220" height="78" rx="8" fill="#FADBD8" stroke="#C0392B" stroke-width="2"/>
+  <text x="692" y="150" fill="#C0392B" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13" font-weight="700">not ablated</text>
+  <text x="692" y="172" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">no removal run yet</text>
+
+  <!-- warning triangle -->
+  <path d="M860 148 L878 178 L842 178 Z" fill="none" stroke="#C0392B" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="856" y="174" fill="#C0392B" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12" font-weight="700">!</text>
+
+  <text x="40" y="332" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="14">(b) readout errors that never populate |2&gt;, and (c) qubit variability,</text>
+  <text x="40" y="352" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="14">can size the gap. They do not, alone, make the S23 rise or the S24 spread.</text>
+  <text x="40" y="372" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="14">A decoder or model mismatch can change the ratio and not the detectors.</text>
+
+  <!-- scales icon -->
+  <path d="M70 410 L70 470" stroke="#6C3483" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M48 418 L92 418" stroke="#6C3483" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M48 418 L36 444 L60 444 Z" fill="none" stroke="#6C3483" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M92 418 L80 444 L104 444 Z" fill="none" stroke="#6C3483" stroke-width="2" stroke-linejoin="round"/>
+  <text x="120" y="440" fill="#6C3483" font-family="Courier New, monospace" font-size="14">closed: upper 95% bound &lt; 2</text>
+  <text x="120" y="462" fill="#6C3483" font-family="Courier New, monospace" font-size="14">run counts: B's lower bound &gt; 3</text>
+  <text x="40" y="500" fill="#2D2D2D" font-family="Georgia, serif" font-size="13" font-style="italic">Readings are against same-run baseline B, not against 6.6.</text>
+  <text x="40" y="528" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Only a |2&gt; measurement separates route (a) from route (b).</text>
+  <text x="40" y="556" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Three-state readout is on every arm: measure qubits each cycle,</text>
+  <text x="40" y="576" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">data qubits at the final readout. p is frozen from a same-day control.</text>
+  <text x="40" y="600" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">A ratio of 1 is not the target. SI1000 is itself simplified.</text>
+
+  <!-- problem -->
+  <rect x="940" y="120" width="540" height="240" rx="8" fill="#EAF2F8" stroke="#1B4F72" stroke-width="2.5"/>
+  <!-- magnifying glass -->
+  <circle cx="978" cy="168" r="16" fill="none" stroke="#1B4F72" stroke-width="2.5"/>
+  <path d="M990 180 L1004 194" stroke="#1B4F72" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="1016" y="164" fill="#1B4F72" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="18" font-weight="700">The gap</text>
+  <text x="960" y="210" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Grafted-code memory, N up to 9.</text>
+  <text x="960" y="230" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Fig. S22 fits: experiment 5.3%,</text>
+  <text x="960" y="250" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">SI1000 simulation 0.8%. Leakage</text>
+  <text x="960" y="270" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">is the authors' likely main cause.</text>
+  <text x="960" y="298" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">S23: detection likelihood rises.</text>
+  <text x="960" y="318" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">S24: covariance spreads in time.</text>
+  <text x="960" y="338" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">The simulation omits leakage.</text>
+
+  <!-- method -->
+  <rect x="940" y="376" width="540" height="244" rx="8" fill="#E8F8F5" stroke="#1E8449" stroke-width="2.5"/>
+  <!-- clipboard -->
+  <rect x="962" y="396" width="28" height="36" rx="3" fill="none" stroke="#1E8449" stroke-width="2"/>
+  <path d="M970 396 L970 390 L982 390 L982 396" fill="none" stroke="#1E8449" stroke-width="2"/>
+  <path d="M968 408 L984 408 M968 416 L984 416 M968 424 L978 424" stroke="#1E8449" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="1002" y="418" fill="#1E8449" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="18" font-weight="700">2 by 2, pre-registered</text>
+  <text x="960" y="460" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">B baseline. R readout only.</text>
+  <text x="960" y="480" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">L removal only. RL both.</text>
+  <text x="960" y="508" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Removal arm's simulation includes</text>
+  <text x="960" y="528" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">the removal operations.</text>
+  <text x="960" y="556" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Shots sized to plus or minus 15%</text>
+  <text x="960" y="576" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">of B's observed ratio.</text>
+  <text x="960" y="600" fill="#1E8449" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13" font-weight="700">Only the cultivation team can run it.</text>
+
+  <!-- arrow insight to figure -->
+  <path d="M470 600 C470 680, 520 700, 560 720" fill="none" stroke="#2D2D2D" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M548 708 L564 724 L540 722" fill="none" stroke="#2D2D2D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- record -->
+  <rect x="20" y="640" width="460" height="420" rx="8" fill="#F5EEF8" stroke="#6C3483" stroke-width="2.5"/>
+  <!-- chain -->
+  <circle cx="58" cy="688" r="8" fill="none" stroke="#6C3483" stroke-width="2"/>
+  <circle cx="78" cy="688" r="8" fill="none" stroke="#6C3483" stroke-width="2"/>
+  <text x="100" y="694" fill="#6C3483" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="18" font-weight="700">Public record</text>
+  <text x="40" y="732" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Zenodo 10.5281/zenodo.17872003</text>
+  <text x="40" y="754" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">has Figs. 2, 3, and 4.</text>
+  <text x="40" y="776" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Fig. 4 is at N = 2 and N = 3.</text>
+  <text x="40" y="806" fill="#C0392B" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="14" font-weight="700">No N = 9 directory.</text>
+  <text x="40" y="834" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">S23 and S24 can be checked</text>
+  <text x="40" y="854" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">only by eye. Releasing those</text>
+  <text x="40" y="874" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">detection events is free.</text>
+  <text x="40" y="910" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Pins stay on arXiv v1.</text>
+  <text x="40" y="930" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Science moved the numbers:</text>
+  <text x="40" y="950" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">S22 is S20 there. Wording holds.</text>
+  <text x="40" y="986" fill="#2D2D2D" font-family="Georgia, serif" font-size="13" font-style="italic">One figure, one configuration,</text>
+  <text x="40" y="1006" fill="#2D2D2D" font-family="Georgia, serif" font-size="13" font-style="italic">at most nine cycles. Likely.</text>
+  <!-- X mark -->
+  <path d="M400 800 L424 824 M424 800 L400 824" stroke="#C0392B" stroke-width="3" stroke-linecap="round"/>
+  <text x="392" y="848" fill="#C0392B" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">no N=9</text>
+
+  <!-- results: copy of the Tufte figure -->
+  <rect x="500" y="640" width="980" height="420" rx="8" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="2.5"/>
+  <text x="520" y="672" fill="#1B4F72" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="18" font-weight="700">Figure 1, copied</text>
+  <text x="700" y="672" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">same lengths, same two rules. Not a new chart.</text>
+
+  <!-- A stems. x0=640 maps ratio 0. scale 46 px per percent so 5.3 ends at 884 -->
+  <text x="520" y="708" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13" font-weight="700">A</text>
+  <text x="548" y="706" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">Experiment fit</text>
+  <line x1="680" y1="702" x2="924" y2="702" stroke="#000000" stroke-width="2.2" stroke-linecap="butt"/>
+  <circle cx="924" cy="702" r="5" fill="#000000"/>
+  <text x="888" y="690" fill="#000000" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">5.3%</text>
+
+  <text x="548" y="742" fill="#0072B2" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">Simulation fit</text>
+  <line x1="680" y1="738" x2="717" y2="738" stroke="#0072B2" stroke-width="2.2" stroke-dasharray="5 3" stroke-linecap="butt"/>
+  <circle cx="717" cy="738" r="5" fill="#FFFFFF" stroke="#0072B2" stroke-width="2"/>
+  <text x="728" y="734" fill="#0072B2" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">0.8%</text>
+
+  <line x1="680" y1="756" x2="924" y2="756" stroke="#000000" stroke-width="1.2"/>
+  <text x="674" y="772" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">0</text>
+  <text x="717" y="772" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11" text-anchor="middle">0.8</text>
+  <text x="908" y="772" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">5.3</text>
+  <text x="760" y="790" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">Logical error rate (%)</text>
+
+  <!-- B ratio. x0=680 is 0. 7.1 maps to 680+7.1*36 = 935.6 -->
+  <text x="520" y="830" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13" font-weight="700">B</text>
+  <!-- close at 2: 680+72=752. gate at 3: 680+108=788. bar 6.2 to 7.1: 903 to 936. diamond 6.625: 918 -->
+  <line x1="752" y1="820" x2="752" y2="900" stroke="#D55E00" stroke-width="2.4" stroke-linecap="butt"/>
+  <text x="744" y="814" fill="#D55E00" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12" text-anchor="end">close</text>
+  <line x1="788" y1="820" x2="788" y2="900" stroke="#D55E00" stroke-width="2.4" stroke-dasharray="5 3" stroke-linecap="butt"/>
+  <text x="796" y="814" fill="#D55E00" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">arm B</text>
+
+  <line x1="903" y1="868" x2="936" y2="868" stroke="#4D4D4D" stroke-width="2"/>
+  <line x1="903" y1="858" x2="903" y2="878" stroke="#4D4D4D" stroke-width="2"/>
+  <line x1="936" y1="858" x2="936" y2="878" stroke="#4D4D4D" stroke-width="2"/>
+  <path d="M918 862 L926 868 L918 874 L910 868 Z" fill="#000000"/>
+  <text x="918" y="850" fill="#000000" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12" text-anchor="middle">6.6 v1</text>
+  <text x="918" y="896" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11" text-anchor="middle">6.2 to 7.1</text>
+
+  <line x1="680" y1="918" x2="936" y2="918" stroke="#000000" stroke-width="1.2"/>
+  <text x="674" y="936" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">0</text>
+  <text x="746" y="936" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">2</text>
+  <text x="782" y="936" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">3</text>
+  <text x="890" y="936" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">6</text>
+  <text x="922" y="936" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">7.1</text>
+  <text x="740" y="956" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">Ratio of the two fit labels</text>
+
+  <text x="980" y="760" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">5.3 / 0.8 = 6.6.</text>
+  <text x="980" y="782" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Capped bar: rounding of</text>
+  <text x="980" y="802" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">one-significant-figure 0.8%.</text>
+  <text x="980" y="830" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Published v1 ratio.</text>
+  <text x="980" y="858" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">The rerun is read against</text>
+  <text x="980" y="878" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">same-run B, which need</text>
+  <text x="980" y="898" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">not equal 6.6.</text>
+  <text x="980" y="926" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">No 2 by 2 arm has been run.</text>
+  <text x="980" y="954" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">Not the factor-of-about-40</text>
+  <text x="980" y="974" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="13">state-error comparison.</text>
+  <text x="980" y="1004" fill="#2D2D2D" font-family="Georgia, serif" font-size="12" font-style="italic">Caption does not say per cycle.</text>
+
+  <!-- ruler icon -->
+  <path d="M1280 740 L1440 740" stroke="#1B4F72" stroke-width="2" stroke-linecap="round"/>
+  <path d="M1280 732 L1280 748 M1320 736 L1320 744 M1360 732 L1360 748 M1400 736 L1400 744 M1440 732 L1440 748" stroke="#1B4F72" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="1280" y="728" fill="#1B4F72" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="11">lengths from zero</text>
+
+  <!-- check and x for routes -->
+  <path d="M1248 990 L1258 1002 L1276 980" fill="none" stroke="#1E8449" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1284" y="998" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">(a) both signatures</text>
+  <path d="M1252 1022 L1272 1042 M1272 1022 L1252 1042" stroke="#C0392B" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="1284" y="1036" fill="#2D2D2D" font-family="Segoe UI, Trebuchet MS, sans-serif" font-size="12">(b), (c) need more</text>
+</svg>

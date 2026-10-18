@@ -5,6 +5,17 @@
 DRAFT v6. Not minted. No public posting. v6 integrity scan
 2026-10-18: limited, I3 offline. I3 is the deferred ResearchGate DOI.
 
+### 2026-10-18 (v6 figure)
+
+- Added Figure 1 to Section V of v6
+  (`results/fig_sevenfold_gap.png`, with the PDF and
+  `plot_sevenfold_gap.py`). The capped bar is the published v1
+  rounding span, 6.2 to 7.1. The solid line at 2 and the dashed
+  line at 3 are the Section IV rules. Added
+  `results/sketchnote-v6.png`; its results panel copies that
+  figure. README clone line now says edit v6. No DOI minted.
+  No push.
+
 ### 2026-10-18 (v6)
 
 - Produced `draft/follow-up-note-draft-v6.md` from v5 by applying

@@ -28,8 +28,9 @@ every publish and revise decision, and takes responsibility for the
 claims and the conclusions. AI output was treated as draft
 throughout. Claims here were checked against arXiv:2512.13908v1 and
 the Science abstract [1], and the scored items were compared against
-the published Science supplement. No AI system is listed as a
-co-author.
+the published Science supplement. Grok 4.7 drew Figure 1 and the
+whiteboard sketchnote from numbers already in this note. Neither
+is a new measurement. No AI system is listed as a co-author.
 
 Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.
 
