@@ -102,3 +102,13 @@ simulator and d=3 calibration as not a result. Conclusion
 cut the "good news" sentence. SEARCH-META dates filled;
 DOI unminted. LF line endings. "Likely," variability, and
 no-ablation rechecked in abstract, TL;DR, and conclusion.
+
+2026-10-18 (v4): third critical pass
+(`external-review/critical-review-v3-pass3.md`) applied as a new
+file, `follow-up-note-draft-v4.md`. Section XIV re-read in the
+local arXiv text: readout and |2> collisions are the authors'
+entry path into leakage. Three routes kept apart. Section V pass
+margin and |2> criterion fixed in advance; Table 3 holds the
+readings. "Likely," variability, and no-ablation rechecked in the
+abstract, TL;DR, and conclusion. The earlier entry's claim that
+Limitations names the d=3 calibration is true again in v4.

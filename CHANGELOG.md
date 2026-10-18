@@ -2,9 +2,45 @@
 
 ## Unreleased
 
-DRAFT v3. Not minted. No public posting. The v3 integrity scan
-is not a scientific verification. I3 is the deferred ResearchGate
-DOI.
+DRAFT v4. Not minted. No public posting. v4 has not been
+re-scanned for integrity. I3 is the deferred ResearchGate DOI.
+
+### 2026-10-18 (v4)
+
+- Produced `draft/follow-up-note-draft-v4.md` from v3 by applying
+  `external-review/critical-review-v3-pass3.md`. Source check
+  against the local arXiv v1 text changed the causal reading:
+  Section XIV gives unoptimized readout and |2> collisions as the
+  entry path into leakage, not as alternatives. v4 names three
+  routes: (a) readout to |2> to leakage (the authors' claim),
+  (b) readout errors without |2> population, (c) qubit
+  variability, plus decoder or model mismatch. Table 1 counts only
+  (b), (c), and mismatch against leakage, and gains a 2026 verdict
+  column. "No removal units" is now a precondition, not evidence.
+- Section V: three-state readout in all four arms; p frozen on an
+  unpostselected same-day memory circuit; removal-arm simulation
+  includes the removal operations; pass margin (upper 95% bound on
+  the ratio below 2), shot-count rule, and |2> criterion fixed in
+  advance; outcomes moved to Table 3 keyed to the four arms.
+- Abstract opens with the contribution, uses grafted-code wording,
+  and says what a hit means; TL;DR cut to about 100 words. Table 2
+  drops the echo/kickback row (it stays in the measurement story).
+  LER unit stated as not given in Fig. S22; ratio range 6.2 to 7.1.
+  p-cubed projection labeled the author's extrapolation. Gate
+  baseline cites the main-text "similar to our physical qubit gate
+  errors." Section I cites [4] for Google's numbers. N, p, d,
+  SI1000, LER, qevol, Pauli+, DQLR, Tesseract defined; new refs
+  [15] Miao 2023, [16] SI1000, [17] Tesseract. Ref [4] dated 2025.
+  Repeated caveat sentences removed. Private repository URL removed
+  from Availability. AI statement re-synced with
+  `AI-USE-STATEMENT.md` and extended for this pass. Limitations
+  again names the local d=3 calibration run.
+- Not done: comparison against the published Science supplement
+  (not available in this session), Zenodo mint, reading Marshall
+  and Kafri [14], and taking Table 2 grades from the 2024 note's
+  source file. The 14% figure in Section I is the 2024 note's; the
+  arXiv text of [4] says the error budget overpredicts Lambda by
+  20%. Left as attributed to [1] and flagged for the author.
 
 ### 2026-10-18
 
