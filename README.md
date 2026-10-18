@@ -56,10 +56,9 @@ alternative, and the no-ablation fact all survive the edit.
   analysis of scoring the design's rise leg against the 2023
   paper's published signature (12% experiment, 7% their
   Pauli+, risetime about 5 cycles) instead of the cultivation
-  supplement's unscored Fig. S23. It buys a scoreable leg and a
-  published tolerance; it costs a rewording, from a fit to the
-  2026 experiment to an instrument calibration. Analysis only;
-  the design and the draft are unchanged.
+  supplement's unscored Fig. S23. Adopted the same day: the
+  rise is an instrument calibration, the 2026 ratio stays the
+  grafted-circuit score, covariance is a structural check.
 
 ## Checks on v2
 
@@ -84,7 +83,9 @@ arithmetic survive the frozen perturbations. The score flips if
 "likely" is dropped, or if a removal run leaves the gap
 unchanged. That run is the one in Section V. This repo cannot
 perform it. One recorded weakening: the 40x headline is 22 to 44
-over the draft's own stated range. v3 has not been re-checked.
+over the draft's own stated range. v3 was re-checked
+(`results/robustness-check-v3.md`); the III.4 40-fold
+qualification closed that weakening.
 
 ## Open items
 
@@ -100,12 +101,13 @@ Still open, on purpose:
   can run it. That is a scientific residual, not an integrity-scan
   residual.
 - A verdict-grade run of the re-simulation check. The
-  instrument exists (`simulator/`); what remains is a
-  distance-5 run at design shot counts (a compute job, hours to
-  days) and a scoring decision on the rise leg (see
-  `results/2023-signature-substitution.md`). The covariance leg
-  stays unscoreable from outside: the supplement publishes no
-  detector-level data.
+  instrument exists (`simulator/`). The rise leg is scored as
+  a 2023-instrument calibration (adopted; see
+  `results/2023-signature-substitution.md`). What remains is a
+  distance-5 Arm 1 gate at 0.8% per cycle, then a literature-rate
+  leakage point, at design shot counts (a compute job, hours to
+  days). Covariance stays a structural check: the 2026
+  supplement publishes no detector-level data.
 - A Zenodo DOI. None is reserved. SEARCH-META placeholders stay
   until mint.
 

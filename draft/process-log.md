@@ -51,3 +51,9 @@ SI numbers labeled preprint v1. Akshay row dropped. Phase noise
 is a measurement story, not corroboration of the correlated
 channel. One TL;DR. CC BY 4.0 in the body. No Zenodo DOI
 minted in this pass.
+
+2026-10-17: adopted the 2023 rise-leg substitution in Section V.
+The cheaper simulation check now asks for the 2026 gap on an
+instrument calibrated to the 2023 published fingerprint [12].
+Grafted-circuit rise is a prediction. Covariance is a structural
+check. "Likely," variability, and no-ablation left in place.

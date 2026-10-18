@@ -7,8 +7,11 @@ leakage injected at measured rates." This file specifies the
 second check as an experiment that could settle, or exclude,
 the leakage attribution for the grafted-code memory gap
 (about 7x against SI1000 at p = 2.3e-3, arXiv:2512.13908v1
-supplement, Section XIV). Written 2026-10-16. Nothing here has
-been run.
+supplement, Section XIV). Written 2026-10-16. Rise-leg scoring
+adopted 2026-10-17: the 2023 paper's published fingerprint
+(arXiv:2207.06431 main text) is the calibration target; see
+`results/2023-signature-substitution.md`. Nothing here has been
+run at design scale.
 
 ## The instrument already exists
 
@@ -83,37 +86,52 @@ the same framework with them on.
    rerun, not a fit: it states in advance how far the gap
    should close if removal is added.
 
-## Observables: all three, at one rate pair
+## Observables: two scored legs, one structural check
 
-The attribution is tested against three observables jointly,
-not one at a time:
+The 2026 supplement publishes no detector-level data and no
+uncertainties for Figs. S23 and S24, so those curves cannot
+be a numeric target from outside. The scored test is two
+legs. Covariance is reported as structure.
 
-a. The logical error ratio: simulated logical error per cycle
-   over the Arm 1 baseline, target about 7.
-b. The S23 shape: detection-event likelihood rising slowly
-   over the cycles, matched in functional form and risetime.
-   The 2023 paper's Pauli+ run already reproduced this
-   signature's shape (experimental rise 12% over 25 cycles at
-   distance 5; simulated 7%).
-c. The S24 structure: the detector covariance matrix, strong
-   time correlations spreading across the grid, compared as a
-   structure (detector-pair classes or matrix distance), not
-   as a single scalar.
+a. The 2026 logical error ratio: simulated logical error per
+   cycle over the Arm 1 baseline, target about 7, on the
+   grafted memory circuit.
+b. The rise, as instrument calibration against the 2023
+   paper's published fingerprint (main text): relative rise
+   of 12% at distance 5 and 8% at distance 3 over 25 cycles,
+   typical risetime roughly 5 cycles; their Pauli+ simulation
+   7% at distance 5, which that paper calls accurate. The
+   envelope for a pass is that published 7% to 12% band, with
+   risetime of order 5 cycles, on a 2023-style memory
+   experiment at literature rates. Distance 3 against 8% is
+   the cheap check. The grafted-circuit rise the sweep then
+   produces is a prediction, not a fit to Fig. S23.
+c. Covariance: a structural consistency check (time-correlated
+   features that spread across the grid, following the 2023
+   paper's reading of its Fig. 2 correlation structure). Not
+   a numeric matrix distance to Fig. S24. The 2023 number is
+   an average over detectors; S23 reports a rise for some
+   detectors. Scoring the average says nothing about the
+   per-detector pattern.
 
 ## Criterion, fixed in advance
 
 Leakage is quantitatively consistent if one (generation,
 decay) pair inside the literature band (generation 0.05 to
-0.3% per cycle, lifetime 3 to 11 cycles) reproduces (a), (b),
-and (c) jointly to within the paper's stated uncertainties,
-with the implied steady-state |2> population under about 1%.
-Leakage is excluded as the sole explanation if no pair in
-that band does: for example, the rate that yields 7x gives
-the wrong S23 risetime, or 7x requires a generation rate an
-order of magnitude above the literature band. Arms 2 and 3
-both fitting means simulation cannot separate plain leakage
-from the readout path; that separation is not this
-experiment's to give.
+0.3% per cycle, lifetime 3 to 11 cycles) reproduces (a) on
+an instrument that has already passed (b), with the implied
+steady-state |2> population under about 1%. (c) is reported;
+it does not gate the pair. Leakage is excluded as the sole
+simulation explanation if no pair in that band yields about
+7x, or if the instrument fails the 2023 rise envelope at
+literature rates: for example, 7x requires a generation rate
+an order of magnitude above the literature band. Arms 2 and
+3 both matching (a) means simulation cannot separate plain
+leakage from the readout path; that separation is not this
+experiment's to give. A 2023-shaped target cannot certify an
+Arm 3 readout-path shape. The generation and lifetime band
+already came from the earlier device generation (McEwen 2021,
+Miao 2023); this substitution makes that transfer explicit.
 
 ## The pin that makes it near-decisive
 
@@ -123,8 +141,8 @@ three-state readout measurement of the steady-state |2>
 population on the grafted circuit (Section V's first cheap
 check) fixes generation times lifetime directly and collapses
 the sweep to one point: feed the measured population in, and
-either the three observables come out together or the
-attribution fails. Simulation alone cannot supply that
+either the 2026 ratio comes out on the calibrated instrument
+or the attribution fails. Simulation alone cannot supply that
 number; it is a hardware measurement, and a cheap one.
 
 ## Cost
@@ -133,13 +151,17 @@ About 100k shots per arm per sweep point for the logical
 error ratio (the noisiest observable), 10 to 20 sweep points,
 4 arms: a few million shots total. Hours to a day on a
 workstation in an optimized Pauli+ reimplementation. The
-covariance observable sets the shot floor.
+logical-error ratio sets the shot floor for the scored 2026
+leg. The 2023 rise calibration is a separate, cheaper memory
+run.
 
 ## Limits, stated
 
-- A joint match shows leakage is sufficient and quantitatively
-  consistent. It does not show leakage happened. Only the
-  removal rerun (the note's Section V 2x2) attributes.
+- A match on (a) after a pass on (b) shows leakage is
+  sufficient and quantitatively consistent with the 2026
+  ratio, on an instrument calibrated to the team's own 2023
+  rise fingerprint. It does not show leakage happened. Only
+  the removal rerun (the note's Section V 2x2) attributes.
 - The framework twirls away coherence between computational
   and leaked subspaces. A tensor-network study
   (arXiv:2308.08186) shows coherent and stochastic leakage

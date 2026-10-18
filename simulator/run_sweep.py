@@ -5,10 +5,14 @@ cz_leak_prob = 8e-4 * g/g_default, where
 g_default = 1-exp(-t_cycle/(700 us)). Both creation channels vanish at
 zero. The readout arm additionally sets readout_leak_prob = multiplier*g.
 
-Only the ratio and steady-state population enter evaluate_joint; the
-ratio tolerance is the caller's. Rise and covariance are reported, not
-gated: the supplement gives no uncertainties for S23/S24 and no public
-detector-level target data (SME major 6). Keep rate is also reported.
+Only the ratio and steady-state population enter evaluate_joint on
+the grafted sweep; the ratio tolerance is the caller's. Grafted
+rise is reported as a prediction, not a fit to Fig. S23. Covariance
+is a structural report (SME major 6; adopted 2023 substitution).
+The 2023 rise envelope (7% to 12% at distance 5, risetime of order
+5 cycles; 8% at distance 3) is the instrument-calibration target
+for a separate 2023-style memory run, not a gate on this driver.
+Keep rate is also reported.
 Arm 4 is a prediction, with removal_boost a Miao-efficacy stand-in,
 not a fit. Reduced-scale results demonstrate machinery, not a verdict
 on the paper's attribution.

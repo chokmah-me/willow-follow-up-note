@@ -90,7 +90,8 @@ text.
 
 The joint test survives with two legs scored (the 2026 ratio;
 the rise, as instrument calibration) and one leg demoted to a
-structural consistency check (covariance). Status: analysis
-only. The design file is unchanged, Section V of the draft is
-unchanged, and no run has been made under this substitution.
-Adopting it is the author's call.
+structural consistency check (covariance). Adopted 2026-10-17
+by the author. Files updated: `draft/follow-up-note-draft-v3.md`
+Section V and Limitations; `results/section-v-simulation-design.md`
+observables and criterion. No run has been made under this
+substitution.

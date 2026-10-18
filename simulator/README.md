@@ -151,12 +151,14 @@ runner costs about 24 ms per shot at distance 5).
   before a verdict-grade run: distance-5 execution at design
   shot counts (a compute problem, roughly 40 minutes per point
   per cycle count at 100k shots on this class of machine), and
-  Google's detector-level S23/S24 data, which is not public, so
-  the joint fit against their curves cannot be scored from
-  outside. The v0 core's two named limits stand: the scalable
-  fusion at 54 qubits is exercised only through the memory
-  circuit's branch structure, and the coherent measurement
-  treatment is out of scope.
+  a 2023-style rise calibration (adopted 2026-10-17; see
+  `results/2023-signature-substitution.md`). Google's
+  detector-level S23/S24 data is not public, so covariance
+  stays a structural check from outside. The v0 core's two
+  named limits stand: the scalable fusion at 54 qubits is
+  exercised only through the memory circuit's branch
+  structure, and the coherent measurement treatment is out of
+  scope.
 - Committed 2026-10-17 at the user's word to the private repo
   chokmah-me/willow-follow-up-note, under `simulator/`. The
   working copy stays at ~/workspace/willow-leakage-sim on the VM;

@@ -330,9 +330,21 @@ needs new hardware time. Three-state readout on the grafted
 circuit measures the |2> population directly, cycle by cycle,
 instead of inferring it from detector signatures. And the same
 simulations, rerun with leakage injected at measured rates,
-should reproduce both signatures (Figs. S23 and S24 [2]) and the
-size of the gap if the attribution is right. Either check could
-sharpen or damage the claim before any rerun.
+should reproduce the size of the 2026 gap if the attribution is
+right, on an instrument first calibrated against the 2023
+paper's published leakage fingerprint [12]: a relative rise of
+12% at distance 5 and 8% at distance 3 over 25 cycles, typical
+risetime roughly 5 cycles, their Pauli+ simulation 7% at
+distance 5. The grafted-circuit rise that run produces is then a
+prediction, not a fit to Fig. S23 [2]. Detector covariance
+(Fig. S24 [2]) is a structural check (time-correlated features
+that spread across the grid). The supplement publishes no
+detector-level data, so that leg cannot be scored as a numeric
+match from outside. Either check could sharpen or damage the
+claim before any rerun. The 2023 calibration is a different
+processor generation and a plain memory circuit. If the
+cultivation rise is driven by the redefined readout path, a
+2023-shaped target cannot certify that shape.
 
 The settling experiment is a 2 by 2. Run the grafted-code memory
 experiment in four arms: leakage removal units added or not,
@@ -382,6 +394,9 @@ not from a page-diffed Science supplement. I have no raw data and
 I did not rerun the simulations. The score of leakage rests on
 one grafted-code memory figure, one configuration, up to nine
 cycles. Section V is a design. It is not a result of this note.
+The rise leg of the simulation check is scored against the 2023
+paper's published fingerprint [12], as an instrument
+calibration, not as a fit to the 2026 Fig. S23 curve.
 
 ## VI. Conclusion
 
@@ -411,10 +426,12 @@ This note was prepared with AI assistance, directed by the author
 at every stage. Muse (Meta) agents (model version not recorded)
 located and read the primary sources, cross-checked numbers and
 attributions in the draft against them, and drafted the text at
-the author's instruction. The draft then went through two
-internal adversarial passes (a spec-faithful claims trace and an
-independent adversarial review), and two external critical
-evaluations commissioned by the author through OpenRouter, from
+the author's instruction. Grok 4.6 applied the author's 2023
+rise-leg substitution to Section V wording. The draft then went
+through two internal adversarial passes (a spec-faithful claims
+trace and an independent adversarial review), and two external
+critical evaluations commissioned by the author through
+OpenRouter, from
 Moonshot Kimi K3 and Anthropic Claude Opus 5.5. Every finding
 from those passes was adjudicated before any revision was
 applied. The review files are in the repository named above and

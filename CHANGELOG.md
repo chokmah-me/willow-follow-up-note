@@ -33,10 +33,17 @@ DOI.
   (`results/2023-signature-substitution.md`): the joint test's
   rise leg can be scored against the 2023 paper's published
   signature, at the cost of rewording that leg from a fit to an
-  instrument calibration. The design file and the draft are
-  unchanged; adopting it is the author's call.
-- The draft itself is untouched in this batch. No run at design
-  scale has been made.
+  instrument calibration.
+- Adopted that substitution in Section V of v3 and in
+  `results/section-v-simulation-design.md`. The 2026 ratio stays
+  the grafted-circuit score. The rise is an instrument
+  calibration against the 2023 fingerprint (12% experiment, 7%
+  their Pauli+, risetime about 5 cycles). Covariance is a
+  structural check. No run at design scale has been made.
+- Made the |T> coefficient test independent of prune order
+  (`simulator/test_leakage_hybrid.py`). Equal-weight branches
+  can swap after magnitude sort when those magnitudes differ
+  by an ulp.
 
 ### 2026-10-16
 
