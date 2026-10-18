@@ -5,8 +5,8 @@ Willow (2024)." Status: DRAFT v4, evidence-ready residual from v2
 still named. Not minted, not published, no DOI reserved.
 Publication is the author's decision alone. Evidence-ready means
 the integrity residual is named and deferred. It does not mean
-scientifically verified. v3 was scanned 2026-10-16; v4 has not
-been re-scanned. The JSON
+scientifically verified. v3 was scanned 2026-10-16; v4 was
+scanned 2026-10-18 with I3 limited by the network. The JSON
 fail is the same ResearchGate DOI, already deferred.
 
 ## The draft
@@ -68,13 +68,16 @@ in the note are cited priors (Rosenfeld et al. 2026, Google 2024,
 the 2024 note). There is no local results artifact, and none
 should be invented.
 
-`results/integrity_audit.json` is the 2026-10-16 online scan of
-v3. I1 is limited (seven unbound percents). I2, I4, and I5 are
-not applicable. I3 fails on one identifier:
-`10.13140/RG.2.2.30911.01443` is not in Crossref. Seven other
-DOIs resolved. The deferral is
-`results/i3-researchgate-deferral.md`. The scan does not mark the
-note scientifically verified.
+`results/integrity_audit.json` is the 2026-10-18 scan of v4, run
+with `--online` from a session whose network blocked Crossref and
+Zenodo. Status limited: I3 limited (no identifier answered), I1
+limited (16 unbound cited percents), I4 limited (local simulator
+named; no misalignment on judgment), I5 warn ("first"). The v3 scan
+(2026-10-16) resolved seven DOIs and failed on
+`10.13140/RG.2.2.30911.01443`, deferred in
+`results/i3-researchgate-deferral.md`. A networked `--online`
+re-run of v4 is still owed. The scan does not mark the note
+scientifically verified.
 
 A robustness check of v2 is in `results/robustness-check-v2.md`
 (own-draft, 2026-10-16, 18 frozen rows). It is a survival map,

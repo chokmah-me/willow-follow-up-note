@@ -149,3 +149,7 @@ reference entry for the Mataroa mirror.
 2026-10-18 (v4 [18]): Mataroa mirror added as reference [18] and
 cited where Table 2 and Limitations name it. No open items besides
 the Zenodo mint.
+
+2026-10-18 (v4 scan): integrity scan run on v4, status limited.
+I3 could not reach Crossref or Zenodo from the session; re-run
+online from a networked machine before release.

@@ -2,8 +2,20 @@
 
 ## Unreleased
 
-DRAFT v4. Not minted. No public posting. v4 has not been
-re-scanned for integrity. I3 is the deferred ResearchGate DOI.
+DRAFT v4. Not minted. No public posting. v4 integrity scan
+2026-10-18: limited, I3 offline. I3 is the deferred ResearchGate DOI.
+
+### 2026-10-18 (v4 integrity scan)
+
+- Ran manuscript-integrity-gate (75cb7f7) on v4 with `--online`.
+  Status limited. I3: the session proxy blocked Crossref and
+  Zenodo, so no identifier was checked; a networked re-run is owed.
+  I1: 16 unbound cited percents, three of them Section V
+  thresholds. I4: local simulator named in Limitations, no
+  misalignment. I5: "first" warnings, not overclaims. Manifest now
+  points at v4. Limitations: a semicolon after the Zenodo record id
+  became a period, so the scanner reads one identifier, not two.
+  Annotation in `results/integrity_brief.md`.
 
 ### 2026-10-18 (v4)
 

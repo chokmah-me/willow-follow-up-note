@@ -466,7 +466,7 @@ not survive extraction). The memory-experiment numbers, figure
 pins, and "likely" wording are pinned to arXiv:2512.13908v1. The
 published Science supplement was compared on those items only, and
 the rest of it was not checked. The v1 data-availability line points
-to Zenodo record 10.5281/zenodo.17872003; opened on Oct. 18, 2026,
+to Zenodo record 10.5281/zenodo.17872003. Opened on Oct. 18, 2026,
 it holds detector-level files for Figs. 2, 3, and 4 and no
 N = 9 directory for Figs. S22 to S24. I did not rerun the paper's
 simulations. The repository behind this note holds a distance-3
