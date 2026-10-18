@@ -344,7 +344,8 @@ experiment.
 
 Table 2. Standing of the 2024 third-party objections [1] after the
 cultivation experiment [2]. The 2024 grades are copied from the
-challenge table of [1] as read from its ResearchGate text, without
+challenge table of [1] as read in clean layout from the author's
+Mataroa mirror of that note on Oct. 18, 2026, without
 redefinition. "Unchanged" means this experiment did not test the
 objection. "Evidence added" is yes only when the cultivation paper
 tests that 2024 objection.
@@ -353,6 +354,7 @@ tests that 2024 objection.
 |---|---|---|---|
 | Noise sensitivity (Kalai [5], [6]) | Partially | Partially. The tomography failure is coherent low-frequency noise. It does not test Kalai's claims, and it does not test the 2024 burst floor. | no |
 | Nonlinear errors (Hirota [7]) | Indirectly | Indirectly, unchanged. | no |
+| Reachability deficits (Akshay et al., in [1]) | Indirectly | Indirectly, unchanged. | no |
 | Classical chaos (Boerner et al. [8]) | Partially | Partially, unchanged. | no |
 
 No row moves to Solved.
@@ -452,11 +454,13 @@ rerun is reported at all.
 ## VI. Limitations
 
 I am scoring my own 2024 inventory, and the Table 2 grades come from
-a ResearchGate text of that note whose column layout did not survive
-extraction. The memory-experiment numbers, figure pins, and "likely"
-wording come from arXiv:2512.13908v1, not from the published Science
-supplement, which I did not compare. The v1 data-availability line
-points to Zenodo record 10.5281/zenodo.17872003; opened on Oct. 18,
+the challenge table of that note, read in clean layout from the
+author's Mataroa mirror (the ResearchGate text's column layout did
+not survive extraction). The memory-experiment numbers, figure
+pins, and "likely" wording come from arXiv:2512.13908v1, not from
+the published Science supplement, which I did not compare. The v1
+data-availability line points to Zenodo record 10.5281/zenodo.17872003;
+opened on Oct. 18,
 2026, it holds detector-level files for Figs. 2, 3, and 4 and no
 N = 9 directory for Figs. S22 to S24. I did not rerun the paper's
 simulations. The repository behind this note holds a distance-3

@@ -41,6 +41,18 @@ re-scanned for integrity. I3 is the deferred ResearchGate DOI.
   source file. The 14% figure in Section I is the 2024 note's; the
   arXiv text of [4] says the error budget overpredicts Lambda by
   20%. Left as attributed to [1] and flagged for the author.
+- Verification fix (2026-10-18): the latest-draft verification run
+  recovered the 2024 note's challenge table in clean layout from
+  the author's Mataroa mirror (read Oct. 18, 2026). Table 2 now
+  carries all four objection rows; the restored row is
+  Reachability deficits (Akshay et al.), Indirectly, unchanged,
+  no evidence added. The Table 2 caption and Limitations name the
+  mirror as the grades' source. The same run read Marshall and
+  Kafri [14] and compared the published Science supplement on the
+  scored items: numbers and wording unchanged from v1, numbering
+  moved (Sec. XIV to VIII; S22 to S20, S23 to S21, S24 to S22,
+  S14 to S11). The note's pins stay on v1, so its supplement
+  disclosure stands.
 
 ### 2026-10-18
 

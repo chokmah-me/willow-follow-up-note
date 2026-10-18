@@ -112,3 +112,15 @@ margin and |2> criterion fixed in advance; Table 3 holds the
 readings. "Likely," variability, and no-ablation rechecked in the
 abstract, TL;DR, and conclusion. The earlier entry's claim that
 Limitations names the d=3 calibration is true again in v4.
+
+2026-10-18 (v4 verification fix): the verification run on the
+latest draft recovered the 2024 note's challenge table in clean
+layout from the author's Mataroa mirror: four rows (Noise
+Sensitivity Partially, Nonlinear Errors Indirectly, Reachability
+Deficits Indirectly, Classical Chaos Partially). v4's Table 2
+carried three rows; the Reachability deficits row (Akshay et al.)
+is restored as Indirectly, unchanged, no evidence added. Table 2
+caption and Limitations now name the mirror as the source of the
+grades. Same run: Marshall and Kafri [14] read; published Science
+supplement compared on the scored items, unchanged in substance
+from v1, renumbered only. Draft pins stay on v1.
