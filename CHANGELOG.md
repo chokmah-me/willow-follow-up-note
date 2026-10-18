@@ -59,6 +59,8 @@ re-scanned for integrity. I3 is the deferred ResearchGate DOI.
   run. Sec. II gives the v1-to-published renumbering; pins stay on
   v1. `AI-USE-STATEMENT.md` re-synced.
 - Sec. V: deleted the sentence saying [14] was not read.
+- Added reference [18], the author's Mataroa mirror of [1], cited
+  in the Table 2 caption and Limitations.
 
 ### 2026-10-18
 

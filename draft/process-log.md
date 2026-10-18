@@ -145,3 +145,7 @@ Mataroa mirror has no URL or reference entry.
 2026-10-18 (v4 [14] line): the Sec. V sentence saying [14] was not
 read is deleted at the author's instruction. Still open: a URL or
 reference entry for the Mataroa mirror.
+
+2026-10-18 (v4 [18]): Mataroa mirror added as reference [18] and
+cited where Table 2 and Limitations name it. No open items besides
+the Zenodo mint.

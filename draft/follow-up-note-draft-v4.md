@@ -352,7 +352,7 @@ experiment.
 Table 2. Standing of the 2024 third-party objections [1] after the
 cultivation experiment [2]. The 2024 grades are copied from the
 challenge table of [1] as read in clean layout from the author's
-Mataroa mirror of that note on Oct. 18, 2026, without
+Mataroa mirror of that note [18] on Oct. 18, 2026, without
 redefinition. "Unchanged" means this experiment did not test the
 objection. "Evidence added" is yes only when the cultivation paper
 tests that 2024 objection.
@@ -461,7 +461,7 @@ rerun is reported at all.
 
 I am scoring my own 2024 inventory, and the Table 2 grades come from
 the challenge table of that note, read in clean layout from the
-author's Mataroa mirror (the ResearchGate text's column layout did
+author's Mataroa mirror [18] (the ResearchGate text's column layout did
 not survive extraction). The memory-experiment numbers, figure
 pins, and "likely" wording are pinned to arXiv:2512.13908v1. The
 published Science supplement was compared on those items only, and
@@ -566,3 +566,5 @@ Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.
 [16] C. Gidney, M. Newman, A. Fowler, and M. Broughton, "A fault-tolerant honeycomb memory," *Quantum*, vol. 5, p. 605, 2021. doi: 10.22331/q-2021-12-20-605. Accessed: Oct. 18, 2026. [Online]. Available: https://doi.org/10.22331/q-2021-12-20-605
 
 [17] L. A. Beni, O. Higgott, and N. Shutty, "Tesseract: A search-based decoder for quantum error correction," *arXiv preprint*, arXiv:2503.10988, 2025. Accessed: Oct. 18, 2026. [Online]. Available: https://arxiv.org/abs/2503.10988
+
+[18] D. Y. Bilar, "Assessment of quantum error correction below the surface code threshold," Mataroa blog mirror of [1]. Accessed: Oct. 18, 2026. [Online]. Available: https://dybilar.mataroa.blog/blog/assessment-of-quantum-error-correction-below-the-surface-code-threshold/
