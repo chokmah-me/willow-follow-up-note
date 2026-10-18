@@ -37,4 +37,4 @@ https://doi.org/10.5281/zenodo.23452624 (concept); https://doi.org/10.5281/zenod
 
 ## Direct PDF
 
-https://zenodo.org/records/23452623/files/willow-follow-up-note-v6.pdf
+https://zenodo.org/records/23452623/files/follow-up-note-v6.pdf?download=1
