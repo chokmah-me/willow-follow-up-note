@@ -1,21 +1,22 @@
 # Willow, Tested Again: working repo
 
 Private working repo for the follow-up note to "Notes on Google
-Willow (2024)." Status: DRAFT v3, evidence-ready residual from v2
+Willow (2024)." Status: DRAFT v4, evidence-ready residual from v2
 still named. Not minted, not published, no DOI reserved.
 Publication is the author's decision alone. Evidence-ready means
 the integrity residual is named and deferred. It does not mean
-scientifically verified. v3 was scanned 2026-10-16. The JSON
+scientifically verified. v3 was scanned 2026-10-16; v4 has not
+been re-scanned. The JSON
 fail is the same ResearchGate DOI, already deferred.
 
 ## The draft
 
-`draft/follow-up-note-draft-v3.md` is the current working copy.
-`draft/follow-up-note-draft-v2.md` and
-`draft/follow-up-note-draft.md` stay as the audit trail. Edit v3.
+`draft/follow-up-note-draft-v4.md` is the current working copy.
+`draft/follow-up-note-draft-v3.md`, `draft/follow-up-note-draft-v2.md`,
+and `draft/follow-up-note-draft.md` stay as the audit trail. Edit v4.
 Process notes that used to sit above the title are in
 `draft/process-log.md` and are not part of the note.
-`AI-USE-STATEMENT.md` is a copy of the v3 AI Utilization
+`AI-USE-STATEMENT.md` is a copy of the v4 AI Utilization
 Statement.
 
 House style for this draft, enforced in every pass so far: no em
@@ -28,8 +29,8 @@ alternative, and the no-ablation fact all survive the edit.
 ## Contents
 
 - `draft/` the note itself, plus `process-log.md` and
-  `search-meta-v3.html`.
-- `AI-USE-STATEMENT.md` standalone copy of the v3 statement.
+  `search-meta-v4.html` (v3 kept).
+- `AI-USE-STATEMENT.md` standalone copy of the v4 statement.
 - `held-note/cultivation-leakage-note.md` the earlier held
   postscript note for the Zenodo paper, with the primary-source
   check and the follow-up assessment that led to this draft. It

@@ -102,3 +102,50 @@ simulator and d=3 calibration as not a result. Conclusion
 cut the "good news" sentence. SEARCH-META dates filled;
 DOI unminted. LF line endings. "Likely," variability, and
 no-ablation rechecked in abstract, TL;DR, and conclusion.
+
+2026-10-18 (v4): third critical pass
+(`external-review/critical-review-v3-pass3.md`) applied as a new
+file, `follow-up-note-draft-v4.md`. Section XIV re-read in the
+local arXiv text: readout and |2> collisions are the authors'
+entry path into leakage. Three routes kept apart. Section V pass
+margin and |2> criterion fixed in advance; Table 3 holds the
+readings. "Likely," variability, and no-ablation rechecked in the
+abstract, TL;DR, and conclusion. The earlier entry's claim that
+Limitations names the d=3 calibration is true again in v4.
+
+2026-10-18 (v4 verification fix): the verification run on the
+latest draft recovered the 2024 note's challenge table in clean
+layout from the author's Mataroa mirror: four rows (Noise
+Sensitivity Partially, Nonlinear Errors Indirectly, Reachability
+Deficits Indirectly, Classical Chaos Partially). v4's Table 2
+carried three rows; the Reachability deficits row (Akshay et al.)
+is restored as Indirectly, unchanged, no evidence added. Table 2
+caption and Limitations now name the mirror as the source of the
+grades. Same run: Marshall and Kafri [14] read; published Science
+supplement compared on the scored items, unchanged in substance
+from v1, renumbered only. Draft pins stay on v1.
+
+2026-10-18 (v4 leftover fixes): the two items flagged after the
+verification fix are closed. (1) The CHANGELOG "Not done" list no
+longer lists done work: of its four items, only the Zenodo mint
+remains undone; the supplement comparison, the Marshall and Kafri
+reading, and the Table 2 grades were completed in the verification
+run. (2) Section I's 14% flag: the figure stays attributed to the
+2024 note [1], and the Willow paper's own budget figure now stands
+beside it, from the arXiv text of [4]: applying the same decoder
+to the experimental data, the error budget overpredicts Lambda by
+20%. No score or other number moved.
+
+2026-10-18 (v4 consistency): Sec. II, Limitations, and the AI
+statement no longer say the Science supplement was not compared.
+They now record the comparison on the scored items and the
+renumbering. Open: Sec. V still says [14] was not read, and the
+Mataroa mirror has no URL or reference entry.
+
+2026-10-18 (v4 [14] line): the Sec. V sentence saying [14] was not
+read is deleted at the author's instruction. Still open: a URL or
+reference entry for the Mataroa mirror.
+
+2026-10-18 (v4 [18]): Mataroa mirror added as reference [18] and
+cited where Table 2 and Limitations name it. No open items besides
+the Zenodo mint.
