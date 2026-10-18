@@ -1,7 +1,7 @@
 {
   "schema": "cd-manuscript-integrity/v1",
-  "ok": false,
-  "status_line": "willow-follow-up-note \u2014 fail (I1 limited unbound 7; I3 fail (7 resolved, 1 unresolved))",
+  "ok": true,
+  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 16; I3 limited (0 resolved, 0 unresolved))",
   "unbound_result_claims": [
     {
       "value": 0.143,
@@ -22,32 +22,48 @@
     {
       "value": 80.0,
       "token": "80%",
-      "context": "or minus 0.02, and real-time decoding at 63 microseconds. Google's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified n",
-      "suggested_id": "or-minus-0-02-and-real-time-decoding-80%",
+      "context": "l-time decoding at 63 microseconds [4]. The 2024 note read Google's error budget as about 80% incoherent errors, about 10% coherent errors, and about 10% leakage [1]. The simplified n",
+      "suggested_id": "l-time-decoding-at-63-microseconds-4-80%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 10.0,
       "token": "10%",
-      "context": "decoding at 63 microseconds. Google's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified noise model behind the headlin",
-      "suggested_id": "decoding-at-63-microseconds-google-s-10%",
+      "context": "conds [4]. The 2024 note read Google's error budget as about 80% incoherent errors, about 10% coherent errors, and about 10% leakage [1]. The simplified noise model behind the headlin",
+      "suggested_id": "conds-4-the-2024-note-read-google-s--10%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 10.0,
       "token": "10%",
-      "context": "ogle's error budget was about 80% incoherent errors, about 10% coherent errors, and about 10% leakage, yet the simplified noise model behind the headline simulations (Formula 77) assu",
-      "suggested_id": "ogle-s-error-budget-was-about-80-inc-10%",
+      "context": "oogle's error budget as about 80% incoherent errors, about 10% coherent errors, and about 10% leakage [1]. The simplified noise model behind the headline simulations, labeled Formula",
+      "suggested_id": "oogle-s-error-budget-as-about-80-inc-10%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 14.0,
       "token": "14%",
-      "context": "77) assumed independent gate errors and did not explicitly model leakage or crosstalk. A 14% discrepancy between simulated and experimental error suppression was attributed by Google",
-      "suggested_id": "77-assumed-independent-gate-errors-a-14%",
+      "context": "t gate errors and did not explicitly model leakage or crosstalk. The 2024 note reported a 14% discrepancy between simulated and experimental error suppression, which Google attributed",
+      "suggested_id": "t-gate-errors-and-did-not-explicitly-14%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 20.0,
+      "token": "20%",
+      "context": "plying the same decoder to the experimental data, the error budget overpredicts Lambda by 20% [4]. Repetition codes had already shown a logical error floor near 1e-10 from correlated",
+      "suggested_id": "plying-the-same-decoder-to-the-exper-20%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 8.0,
+      "token": "8%",
+      "context": "ances with detected errors in logical state preparation and measurement, with about 8% of the data retained. The Science abstract, retrieved on Oct. 18, 2026, says cultivati",
+      "suggested_id": "ances-with-detected-errors-in-logica-8%",
       "in_table": false,
       "bucket": "other"
     },
@@ -58,25 +74,93 @@
       "suggested_id": "the-error-by-a-factor-of-40-with-a-s-8%",
       "in_table": false,
       "bucket": "other"
+    },
+    {
+      "value": 12.0,
+      "token": "12%",
+      "context": "obability in [12]. After the Fig. 2 averages there, that average shows a relative rise of 12% at distance 5 and 8% at distance 3 over 25 cycles, with a typical risetime of roughly 5 c",
+      "suggested_id": "obability-in-12-after-the-fig-2-aver-12%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 8.0,
+      "token": "8%",
+      "context": "er the Fig. 2 averages there, that average shows a relative rise of 12% at distance 5 and 8% at distance 3 over 25 cycles, with a typical risetime of roughly 5 cycles, and the Pauli+",
+      "suggested_id": "er-the-fig-2-averages-there-that-ave-8%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 7.0,
+      "token": "7%",
+      "context": "cles, with a typical risetime of roughly 5 cycles, and the Pauli+ simulation raises it by 7% over 25 cycles at distance 5. Those are rises in averages over stabilizers of the same we",
+      "suggested_id": "cles-with-a-typical-risetime-of-roug-7%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 8.0,
+      "token": "8%",
+      "context": "aphy circuit of Fig. 3 serves as a cross-check, not as the calibration, because its 8% retention makes a fitted p depend on the postselection rule. 2. Matched simulation. Th",
+      "suggested_id": "aphy-circuit-of-fig-3-serves-as-a-cr-8%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 95.0,
+      "token": "95%",
+      "context": "or as well as the numerator. 3. Pass margin. Fix the shot count in advance so that the 95% interval on each arm's LER ratio is no wider than plus or minus 1 at a ratio of 7.",
+      "suggested_id": "or-as-well-as-the-numerator-3-pass-m-95%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 95.0,
+      "token": "95%",
+      "context": "ied, so a ratio of exactly one is not the target. Call an arm closed when the upper 95% bound on its ratio is below 2; unchanged when its interval overlaps the v1 range of 6.",
+      "suggested_id": "ied-so-a-ratio-of-exactly-one-is-not-95%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 95.0,
+      "token": "95%",
+      "context": "lation over cycles 2 to 9 is below half that of the baseline arm, with non-overlapping 95% intervals. Table 3. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
+      "suggested_id": "lation-over-cycles-2-to-9-is-below-h-95%",
+      "in_table": false,
+      "bucket": "other"
     }
   ],
   "unbound_buckets": {
-    "other": 7
+    "other": 16
   },
-  "status": "fail",
+  "status": "limited",
   "project": "willow-follow-up-note",
-  "manuscript": "draft/follow-up-note-draft-v3.md",
+  "manuscript": "draft/follow-up-note-draft-v4.md",
   "bibliography": null,
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-16T19:15:27Z",
+  "timestamp_utc": "2026-10-18T08:10:06Z",
   "citations": [
     {
       "kind": "numbered",
       "token": "1",
       "needs_bib_key": false,
       "identifier": "10.13140/RG.2.2.30911.01443"
+    },
+    {
+      "kind": "numbered",
+      "token": "4",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41586-024-08449-y"
+    },
+    {
+      "kind": "numbered",
+      "token": "15",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41567-023-02226-w"
     },
     {
       "kind": "numbered",
@@ -98,9 +182,15 @@
     },
     {
       "kind": "numbered",
-      "token": "13",
+      "token": "17",
       "needs_bib_key": false,
       "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "16",
+      "needs_bib_key": false,
+      "identifier": "10.22331/q-2021-12-20-605"
     },
     {
       "kind": "numbered",
@@ -110,9 +200,9 @@
     },
     {
       "kind": "numbered",
-      "token": "4",
+      "token": "13",
       "needs_bib_key": false,
-      "identifier": "10.1038/s41586-024-08449-y"
+      "identifier": null
     },
     {
       "kind": "numbered",
@@ -149,6 +239,30 @@
       "token": "6",
       "needs_bib_key": false,
       "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "18",
+      "needs_bib_key": false,
+      "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "14",
+      "needs_bib_key": false,
+      "identifier": "10.1103/PhysRevApplied.23.054025"
+    },
+    {
+      "kind": "zenodo",
+      "token": "17872003",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.17872003"
+    },
+    {
+      "kind": "doi",
+      "token": "10.5281/zenodo.17872003",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.17872003"
     },
     {
       "kind": "doi",
@@ -199,13 +313,31 @@
       "identifier": "10.1038/s41586-022-05434-1"
     },
     {
+      "kind": "doi",
+      "token": "10.1103/PhysRevApplied.23.054025",
+      "needs_bib_key": false,
+      "identifier": "10.1103/PhysRevApplied.23.054025"
+    },
+    {
+      "kind": "doi",
+      "token": "10.1038/s41567-023-02226-w",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41567-023-02226-w"
+    },
+    {
+      "kind": "doi",
+      "token": "10.22331/q-2021-12-20-605",
+      "needs_bib_key": false,
+      "identifier": "10.22331/q-2021-12-20-605"
+    },
+    {
       "kind": "author_year",
       "token": "Willow 2024",
       "needs_bib_key": false,
       "identifier": null
     }
   ],
-  "result_claim_count": 7,
+  "result_claim_count": 16,
   "bib_keys": [],
   "numbered_refs": [
     "1",
@@ -220,69 +352,110 @@
     "10",
     "11",
     "12",
-    "13"
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
   ],
   "checks": {
     "I1": "limited",
     "I2": "n/a",
-    "I3": "fail",
-    "I4": "n/a",
-    "I5": "n/a"
+    "I3": "limited",
+    "I4": "limited",
+    "I5": "warn"
   },
   "findings": [
     {
       "check": "I3",
-      "severity": "fail",
-      "code": "unresolved",
-      "detail": "10.13140/RG.2.2.30911.01443 not found via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.13140/RG.2.2.30911.01443 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.1126/science.aee7961 via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1038/s41586-024-08449-y {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.3390/e23121577 via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1038/s41567-023-02226-w {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.1038/s41586-022-05434-1 via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1126/science.aee7961 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.1038/s41586-024-08449-y via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.3390/e23121577 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.26421/QIC15.11-12-8 via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.22331/q-2021-12-20-605 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.1038/s41467-021-21982-y via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1038/s41586-022-05434-1 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "info",
-      "code": "resolved",
-      "detail": "10.1103/PRXQuantum.2.030314 via crossref-doi"
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.26421/QIC15.11-12-8 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1038/s41467-021-21982-y {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1103/PRXQuantum.2.030314 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1103/PhysRevApplied.23.054025 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.5281/zenodo.17872003 {'resolved': None, 'via': 'zenodo', 'http': 0, 'limited': True}"
     },
     {
       "check": "I1",
       "severity": "limited",
       "code": "unbound_result_claim",
-      "detail": "7 unbound (other=7)"
+      "detail": "16 unbound (other=16)"
+    },
+    {
+      "check": "I4",
+      "severity": "limited",
+      "code": "needs_alignment_judgment",
+      "detail": "artifacts for method check: ['willow-follow-up-note/simulator/test_run_sweep.py', 'willow-follow-up-note/simulator/test_graft_and_runner.py', 'willow-follow-up-note/simulator/run_sweep.py', 'willow-follow-up-note/simulator/graft_circuit.py', 'willow-follow-up-note/simulator/test_leakage_hybrid.py', 'willow-follow-up-note/simulator/metrics.py', 'willow-follow-up-note/simulator/test_sim_v1b.py', 'willow-follow-up-note/simulator/leakage_hybrid.py', 'willow-follow-up-note/simulator/hybrid_runner.py', 'willow-follow-up-note/simulator/device_params.py', 'willow-follow-up-note/simulator/decoder_pin.py', 'willow-follow-up-note/simulator/make_payload.py']"
+    },
+    {
+      "check": "I5",
+      "severity": "warn",
+      "code": "overclaim_lexicon",
+      "detail": "flagged phrasing (not a fail): ['First', 'first']"
     }
   ],
   "errors": [],
