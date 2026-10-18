@@ -1,0 +1,20 @@
+{
+  "title": "willow-follow-up-note: leakage hybrid simulator and figure script",
+  "description": "Distance-3 leakage hybrid simulator, Figure 1 script, and review files for the note What Would Settle the Leakage Attribution in Magic-State Cultivation on Willow. The simulator is not a result of the note. The paper PDF is a separate Zenodo concept, 10.5281/zenodo.23452622.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Bilar, Daniyel Yaacov",
+      "affiliation": "Chokmah LLC",
+      "orcid": "0000-0002-9040-6914"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "keywords": [
+    "leakage",
+    "magic state cultivation",
+    "Willow",
+    "grafted code"
+  ]
+}

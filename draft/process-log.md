@@ -3,6 +3,13 @@
 Moved out of the paper body 2026-10-16. The shipping text is
 `follow-up-note-draft-v6.md`. Older drafts stay as the audit trail.
 
+## 2026-10-18 mint
+
+Paper version 10.5281/zenodo.23452623, concept
+10.5281/zenodo.23452622. Software version 10.5281/zenodo.23452625,
+concept 10.5281/zenodo.23452624. The PDF was printed from v6 with
+Edge because Typora has no scriptable export. OSF was not opened.
+
 ## 2026-10-18 figure and sketchnote
 
 Figure 1 was added to Section V of v6. The sketchnote is

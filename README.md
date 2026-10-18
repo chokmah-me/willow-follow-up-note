@@ -1,13 +1,14 @@
 # Willow, Tested Again: working repo
 
-Private working repo for the follow-up note to "Notes on Google
-Willow (2024)." Status: DRAFT v6, evidence-ready residual from v2
-still named. Not minted, not published, no DOI reserved.
-Publication is the author's decision alone. Evidence-ready means
-the integrity residual is named and deferred. It does not mean
-scientifically verified. v3 was scanned 2026-10-16; v4, v5, and v6
-were scanned 2026-10-18 with I3 limited by the network. The JSON
-fail is the same ResearchGate DOI, already deferred.
+Working repo for the follow-up note to "Notes on Google
+Willow (2024)." Status: draft v6, minted 2026-10-18. Paper version
+DOI 10.5281/zenodo.23452623. Paper concept DOI
+10.5281/zenodo.23452622. Software version DOI
+10.5281/zenodo.23452625. Software concept DOI
+10.5281/zenodo.23452624. The two concepts are separate. The mint
+does not mean scientifically verified. v3 was scanned 2026-10-16;
+v4, v5, and v6 were scanned 2026-10-18. The ResearchGate DOI
+remains deferred.
 
 ## The draft
 
@@ -31,8 +32,10 @@ alternative, and the no-ablation fact all survive the edit.
 
 ## Contents
 
-- `draft/` the note itself, plus `process-log.md` and
-  `search-meta-v6.html` (v3 to v5 kept).
+- `draft/` the note itself, plus `process-log.md`,
+  `search-meta-v6.html` (v3 to v5 kept), and
+  `follow-up-note-v6.pdf`.
+- `ZENODO.md`, `CITATION.cff`, `LICENSE`, `.zenodo.json`.
 - `AI-USE-STATEMENT.md` standalone copy of the v6 statement.
 - `held-note/cultivation-leakage-note.md` the earlier held
   postscript note for the Zenodo paper, with the primary-source
@@ -76,17 +79,14 @@ in the note are cited priors (Rosenfeld et al. 2026, Google 2024,
 the 2024 note). There is no local results artifact, and none
 should be invented.
 
-`results/integrity_audit.json` is the 2026-10-18 scan of v6 (v4 and v5
-were scanned the same day), run
-with `--online` from a session whose network blocked Crossref and
-Zenodo. Status limited: I3 limited (no identifier answered), I1
-limited (10 unbound cited percents), I4 limited (local simulator
-named; no misalignment on judgment), I5 warn ("first"). The v3 scan
-(2026-10-16) resolved seven DOIs and failed on
-`10.13140/RG.2.2.30911.01443`, deferred in
-`results/i3-researchgate-deferral.md`. A networked `--online`
-re-run of v6 is still owed. The scan does not mark the note
-scientifically verified.
+`results/integrity_audit.json` is the 2026-10-18 networked scan of
+v6. Status limited: I1 limited (12 unbound, policy advise), I3
+limited (9 resolved, 0 unresolved; Crossref HTTP 429 on four DOIs,
+including `10.13140/RG.2.2.30911.01443`), I4 limited (the local
+simulator is named and is not a result of the note), I5 warn
+("first"). The ResearchGate miss is deferred in
+`results/i3-researchgate-deferral.md`. The scan does not mark the
+note scientifically verified.
 
 A robustness check of v2 is in `results/robustness-check-v2.md`
 (own-draft, 2026-10-16, 18 frozen rows). It is a survival map,
@@ -121,8 +121,9 @@ Still open, on purpose:
   leakage point, at design shot counts (a compute job, hours to
   days). Covariance stays a structural check: the 2026
   supplement publishes no detector-level data.
-- A Zenodo DOI. None is reserved. SEARCH-META placeholders stay
-  until mint.
+- Nothing in the mint list. Paper and software DOIs are in
+  `ZENODO.md`. OSF was not opened. ORCID was not written: no
+  `ORCID_TOKEN` in this session.
 
 
 ## Working on the desktop

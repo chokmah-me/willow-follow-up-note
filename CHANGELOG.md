@@ -2,8 +2,19 @@
 
 ## Unreleased
 
-DRAFT v6. Not minted. No public posting. v6 integrity scan
-2026-10-18: limited, I3 offline. I3 is the deferred ResearchGate DOI.
+Nothing waiting on a DOI. The 2026-10-18 mint is below.
+
+### 2026-10-18 (mint)
+
+- Paper version DOI 10.5281/zenodo.23452623. Paper concept DOI
+  10.5281/zenodo.23452622. Software version DOI
+  10.5281/zenodo.23452625. Software concept DOI
+  10.5281/zenodo.23452624. Separate concepts. Third-party source
+  pins are not in either Zenodo record.
+- Networked v6 integrity scan: limited. I3 resolved 9 identifiers.
+  Four Crossref lookups returned HTTP 429, including the deferred
+  ResearchGate DOI. Not a scientific pass.
+- No OSF project. No social announcement.
 
 ### 2026-10-18 (v6 figure)
 

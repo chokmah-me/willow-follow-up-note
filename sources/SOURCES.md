@@ -1,7 +1,10 @@
 # Sources
 
 Pinned 2026-10-16. All claim checking for the draft was done
-against these.
+against these. These files are third-party copies. The note's
+CC BY 4.0 license does not cover them. They are not uploaded to
+either Zenodo record. They remain in this repository so a reader
+can check the hashes.
 
 ## The experiment under review
 

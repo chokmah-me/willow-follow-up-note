@@ -22,8 +22,8 @@ copy of arXiv:2512.13908v1, and at the author's direction
 restructured v4 into v5 around the attribution test, then reviewed
 v5 and applied its findings to produce v6. Every finding
 from those passes was adjudicated before any revision was applied.
-The review files will be part of the Zenodo deposit when minted.
-They have no public URL yet. The author selected all sources, made
+The review files are in the software record
+https://doi.org/10.5281/zenodo.23452625. The author selected all sources, made
 every publish and revise decision, and takes responsibility for the
 claims and the conclusions. AI output was treated as draft
 throughout. Claims here were checked against arXiv:2512.13908v1 and

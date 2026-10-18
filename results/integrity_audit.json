@@ -1,7 +1,7 @@
 {
   "schema": "cd-manuscript-integrity/v1",
   "ok": true,
-  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 10; I3 limited (0 resolved, 0 unresolved))",
+  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 12; I3 limited (9 resolved, 0 unresolved))",
   "unbound_result_claims": [
     {
       "value": 12.0,
@@ -82,10 +82,26 @@
       "suggested_id": "ces-the-error-by-a-factor-of-40-with-8%",
       "in_table": false,
       "bucket": "other"
+    },
+    {
+      "value": 95.0,
+      "token": "95%",
+      "context": "eed not equal 6.6. The solid line at 2 is the close line: an arm is closed when its upper 95% bound is below 2. The dashed line at 3 is the gate: the run counts only if B's lower 95%",
+      "suggested_id": "eed-not-equal-6-6-the-solid-line-at--95%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 95.0,
+      "token": "95%",
+      "context": "95% bound is below 2. The dashed line at 3 is the gate: the run counts only if B's lower 95% bound exceeds 3. Both lines were fixed before any rerun. No 2 by 2 arm has been run. - T",
+      "suggested_id": "95-bound-is-below-2-the-dashed-line--95%",
+      "in_table": false,
+      "bucket": "other"
     }
   ],
   "unbound_buckets": {
-    "other": 10
+    "other": 12
   },
   "status": "limited",
   "project": "willow-follow-up-note",
@@ -94,7 +110,7 @@
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-18T12:13:03Z",
+  "timestamp_utc": "2026-10-18T13:01:04Z",
   "citations": [
     {
       "kind": "numbered",
@@ -301,7 +317,7 @@
       "identifier": null
     }
   ],
-  "result_claim_count": 10,
+  "result_claim_count": 12,
   "bib_keys": [],
   "numbered_refs": [
     "1",
@@ -334,93 +350,93 @@
   "findings": [
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1126/science.aee7961 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1126/science.aee7961 via crossref-doi"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.22331/q-2021-12-20-605 via crossref-doi"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1038/s41586-022-05434-1 via crossref-doi"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1038/s41586-024-08449-y via crossref-doi"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1038/s41567-023-02226-w via crossref-doi"
     },
     {
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
-      "detail": "10.22331/q-2021-12-20-605 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "detail": "10.26421/QIC15.11-12-8 {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
     },
     {
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
-      "detail": "10.1038/s41586-022-05434-1 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "detail": "10.1038/s41467-021-21982-y {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1103/PRXQuantum.2.030314 via crossref-doi"
     },
     {
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
-      "detail": "10.1038/s41586-024-08449-y {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "detail": "10.1103/PhysRevApplied.23.054025 {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
     },
     {
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
-      "detail": "10.1038/s41567-023-02226-w {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "detail": "10.13140/RG.2.2.30911.01443 {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.26421/QIC15.11-12-8 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.3390/e23121577 via crossref-doi"
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1038/s41467-021-21982-y {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1103/PhysRevLett.124.090504 via crossref-doi"
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1103/PRXQuantum.2.030314 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1103/PhysRevApplied.23.054025 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.13140/RG.2.2.30911.01443 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.3390/e23121577 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1103/PhysRevLett.124.090504 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.5281/zenodo.17872003 {'resolved': None, 'via': 'zenodo', 'http': 0, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.5281/zenodo.17872003 via zenodo"
     },
     {
       "check": "I1",
       "severity": "limited",
       "code": "unbound_result_claim",
-      "detail": "10 unbound (other=10)"
+      "detail": "12 unbound (other=12)"
     },
     {
       "check": "I4",
       "severity": "limited",
       "code": "needs_alignment_judgment",
-      "detail": "artifacts for method check: ['willow-follow-up-note/simulator/test_run_sweep.py', 'willow-follow-up-note/simulator/test_graft_and_runner.py', 'willow-follow-up-note/simulator/run_sweep.py', 'willow-follow-up-note/simulator/graft_circuit.py', 'willow-follow-up-note/simulator/test_leakage_hybrid.py', 'willow-follow-up-note/simulator/metrics.py', 'willow-follow-up-note/simulator/test_sim_v1b.py', 'willow-follow-up-note/simulator/leakage_hybrid.py', 'willow-follow-up-note/simulator/hybrid_runner.py', 'willow-follow-up-note/simulator/device_params.py', 'willow-follow-up-note/simulator/decoder_pin.py', 'willow-follow-up-note/simulator/make_payload.py']"
+      "detail": "artifacts for method check: ['willow-follow-up-note/simulator/decoder_pin.py', 'willow-follow-up-note/simulator/device_params.py', 'willow-follow-up-note/simulator/graft_circuit.py', 'willow-follow-up-note/simulator/hybrid_runner.py', 'willow-follow-up-note/simulator/leakage_hybrid.py', 'willow-follow-up-note/simulator/make_payload.py', 'willow-follow-up-note/simulator/metrics.py', 'willow-follow-up-note/simulator/run_sweep.py', 'willow-follow-up-note/simulator/test_graft_and_runner.py', 'willow-follow-up-note/simulator/test_leakage_hybrid.py', 'willow-follow-up-note/simulator/test_run_sweep.py', 'willow-follow-up-note/simulator/test_sim_v1b.py']"
     },
     {
       "check": "I5",

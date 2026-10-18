@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper (preferred) and/or the software."
+type: software
+title: "willow-follow-up-note: leakage hybrid simulator and figure script"
+authors:
+  - family-names: Bilar
+    given-names: Daniyel Yaacov
+    orcid: "https://orcid.org/0000-0002-9040-6914"
+    affiliation: "Chokmah LLC"
+date-released: "2026-10-18"
+version: "1.0.0"
+license: CC-BY-4.0
+doi: "10.5281/zenodo.23452625"
+url: "https://doi.org/10.5281/zenodo.23452625"
+repository-code: "https://github.com/chokmah-me/willow-follow-up-note"
+keywords:
+  - leakage
+  - magic state cultivation
+  - Willow
+  - grafted code
+preferred-citation:
+  type: article
+  title: "What Would Settle the Leakage Attribution in Magic-State Cultivation on Willow"
+  authors:
+    - family-names: Bilar
+      given-names: Daniyel Yaacov
+      orcid: "https://orcid.org/0000-0002-9040-6914"
+      affiliation: "Chokmah LLC"
+  year: 2026
+  version: "v6"
+  doi: "10.5281/zenodo.23452623"
+  url: "https://doi.org/10.5281/zenodo.23452623"
+  publisher:
+    name: Zenodo
+  # Prefer concept DOI 10.5281/zenodo.23452622 when a reader wants the latest PDF.
+  # preferred-citation.doi pins this PDF. Software concept DOI is 10.5281/zenodo.23452624.
