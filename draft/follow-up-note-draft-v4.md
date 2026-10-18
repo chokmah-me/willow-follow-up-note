@@ -68,9 +68,12 @@ use the measured component error rates (Fig. 1b), assumed
 independent gate errors and did not explicitly model leakage or
 crosstalk. The 2024 note reported a 14% discrepancy between
 simulated and experimental error suppression, which Google
-attributed to excess correlations [1]. Repetition codes had already
-shown a logical error floor near 1e-10 from correlated bursts about
-once per hour [4]. The note's conclusion: Willow did not fully
+attributed to excess correlations [1]. In the Willow paper's own
+budget text, applying the same decoder to the experimental data,
+the error budget overpredicts Lambda by 20% [4]. Repetition codes
+had already shown a logical error floor near 1e-10 from
+correlated bursts about once per hour [4]. The note's conclusion:
+Willow did not fully
 resolve correlated errors, leakage, crosstalk, or the potential for
 chaotic dynamics, and the gap to fault tolerance (Lambda near 10,
 logical error near 1e-6, code distance near 27 on the note's

@@ -35,12 +35,13 @@ re-scanned for integrity. I3 is the deferred ResearchGate DOI.
   from Availability. AI statement re-synced with
   `AI-USE-STATEMENT.md` and extended for this pass. Limitations
   again names the local d=3 calibration run.
-- Not done: comparison against the published Science supplement
-  (not available in this session), Zenodo mint, reading Marshall
-  and Kafri [14], and taking Table 2 grades from the 2024 note's
-  source file. The 14% figure in Section I is the 2024 note's; the
-  arXiv text of [4] says the error budget overpredicts Lambda by
-  20%. Left as attributed to [1] and flagged for the author.
+- Not done: Zenodo mint. The supplement comparison, the reading
+  of Marshall and Kafri [14], and the Table 2 grades from the 2024
+  note's challenge table were completed in the 2026-10-18
+  verification run (next entry). The Section I flag on the 14%
+  figure is resolved in the same pass: it stays attributed to the
+  2024 note [1], with the paper's own budget figure beside it
+  (the error budget overpredicts Lambda by 20% [4]).
 - Verification fix (2026-10-18): the latest-draft verification run
   recovered the 2024 note's challenge table in clean layout from
   the author's Mataroa mirror (read Oct. 18, 2026). Table 2 now

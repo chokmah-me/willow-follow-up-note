@@ -124,3 +124,14 @@ caption and Limitations now name the mirror as the source of the
 grades. Same run: Marshall and Kafri [14] read; published Science
 supplement compared on the scored items, unchanged in substance
 from v1, renumbered only. Draft pins stay on v1.
+
+2026-10-18 (v4 leftover fixes): the two items flagged after the
+verification fix are closed. (1) The CHANGELOG "Not done" list no
+longer lists done work: of its four items, only the Zenodo mint
+remains undone; the supplement comparison, the Marshall and Kafri
+reading, and the Table 2 grades were completed in the verification
+run. (2) Section I's 14% flag: the figure stays attributed to the
+2024 note [1], and the Willow paper's own budget figure now stands
+beside it, from the arXiv text of [4]: applying the same decoder
+to the experimental data, the error budget overpredicts Lambda by
+20%. No score or other number moved.
