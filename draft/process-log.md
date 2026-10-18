@@ -57,3 +57,11 @@ The cheaper simulation check now asks for the 2026 gap on an
 instrument calibrated to the 2023 published fingerprint [12].
 Grafted-circuit rise is a prediction. Covariance is a structural
 check. "Likely," variability, and no-ablation left in place.
+
+2026-10-18: consistency fixes after the calibration run was
+recorded. Limitations now say the paper's simulations were not
+rerun (the repository holds a calibration run of our own
+simulator, which is not the paper's). The AI statement names
+the simulator's author and the calibration record. Section V
+no longer claims the cheaper checks need no hardware time;
+they need no new hardware. Date moved to October 18.

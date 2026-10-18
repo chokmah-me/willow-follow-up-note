@@ -6,6 +6,21 @@ DRAFT v3. Not minted. No public posting. The v3 integrity scan
 is not a scientific verification. I3 is the deferred ResearchGate
 DOI.
 
+### 2026-10-18
+
+- Four consistency fixes to the v3 draft after the distance-3
+  rise calibration was recorded. Limitations: "I did not rerun
+  the simulations" now reads "the paper's simulations," since
+  the repository holds a calibration run of our own simulator.
+  AI Utilization Statement: names the simulator (written by
+  OpenAI GPT-6 Astra through OpenRouter from the author's
+  briefs, reviewed and tested before use) and the calibration
+  record, which is not a result of the note. Section V: the
+  two cheaper checks "need no new hardware," not "no new
+  hardware time" (three-state readout needs time on the
+  team's processor). Draft date moved to October 18, 2026
+  (7 Cheshvan 5787). No claim, score, or number changed.
+
 ### 2026-10-17
 
 - Built the leakage hybrid simulator for Section V's

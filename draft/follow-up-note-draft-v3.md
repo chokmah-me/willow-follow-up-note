@@ -1,5 +1,5 @@
 <p class="hebrew-epigraph" dir="rtl" lang="he">אִם יִרְצֶה הַשֵּׁם</p>
-<p class="hebrew-date" dir="rtl" lang="he">ה׳ בְּחֶשְׁוָן תשפ״ז</p>
+<p class="hebrew-date" dir="rtl" lang="he">ז׳ בְּחֶשְׁוָן תשפ״ז</p>
 
 # Willow, Tested Again: Magic-State Cultivation Against the 2024 Error-Channel Inventory
 
@@ -7,7 +7,7 @@ A follow-up to "Notes on Google Willow (2024)"
 Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me
 ORCID: [0000-0002-9040-6914](https://orcid.org/0000-0002-9040-6914)
 License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
-October 16, 2026
+October 18, 2026
 No DOI reserved.
 
 ## Abstract
@@ -326,7 +326,7 @@ outcome would mean, so the result cannot be read two ways after
 the fact.
 
 Two cheaper checks sit ahead of that experiment, and neither
-needs new hardware time. Three-state readout on the grafted
+needs new hardware. Three-state readout on the grafted
 circuit measures the |2> population directly, cycle by cycle,
 instead of inferring it from detector signatures. And the same
 simulations, rerun with leakage injected at measured rates,
@@ -391,7 +391,7 @@ reported, and on whether the rerun is reported at all.
 I am scoring my own 2024 inventory. The memory-experiment numbers,
 figure pins, and "likely" wording come from arXiv:2512.13908v1,
 not from a page-diffed Science supplement. I have no raw data and
-I did not rerun the simulations. The score of leakage rests on
+I did not rerun the paper's simulations. The score of leakage rests on
 one grafted-code memory figure, one configuration, up to nine
 cycles. Section V is a design. It is not a result of this note.
 The rise leg of the simulation check is scored against the 2023
@@ -427,7 +427,12 @@ at every stage. Muse (Meta) agents (model version not recorded)
 located and read the primary sources, cross-checked numbers and
 attributions in the draft against them, and drafted the text at
 the author's instruction. Grok 4.6 applied the author's 2023
-rise-leg substitution to Section V wording. The draft then went
+rise-leg substitution to Section V wording. The leakage
+simulator in the repository was written by OpenAI GPT-6 Astra
+through OpenRouter from the author's briefs, then reviewed and
+tested before use; a distance-3 calibration run of it is
+recorded in the repository and is not a result of this note.
+The draft then went
 through two internal adversarial passes (a spec-faithful claims
 trace and an independent adversarial review), and two external
 critical evaluations commissioned by the author through
