@@ -28,6 +28,32 @@ Drafting rule: the leakage attribution in the cultivation paper
 is "likely," with signature evidence and no ablation run. Keep
 that word. Never upgrade it.
 
+## Review trail (2026-10-18, second pass)
+
+Applied the pasted MUST-FIX and SHOULD-FIX items to v3.
+
+- Zenodo 17872003 file list and README read. fig4.zip central
+  directory listed: injection_N=2, cultivation_N=2,
+  simulation_injection_N=2, cultivation_N=3. fig2 and fig3 top
+  folders have no N=9 directory. S23 and S24 stay unchecked
+  numerically.
+- 2023 rise sentence in the local arXiv text is a rise in the
+  average detection probability (12% d=5, 8% d=3, Pauli+ 7% at
+  d=5, risetime about 5 cycles). Fig. S23 is "for some detectors."
+- Science page for 10.1126/science.aee7961 read via search:
+  First Release, 15 Oct 2026, abstract includes "at least
+  0.9999(1)". A script GET of doi.org returned 403 for that DOI,
+  for the ResearchGate DOI, and for the Entropy DOI. The
+  ResearchGate HTML of the 2024 note showed a garbled challenge
+  table; column headers were not recovered cleanly.
+- Marshall and Kafri, Phys. Rev. Applied 23, 054025 (2025), DOI
+  resolved. The article was not read.
+- C4 mint not done. Repository confirmed private
+  (`gh repo view`: isPrivate true). Left private.
+- "Likely," no removal run, and variability (now located on the
+  earlier grafting figure) kept in the abstract, TL;DR, and
+  conclusion.
+
 ## Review trail (2026-10-16)
 
 Adversarial: contract-certifier trace plus contract-breaker pass,

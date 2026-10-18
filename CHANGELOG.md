@@ -8,6 +8,18 @@ DOI.
 
 ### 2026-10-18
 
+- Applied a second critical pass on v3. Variability stays in the
+  abstract and TL;DR as the alternative on the earlier grafting
+  figure, and Section XIV's own alternatives (readout calibration
+  and |2> collisions) are named for the seven-fold gap. Zenodo
+  10.5281/zenodo.17872003 was opened: detector files for Figs. 2,
+  3, and 4 (Fig. 4 at N = 2 and N = 3), no N = 9 directory.
+  The 2023 rise numbers are pinned as averages. The 2 by 2 freezes
+  p = 2.3e-3 from a same-day non-grafted control. Hebrew date
+  prefix removed. Local simulator output stays out of the note.
+  Zenodo mint (C4) and making the GitHub repo public were not
+  done. Science DOI 10.1126/science.aee7961 confirmed as First
+  Release, Oct. 15, 2026, still with no volume or pages.
 - Applied the MUST-FIX and SHOULD-FIX items from the 2026-10-18
   critical pass on v3. Abstract: dropped numbered citations.
   Byline: the 2024 note scored here is the author's. Formula 77
