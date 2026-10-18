@@ -3,6 +3,13 @@
 Moved out of the paper body 2026-10-16. The shipping text is
 `follow-up-note-draft-v6.md`. Older drafts stay as the audit trail.
 
+## 2026-10-18 Typora PDF and OSF
+
+The version of record is the Typora export,
+10.5281/zenodo.23455419. Concept DOI stays
+10.5281/zenodo.23452622. The earlier Edge print is
+10.5281/zenodo.23452623. OSF mirror: https://osf.io/qme2w/.
+
 ## 2026-10-18 mint
 
 Paper version 10.5281/zenodo.23452623, concept

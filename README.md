@@ -2,7 +2,7 @@
 
 Working repo for the follow-up note to "Notes on Google
 Willow (2024)." Status: draft v6, minted 2026-10-18. Paper version
-DOI 10.5281/zenodo.23452623. Paper concept DOI
+DOI 10.5281/zenodo.23455419. Paper concept DOI
 10.5281/zenodo.23452622. Software version DOI
 10.5281/zenodo.23452625. Software concept DOI
 10.5281/zenodo.23452624. The two concepts are separate. The mint
@@ -122,7 +122,7 @@ Still open, on purpose:
   days). Covariance stays a structural check: the 2026
   supplement publishes no detector-level data.
 - Nothing in the mint list. Paper and software DOIs are in
-  `ZENODO.md`. OSF was not opened. ORCID was not written: no
+  `ZENODO.md`. OSF mirror: https://osf.io/qme2w/. ORCID was not written: no
   `ORCID_TOKEN` in this session.
 
 

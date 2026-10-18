@@ -4,6 +4,14 @@
 
 Nothing waiting on a DOI. The 2026-10-18 mint is below.
 
+### 2026-10-18 (Typora PDF)
+
+- Paper version DOI 10.5281/zenodo.23455419 replaces
+  10.5281/zenodo.23452623. Concept DOI stays
+  10.5281/zenodo.23452622. The file is the Typora export.
+- OSF mirror: https://osf.io/qme2w/ (10.17605/OSF.IO/QME2W).
+  Zenodo remains the version of record.
+
 ### 2026-10-18 (mint)
 
 - Paper version DOI 10.5281/zenodo.23452623. Paper concept DOI

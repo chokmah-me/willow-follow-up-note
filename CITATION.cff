@@ -28,8 +28,8 @@ preferred-citation:
       affiliation: "Chokmah LLC"
   year: 2026
   version: "v6"
-  doi: "10.5281/zenodo.23452623"
-  url: "https://doi.org/10.5281/zenodo.23452623"
+  doi: "10.5281/zenodo.23455419"
+  url: "https://doi.org/10.5281/zenodo.23455419"
   publisher:
     name: Zenodo
   # Prefer concept DOI 10.5281/zenodo.23452622 when a reader wants the latest PDF.
