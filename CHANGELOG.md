@@ -4,6 +4,11 @@
 
 Nothing waiting on a DOI. The 2026-10-18 mint is below.
 
+### 2026-10-18 (sketchnote)
+
+- The results panel insets Figure 1 whole. The earlier redraw
+  split the stems from a separate ruler.
+
 ### 2026-10-18 (page-width figure)
 
 - Paper version DOI 10.5281/zenodo.23455661. Concept DOI stays

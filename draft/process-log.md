@@ -3,6 +3,12 @@
 Moved out of the paper body 2026-10-16. The shipping text is
 `follow-up-note-draft-v6.md`. Older drafts stay as the audit trail.
 
+## 2026-10-18 sketchnote inset
+
+The results panel of `results/sketchnote-v6.png` insets
+`fig_sevenfold_gap.png` whole, inside a padded frame. The
+earlier panel redrew the marks and left a separate ruler.
+
 ## 2026-10-18 page-width figure
 
 Figure 1 is the two panels side by side. The Typora PDF of that
