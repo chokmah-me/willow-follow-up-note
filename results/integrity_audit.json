@@ -1,85 +1,13 @@
 {
   "schema": "cd-manuscript-integrity/v1",
   "ok": true,
-  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 16; I3 limited (0 resolved, 0 unresolved))",
+  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 8; I3 limited (0 resolved, 0 unresolved))",
   "unbound_result_claims": [
-    {
-      "value": 0.143,
-      "token": "0.143",
-      "context": "[1] accepted the surface-code result on its own terms: a distance-7 logical error rate of 0.143% plus or minus 0.003% per cycle, a logical lifetime 2.4 times the best physical qubit, an",
-      "suggested_id": "1-accepted-the-surface-code-result-o-0.143",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 0.003,
-      "token": "0.003",
-      "context": "ace-code result on its own terms: a distance-7 logical error rate of 0.143% plus or minus 0.003% per cycle, a logical lifetime 2.4 times the best physical qubit, an error suppression fa",
-      "suggested_id": "ace-code-result-on-its-own-terms-a-d-0.003",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 80.0,
-      "token": "80%",
-      "context": "l-time decoding at 63 microseconds [4]. The 2024 note read Google's error budget as about 80% incoherent errors, about 10% coherent errors, and about 10% leakage [1]. The simplified n",
-      "suggested_id": "l-time-decoding-at-63-microseconds-4-80%",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 10.0,
-      "token": "10%",
-      "context": "conds [4]. The 2024 note read Google's error budget as about 80% incoherent errors, about 10% coherent errors, and about 10% leakage [1]. The simplified noise model behind the headlin",
-      "suggested_id": "conds-4-the-2024-note-read-google-s--10%",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 10.0,
-      "token": "10%",
-      "context": "oogle's error budget as about 80% incoherent errors, about 10% coherent errors, and about 10% leakage [1]. The simplified noise model behind the headline simulations, labeled Formula",
-      "suggested_id": "oogle-s-error-budget-as-about-80-inc-10%",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 14.0,
-      "token": "14%",
-      "context": "t gate errors and did not explicitly model leakage or crosstalk. The 2024 note reported a 14% discrepancy between simulated and experimental error suppression, which Google attributed",
-      "suggested_id": "t-gate-errors-and-did-not-explicitly-14%",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 20.0,
-      "token": "20%",
-      "context": "plying the same decoder to the experimental data, the error budget overpredicts Lambda by 20% [4]. Repetition codes had already shown a logical error floor near 1e-10 from correlated",
-      "suggested_id": "plying-the-same-decoder-to-the-exper-20%",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 8.0,
-      "token": "8%",
-      "context": "ances with detected errors in logical state preparation and measurement, with about 8% of the data retained. The Science abstract, retrieved on Oct. 18, 2026, says cultivati",
-      "suggested_id": "ances-with-detected-errors-in-logica-8%",
-      "in_table": false,
-      "bucket": "other"
-    },
-    {
-      "value": 8.0,
-      "token": "8%",
-      "context": "the error by a factor of 40, with a state fidelity of at least 0.9999(1) (retaining 8% of attempts). The v1 preprint gives injection-only error 4.4(2)e-3 and cultivated full",
-      "suggested_id": "the-error-by-a-factor-of-40-with-a-s-8%",
-      "in_table": false,
-      "bucket": "other"
-    },
     {
       "value": 12.0,
       "token": "12%",
-      "context": "obability in [12]. After the Fig. 2 averages there, that average shows a relative rise of 12% at distance 5 and 8% at distance 3 over 25 cycles, with a typical risetime of roughly 5 c",
-      "suggested_id": "obability-in-12-after-the-fig-2-aver-12%",
+      "context": "robability in [5]. After the Fig. 2 averages there, that average shows a relative rise of 12% at distance 5 and 8% at distance 3 over 25 cycles, with a typical risetime of roughly 5 c",
+      "suggested_id": "robability-in-5-after-the-fig-2-aver-12%",
       "in_table": false,
       "bucket": "other"
     },
@@ -126,53 +54,43 @@
     {
       "value": 95.0,
       "token": "95%",
-      "context": "lation over cycles 2 to 9 is below half that of the baseline arm, with non-overlapping 95% intervals. Table 3. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
+      "context": "lation over cycles 2 to 9 is below half that of the baseline arm, with non-overlapping 95% intervals. Table 1. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
       "suggested_id": "lation-over-cycles-2-to-9-is-below-h-95%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 8.0,
+      "token": "8%",
+      "context": "ces the error by a factor of 40, with a state fidelity of at least 0.9999(1), retaining 8% of attempts. The v1 preprint gives injection-only error 4.4(2)e-3, which the main tex",
+      "suggested_id": "ces-the-error-by-a-factor-of-40-with-8%",
       "in_table": false,
       "bucket": "other"
     }
   ],
   "unbound_buckets": {
-    "other": 16
+    "other": 8
   },
   "status": "limited",
   "project": "willow-follow-up-note",
-  "manuscript": "draft/follow-up-note-draft-v4.md",
+  "manuscript": "draft/follow-up-note-draft-v5.md",
   "bibliography": null,
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-18T08:10:06Z",
+  "timestamp_utc": "2026-10-18T08:17:53Z",
   "citations": [
     {
       "kind": "numbered",
       "token": "1",
       "needs_bib_key": false,
-      "identifier": "10.13140/RG.2.2.30911.01443"
-    },
-    {
-      "kind": "numbered",
-      "token": "4",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41586-024-08449-y"
-    },
-    {
-      "kind": "numbered",
-      "token": "15",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41567-023-02226-w"
+      "identifier": "10.1126/science.aee7961"
     },
     {
       "kind": "numbered",
       "token": "2",
       "needs_bib_key": false,
-      "identifier": "10.1126/science.aee7961"
-    },
-    {
-      "kind": "numbered",
-      "token": "7",
-      "needs_bib_key": false,
-      "identifier": "10.3390/e23121577"
+      "identifier": null
     },
     {
       "kind": "numbered",
@@ -182,7 +100,73 @@
     },
     {
       "kind": "numbered",
-      "token": "17",
+      "token": "4",
+      "needs_bib_key": false,
+      "identifier": "10.22331/q-2021-12-20-605"
+    },
+    {
+      "kind": "numbered",
+      "token": "5",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41586-022-05434-1"
+    },
+    {
+      "kind": "numbered",
+      "token": "6",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41586-024-08449-y"
+    },
+    {
+      "kind": "numbered",
+      "token": "7",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41567-023-02226-w"
+    },
+    {
+      "kind": "numbered",
+      "token": "8",
+      "needs_bib_key": false,
+      "identifier": "10.26421/QIC15.11-12-8"
+    },
+    {
+      "kind": "numbered",
+      "token": "9",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41467-021-21982-y"
+    },
+    {
+      "kind": "numbered",
+      "token": "10",
+      "needs_bib_key": false,
+      "identifier": "10.1103/PRXQuantum.2.030314"
+    },
+    {
+      "kind": "numbered",
+      "token": "11",
+      "needs_bib_key": false,
+      "identifier": "10.1103/PhysRevApplied.23.054025"
+    },
+    {
+      "kind": "numbered",
+      "token": "12",
+      "needs_bib_key": false,
+      "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "13",
+      "needs_bib_key": false,
+      "identifier": "10.13140/RG.2.2.30911.01443"
+    },
+    {
+      "kind": "numbered",
+      "token": "14",
+      "needs_bib_key": false,
+      "identifier": null
+    },
+    {
+      "kind": "numbered",
+      "token": "15",
       "needs_bib_key": false,
       "identifier": null
     },
@@ -190,67 +174,19 @@
       "kind": "numbered",
       "token": "16",
       "needs_bib_key": false,
-      "identifier": "10.22331/q-2021-12-20-605"
-    },
-    {
-      "kind": "numbered",
-      "token": "12",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41586-022-05434-1"
-    },
-    {
-      "kind": "numbered",
-      "token": "13",
-      "needs_bib_key": false,
       "identifier": null
     },
     {
       "kind": "numbered",
-      "token": "9",
+      "token": "17",
       "needs_bib_key": false,
-      "identifier": "10.26421/QIC15.11-12-8"
-    },
-    {
-      "kind": "numbered",
-      "token": "10",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41467-021-21982-y"
-    },
-    {
-      "kind": "numbered",
-      "token": "11",
-      "needs_bib_key": false,
-      "identifier": "10.1103/PRXQuantum.2.030314"
-    },
-    {
-      "kind": "numbered",
-      "token": "8",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "numbered",
-      "token": "5",
-      "needs_bib_key": false,
-      "identifier": null
-    },
-    {
-      "kind": "numbered",
-      "token": "6",
-      "needs_bib_key": false,
-      "identifier": null
+      "identifier": "10.3390/e23121577"
     },
     {
       "kind": "numbered",
       "token": "18",
       "needs_bib_key": false,
       "identifier": null
-    },
-    {
-      "kind": "numbered",
-      "token": "14",
-      "needs_bib_key": false,
-      "identifier": "10.1103/PhysRevApplied.23.054025"
     },
     {
       "kind": "zenodo",
@@ -266,15 +202,21 @@
     },
     {
       "kind": "doi",
-      "token": "10.13140/RG.2.2.30911.01443",
-      "needs_bib_key": false,
-      "identifier": "10.13140/RG.2.2.30911.01443"
-    },
-    {
-      "kind": "doi",
       "token": "10.1126/science.aee7961",
       "needs_bib_key": false,
       "identifier": "10.1126/science.aee7961"
+    },
+    {
+      "kind": "doi",
+      "token": "10.22331/q-2021-12-20-605",
+      "needs_bib_key": false,
+      "identifier": "10.22331/q-2021-12-20-605"
+    },
+    {
+      "kind": "doi",
+      "token": "10.1038/s41586-022-05434-1",
+      "needs_bib_key": false,
+      "identifier": "10.1038/s41586-022-05434-1"
     },
     {
       "kind": "doi",
@@ -284,9 +226,9 @@
     },
     {
       "kind": "doi",
-      "token": "10.3390/e23121577",
+      "token": "10.1038/s41567-023-02226-w",
       "needs_bib_key": false,
-      "identifier": "10.3390/e23121577"
+      "identifier": "10.1038/s41567-023-02226-w"
     },
     {
       "kind": "doi",
@@ -308,27 +250,21 @@
     },
     {
       "kind": "doi",
-      "token": "10.1038/s41586-022-05434-1",
-      "needs_bib_key": false,
-      "identifier": "10.1038/s41586-022-05434-1"
-    },
-    {
-      "kind": "doi",
       "token": "10.1103/PhysRevApplied.23.054025",
       "needs_bib_key": false,
       "identifier": "10.1103/PhysRevApplied.23.054025"
     },
     {
       "kind": "doi",
-      "token": "10.1038/s41567-023-02226-w",
+      "token": "10.13140/RG.2.2.30911.01443",
       "needs_bib_key": false,
-      "identifier": "10.1038/s41567-023-02226-w"
+      "identifier": "10.13140/RG.2.2.30911.01443"
     },
     {
       "kind": "doi",
-      "token": "10.22331/q-2021-12-20-605",
+      "token": "10.3390/e23121577",
       "needs_bib_key": false,
-      "identifier": "10.22331/q-2021-12-20-605"
+      "identifier": "10.3390/e23121577"
     },
     {
       "kind": "author_year",
@@ -337,7 +273,7 @@
       "identifier": null
     }
   ],
-  "result_claim_count": 16,
+  "result_claim_count": 8,
   "bib_keys": [],
   "numbered_refs": [
     "1",
@@ -371,31 +307,7 @@
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
-      "detail": "10.13140/RG.2.2.30911.01443 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1038/s41586-024-08449-y {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1038/s41567-023-02226-w {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
       "detail": "10.1126/science.aee7961 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
-    },
-    {
-      "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.3390/e23121577 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
@@ -408,6 +320,18 @@
       "severity": "limited",
       "code": "resolve_limited",
       "detail": "10.1038/s41586-022-05434-1 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1038/s41586-024-08449-y {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.1038/s41567-023-02226-w {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
     },
     {
       "check": "I3",
@@ -437,13 +361,25 @@
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
+      "detail": "10.13140/RG.2.2.30911.01443 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
+      "detail": "10.3390/e23121577 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
       "detail": "10.5281/zenodo.17872003 {'resolved': None, 'via': 'zenodo', 'http': 0, 'limited': True}"
     },
     {
       "check": "I1",
       "severity": "limited",
       "code": "unbound_result_claim",
-      "detail": "16 unbound (other=16)"
+      "detail": "8 unbound (other=8)"
     },
     {
       "check": "I4",

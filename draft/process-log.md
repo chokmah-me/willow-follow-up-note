@@ -153,3 +153,10 @@ the Zenodo mint.
 2026-10-18 (v4 scan): integrity scan run on v4, status limited.
 I3 could not reach Crossref or Zenodo from the session; re-run
 online from a networked machine before release.
+
+2026-10-18 (v5): inverted at the author's direction after an
+assessment that the 2024 self-scoring frame hid the note's useful
+parts. v5 leads with the attribution reading, the missing N = 9
+data, and the pre-registered 2 by 2; the 2024 inventory is one
+context section. "Likely," variability, and no-ablation rechecked
+in the abstract, TL;DR, and conclusion. Scan re-run: limited.
