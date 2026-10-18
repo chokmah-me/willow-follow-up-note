@@ -5,7 +5,15 @@ at every stage. Muse (Meta) agents (model version not recorded)
 located and read the primary sources, cross-checked numbers and
 attributions in the draft against them, and drafted the text at
 the author's instruction. Grok 4.6 applied the author's 2023
-rise-leg substitution to Section V wording. The draft then went
+rise-leg substitution to Section V wording, then a later
+critical-review pass (abstract citations, table captions,
+Section V hardware split, Limitations local-instrument line).
+The leakage
+simulator in the repository was written by OpenAI GPT-6 Astra
+through OpenRouter from the author's briefs, then reviewed and
+tested before use; a distance-3 calibration run of it is
+recorded in the repository and is not a result of this note.
+The draft then went
 through two internal adversarial passes (a spec-faithful claims
 trace and an independent adversarial review), and two external
 critical evaluations commissioned by the author through

@@ -65,3 +65,14 @@ simulator, which is not the paper's). The AI statement names
 the simulator's author and the calibration record. Section V
 no longer claims the cheaper checks need no hardware time;
 they need no new hardware. Date moved to October 18.
+
+2026-10-18 (later): critical-review MUST-FIX and SHOULD-FIX
+applied to v3. Abstract cites dropped. Byline conflict line
+restored. Formula 77 tied to [1] and to Pauli simulations in
+[4]. Tables numbered 1 (channels) and 2 (standing after
+cultivation). Section V splits the cheaper checks by who
+runs them and what they consume. Limitations names the local
+simulator and d=3 calibration as not a result. Conclusion
+cut the "good news" sentence. SEARCH-META dates filled;
+DOI unminted. LF line endings. "Likely," variability, and
+no-ablation rechecked in abstract, TL;DR, and conclusion.

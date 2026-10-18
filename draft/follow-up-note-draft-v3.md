@@ -4,6 +4,7 @@
 # Willow, Tested Again: Magic-State Cultivation Against the 2024 Error-Channel Inventory
 
 A follow-up to "Notes on Google Willow (2024)"
+The 2024 note scored here is the author's.
 Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me
 ORCID: [0000-0002-9040-6914](https://orcid.org/0000-0002-9040-6914)
 License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
@@ -13,17 +14,17 @@ No DOI reserved.
 ## Abstract
 
 In December 2024 I published a short note on Google's Willow
-surface-code paper [1]. The note's core was an inventory of six
+surface-code paper. The note's core was an inventory of six
 error channels that the simplified noise model treated thinly:
 gate, readout, leakage, crosstalk, correlated, and classical
 chaos. In October 2026 Google published magic-state cultivation
-on Willow [2], a state-preparation protocol that switches a
+on Willow, a state-preparation protocol that switches a
 distance-3 color code into a distance-5 surface code. This note
 scores that experiment against the six channels. Leakage is a
 likely hit (attributed, not ablated). The authors name population
 leakage as the likely main cause of a logical error rate about
 seven times the grafted-code simulation in preprint v1 of the
-supplement [2]. Leakage signatures are in that data, leakage is
+supplement. Leakage signatures are in that data, leakage is
 absent from the noise model and from the circuits, no ablation
 run exists, and variability in physical qubit performance stays
 open as a second cause. Standard tomography failed under
@@ -62,8 +63,11 @@ qubit, an error suppression factor Lambda of 2.14 plus or minus
 0.02, and real-time decoding at 63 microseconds. Google's error
 budget was about 80% incoherent errors, about 10% coherent
 errors, and about 10% leakage, yet the simplified noise model
-behind the headline simulations (Formula 77) assumed independent
-gate errors and did not explicitly model leakage or crosstalk.
+behind the headline simulations, labeled Formula 77 in the
+2024 note [1] and matching the Pauli simulations in [4] that
+use the measured component error rates (Fig. 1b), assumed
+independent gate errors and did not explicitly model leakage
+or crosstalk.
 A 14% discrepancy between simulated and experimental error
 suppression was attributed by Google to excess correlations.
 Repetition codes had already shown a floor near 1e-10 from
@@ -81,9 +85,12 @@ matter where the model was trusted.
 
 The six channels, the 2024 claim for each, and what would count:
 
+Table 1. Six 2024 channels: 2024 claim, and what in the
+cultivation data would count for or against it.
+
 | Channel | 2024 claim [1] | Counts for the claim | Counts against the claim |
 |---|---|---|---|
-| Leakage | About 10% of the error budget, omitted from Formula 77, handled by a dedicated removal step | A gap versus a model that omits leakage, leakage signatures in the data, no leakage removal units in the circuit | No gap, a gap fully explained by variability, or a removal run that leaves the gap |
+| Leakage | About 10% of the error budget, omitted from the 2024 note's Formula 77 (Pauli simulations in [4]), handled by a dedicated removal step | A gap versus a model that omits leakage, leakage signatures in the data, no leakage removal units in the circuit | No gap, a gap fully explained by variability, or a removal run that leaves the gap |
 | Crosstalk | Omitted from the simplified model | A measured crosstalk contribution to the result | Agreement with a model that still omits it |
 | Correlated | Excess correlations and a burst floor near 1e-10; not solved by Willow | An independent correlated-error measurement that the model misses | Hardware matching the omitting model on a test of that floor |
 | Gate | Inside the simplified model; the 2024 baseline | A new test of gate error beyond that baseline | This experiment using the same baseline, with no new test |
@@ -296,14 +303,16 @@ supremacy experiment.
 
 ## IV. Updated standing of the 2024 objections
 
-Table 1. Standing of the 2024 objections [1] after the
-cultivation experiment [2]. "Partially" means the 2024 note
-already treated the objection as open, with some evidence.
-"Indirectly" means the 2024 note treated it as relevant by
-analogy. "Unchanged" means this experiment did not test the
-objection. "Evidence added" is yes when the cultivation paper
-or its v1 supplement supplies a new measurement that bears on
-the row, including a point for the simplified model.
+Table 2. Standing after the cultivation experiment [2].
+The first three rows are 2024 objections [1]. The last row
+is a 2026 measurement, not a 2024 objection. "Partially"
+means the 2024 note already treated the objection as open,
+with some evidence. "Indirectly" means the 2024 note treated
+it as relevant by analogy. "Unchanged" means this experiment
+did not test the objection. "Evidence added" is yes when the
+cultivation paper or its v1 supplement supplies a new
+measurement that bears on the row, including a point for the
+simplified model.
 
 | Objection (source) | 2024 standing | After cultivation (2026) | Evidence added |
 |---|---|---|---|
@@ -325,15 +334,17 @@ cannot. What a note can do is state, in advance, what each
 outcome would mean, so the result cannot be read two ways after
 the fact.
 
-Two cheaper checks sit ahead of that experiment, and neither
-needs new hardware. Three-state readout on the grafted
-circuit measures the |2> population directly, cycle by cycle,
-instead of inferring it from detector signatures. And the same
-simulations, rerun with leakage injected at measured rates,
-should reproduce the size of the 2026 gap if the attribution is
-right, on an instrument first calibrated against the 2023
-paper's published leakage fingerprint [12]: a relative rise of
-12% at distance 5 and 8% at distance 3 over 25 cycles, typical
+Two cheaper checks sit ahead of that experiment.
+Three-state readout on the grafted circuit uses the existing
+Willow processor and needs the team's runtime. It measures
+the |2> population directly, cycle by cycle, instead of
+inferring it from detector signatures. The second check needs
+no device. The same simulations, rerun with leakage injected
+at measured rates, should reproduce the size of the 2026 gap
+if the attribution is right, on an instrument first calibrated
+against the 2023 paper's published leakage fingerprint [12]:
+a relative rise of 12% at distance 5 and 8% at distance 3 over
+25 cycles, typical
 risetime roughly 5 cycles, their Pauli+ simulation 7% at
 distance 5. The grafted-circuit rise that run produces is then a
 prediction, not a fit to Fig. S23 [2]. Detector covariance
@@ -391,7 +402,10 @@ reported, and on whether the rerun is reported at all.
 I am scoring my own 2024 inventory. The memory-experiment numbers,
 figure pins, and "likely" wording come from arXiv:2512.13908v1,
 not from a page-diffed Science supplement. I have no raw data and
-I did not rerun the paper's simulations. The score of leakage rests on
+I did not rerun the paper's simulations. A local leakage
+simulator and a distance-3 calibration run against the 2023
+fingerprint sit in the working repository; they are not a
+result of this note. The score of leakage rests on
 one grafted-code memory figure, one configuration, up to nine
 cycles. Section V is a design. It is not a result of this note.
 The rise leg of the simulation check is scored against the 2023
@@ -401,11 +415,10 @@ calibration, not as a fit to the 2026 Fig. S23 curve.
 ## VI. Conclusion
 
 The 2024 note [1] argued that the channels the simplified model
-omitted would decide how far the hardware scales. The cultivation
-paper [2] is good news for quantum computing. Read against that
-inventory, it supplies one likely hit on leakage, attributed and
-not ablated, with variability still open, in this grafted
-configuration, and leaves the other
+omitted would decide how far the hardware scales. Read against
+that inventory, the cultivation paper [2] supplies one likely
+hit on leakage, attributed and not ablated, with variability
+still open, in this grafted configuration, and leaves the other
 five channels mentioned, present but not independent, baseline,
 or untested. The factor-of-40 headline is state error against
 injection. The factor-of-seven gap is memory logical error
@@ -427,7 +440,10 @@ at every stage. Muse (Meta) agents (model version not recorded)
 located and read the primary sources, cross-checked numbers and
 attributions in the draft against them, and drafted the text at
 the author's instruction. Grok 4.6 applied the author's 2023
-rise-leg substitution to Section V wording. The leakage
+rise-leg substitution to Section V wording, then a later
+critical-review pass (abstract citations, table captions,
+Section V hardware split, Limitations local-instrument line).
+The leakage
 simulator in the repository was written by OpenAI GPT-6 Astra
 through OpenRouter from the author's briefs, then reviewed and
 tested before use; a distance-3 calibration run of it is

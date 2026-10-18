@@ -8,6 +8,22 @@ DOI.
 
 ### 2026-10-18
 
+- Applied the MUST-FIX and SHOULD-FIX items from the 2026-10-18
+  critical pass on v3. Abstract: dropped numbered citations.
+  Byline: the 2024 note scored here is the author's. Formula 77
+  labeled as the 2024 note's name and matched to Pauli
+  simulations in Google 2024 [4], Fig. 1b. Channel rubric
+  captioned Table 1; standing table is Table 2, with the
+  echo/kickback row labeled a 2026 measurement. Section V:
+  three-state readout uses the existing processor and the
+  team's runtime; the leakage-injected rerun needs no device.
+  Limitations: the local simulator and d=3 calibration sit in
+  the repository and are not a result of this note. Conclusion:
+  cut "good news for quantum computing." SEARCH-META dates set
+  to 2026-10-18; DOI left PLACEHOLDER. Draft converted to LF.
+  Zenodo mint (C4) left to the author. No score or number
+  changed. "Likely," variability, and no-ablation left in
+  place in the abstract, TL;DR, and conclusion.
 - Four consistency fixes to the v3 draft after the distance-3
   rise calibration was recorded. Limitations: "I did not rerun
   the simulations" now reads "the paper's simulations," since
