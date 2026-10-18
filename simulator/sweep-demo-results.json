@@ -1,0 +1,721 @@
+{
+  "arms": {
+    "baseline_hybrid": {
+      "by_rounds": {
+        "5": {
+          "keep_rate": 1.0,
+          "n_logical_errors": 11,
+          "p_logical": 0.0055,
+          "ratio_vs_baseline_hybrid": null,
+          "shots_kept": 2000
+        },
+        "9": {
+          "keep_rate": 1.0,
+          "n_logical_errors": 19,
+          "p_logical": 0.0095,
+          "ratio_vs_baseline_hybrid": null,
+          "shots_kept": 2000
+        }
+      },
+      "covariance_lag1_excess": null,
+      "detection_fraction_per_round": [
+        0.020375,
+        0.0305625,
+        0.0339375,
+        0.0314375,
+        0.0341875,
+        0.032125,
+        0.032125,
+        0.0325625,
+        0.0340625,
+        0.01975
+      ],
+      "keep_rate": 1.0,
+      "ler_per_cycle": 0.0010645772538358542,
+      "n_logical_errors": 19,
+      "p_logical": 0.0095,
+      "ratio_vs_baseline_hybrid": null,
+      "rise": {
+        "first": 0.02829166666666667,
+        "last": 0.02879166666666667,
+        "relative_rise": 0.017673048600883666
+      },
+      "score": null,
+      "shots_kept": 2000,
+      "steady_population": 0.0
+    },
+    "baseline_stim": {
+      "by_rounds": {
+        "5": {
+          "keep_rate": 1.0,
+          "n_logical_errors": 8,
+          "p_logical": 0.004,
+          "ratio_vs_baseline_hybrid": null,
+          "shots_kept": 2000
+        },
+        "9": {
+          "keep_rate": 1.0,
+          "n_logical_errors": 12,
+          "p_logical": 0.006,
+          "ratio_vs_baseline_hybrid": null,
+          "shots_kept": 2000
+        }
+      },
+      "covariance_lag1_excess": -4.43556739307138e-05,
+      "detection_fraction_per_round": [
+        0.023125,
+        0.031625,
+        0.0335,
+        0.03175,
+        0.029375,
+        0.0325,
+        0.034125,
+        0.03325,
+        0.030875,
+        0.02025
+      ],
+      "keep_rate": 1.0,
+      "ler_per_cycle": 0.0006702493214372774,
+      "n_logical_errors": 12,
+      "p_logical": 0.006,
+      "ratio_vs_baseline_hybrid": null,
+      "rise": {
+        "first": 0.029416666666666664,
+        "last": 0.028125,
+        "relative_rise": -0.04390934844192623
+      },
+      "score": null,
+      "shots_kept": 2000,
+      "steady_population": null
+    },
+    "leakage": [
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 4,
+            "p_logical": 0.002,
+            "ratio_vs_baseline_hybrid": [
+              0.36363636363636365,
+              0.11598264823971316,
+              1.1400964451629145
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 11,
+            "p_logical": 0.0055,
+            "ratio_vs_baseline_hybrid": [
+              0.5789473684210527,
+              0.2762267877755695,
+              1.2134234268183695
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": -0.00012355689563531757,
+        "detection_fraction_per_round": [
+          0.024875,
+          0.031625,
+          0.02975,
+          0.0294375,
+          0.0299375,
+          0.0306875,
+          0.0303125,
+          0.031625,
+          0.033625,
+          0.02075
+        ],
+        "generation": 0.0,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.0006141196235123871,
+        "lifetime": 4.4,
+        "n_logical_errors": 11,
+        "p_logical": 0.0055,
+        "ratio_vs_baseline_hybrid": [
+          0.5789473684210527,
+          0.2762267877755695,
+          1.2134234268183695
+        ],
+        "rise": {
+          "first": 0.028749999999999998,
+          "last": 0.02866666666666667,
+          "relative_rise": -0.002898550724637483
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.0
+      },
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 22,
+            "p_logical": 0.011,
+            "ratio_vs_baseline_hybrid": [
+              2.0,
+              0.9724155449159593,
+              4.113467766854446
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 26,
+            "p_logical": 0.013,
+            "ratio_vs_baseline_hybrid": [
+              1.368421052631579,
+              0.7598406444508796,
+              2.4644327609489602
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": 0.0007849515578101573,
+        "detection_fraction_per_round": [
+          0.0355,
+          0.038125,
+          0.03925,
+          0.0409375,
+          0.0405,
+          0.0438125,
+          0.0404375,
+          0.04,
+          0.0440625,
+          0.026375
+        ],
+        "generation": 0.0013,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.0014614142830974223,
+        "lifetime": 4.4,
+        "n_logical_errors": 26,
+        "p_logical": 0.013,
+        "ratio_vs_baseline_hybrid": [
+          1.368421052631579,
+          0.7598406444508796,
+          2.4644327609489602
+        ],
+        "rise": {
+          "first": 0.037625,
+          "last": 0.0368125,
+          "relative_rise": -0.02159468438538208
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.0021470588235294077
+      },
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 22,
+            "p_logical": 0.011,
+            "ratio_vs_baseline_hybrid": [
+              2.0,
+              0.9724155449159593,
+              4.113467766854446
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 39,
+            "p_logical": 0.0195,
+            "ratio_vs_baseline_hybrid": [
+              2.0526315789473686,
+              1.1903922079323883,
+              3.539418664550997
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": 0.0019578597892696355,
+        "detection_fraction_per_round": [
+          0.03475,
+          0.0493125,
+          0.054375,
+          0.056,
+          0.05325,
+          0.054,
+          0.0591875,
+          0.0578125,
+          0.0524375,
+          0.031875
+        ],
+        "generation": 0.003,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.002205171208787118,
+        "lifetime": 4.4,
+        "n_logical_errors": 39,
+        "p_logical": 0.0195,
+        "ratio_vs_baseline_hybrid": [
+          2.0526315789473686,
+          1.1903922079323883,
+          3.539418664550997
+        ],
+        "rise": {
+          "first": 0.04614583333333334,
+          "last": 0.047375,
+          "relative_rise": 0.026636568848758386
+        },
+        "score": {
+          "joint": true,
+          "per_observable": {
+            "ratio": true,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.005282352941176456
+      }
+    ],
+    "leakage_readout": [
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 12,
+            "p_logical": 0.006,
+            "ratio_vs_baseline_hybrid": [
+              1.090909090909091,
+              0.482493573581545,
+              2.4665253793830413
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 17,
+            "p_logical": 0.0085,
+            "ratio_vs_baseline_hybrid": [
+              0.8947368421052633,
+              0.46643926260950863,
+              1.7163092406539173
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": -1.480183451100332e-05,
+        "detection_fraction_per_round": [
+          0.023875,
+          0.032125,
+          0.0313125,
+          0.02975,
+          0.02975,
+          0.0303125,
+          0.032375,
+          0.0345,
+          0.033,
+          0.019125
+        ],
+        "generation": 0.0,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.0009516575767732744,
+        "lifetime": 4.4,
+        "multiplier": 3.0,
+        "n_logical_errors": 17,
+        "p_logical": 0.0085,
+        "ratio_vs_baseline_hybrid": [
+          0.8947368421052633,
+          0.46643926260950863,
+          1.7163092406539173
+        ],
+        "rise": {
+          "first": 0.029104166666666667,
+          "last": 0.028875,
+          "relative_rise": -0.007874015748031463
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.0
+      },
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 24,
+            "p_logical": 0.012,
+            "ratio_vs_baseline_hybrid": [
+              2.181818181818182,
+              1.0716510003551731,
+              4.442053034929002
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 29,
+            "p_logical": 0.0145,
+            "ratio_vs_baseline_hybrid": [
+              1.5263157894736843,
+              0.8587220857199035,
+              2.71291483931456
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": 0.0008787631120247621,
+        "detection_fraction_per_round": [
+          0.03025,
+          0.0391875,
+          0.040875,
+          0.04075,
+          0.041875,
+          0.0385,
+          0.04475,
+          0.0448125,
+          0.043,
+          0.025875
+        ],
+        "generation": 0.0013,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.001632263829402719,
+        "lifetime": 4.4,
+        "multiplier": 3.0,
+        "n_logical_errors": 29,
+        "p_logical": 0.0145,
+        "ratio_vs_baseline_hybrid": [
+          1.5263157894736843,
+          0.8587220857199035,
+          2.71291483931456
+        ],
+        "rise": {
+          "first": 0.036770833333333336,
+          "last": 0.03789583333333333,
+          "relative_rise": 0.030594900849858192
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.002570588235294112
+      },
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 24,
+            "p_logical": 0.012,
+            "ratio_vs_baseline_hybrid": [
+              2.181818181818182,
+              1.0716510003551731,
+              4.442053034929002
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 50,
+            "p_logical": 0.025,
+            "ratio_vs_baseline_hybrid": [
+              2.6315789473684212,
+              1.557384991754934,
+              4.446689670759598
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": 0.001949450311093049,
+        "detection_fraction_per_round": [
+          0.03075,
+          0.0523125,
+          0.0495,
+          0.051625,
+          0.0586875,
+          0.055125,
+          0.0525625,
+          0.0541875,
+          0.054375,
+          0.03825
+        ],
+        "generation": 0.003,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.002841522494024024,
+        "lifetime": 4.4,
+        "multiplier": 3.0,
+        "n_logical_errors": 50,
+        "p_logical": 0.025,
+        "ratio_vs_baseline_hybrid": [
+          2.6315789473684212,
+          1.557384991754934,
+          4.446689670759598
+        ],
+        "rise": {
+          "first": 0.0441875,
+          "last": 0.0489375,
+          "relative_rise": 0.1074964639321076
+        },
+        "score": {
+          "joint": true,
+          "per_observable": {
+            "ratio": true,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.005147058823529397
+      }
+    ],
+    "leakage_removal": [
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 11,
+            "p_logical": 0.0055,
+            "ratio_vs_baseline_hybrid": [
+              1.0,
+              0.43454953529033036,
+              2.301233619619181
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 17,
+            "p_logical": 0.0085,
+            "ratio_vs_baseline_hybrid": [
+              0.8947368421052633,
+              0.46643926260950863,
+              1.7163092406539173
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": -4.334100644071961e-05,
+        "detection_fraction_per_round": [
+          0.022125,
+          0.0289375,
+          0.031375,
+          0.0336875,
+          0.031,
+          0.0300625,
+          0.0323125,
+          0.0309375,
+          0.0298125,
+          0.019875
+        ],
+        "generation": 0.0,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.0009516575767732744,
+        "lifetime": 4.4,
+        "n_logical_errors": 17,
+        "p_logical": 0.0085,
+        "ratio_vs_baseline_hybrid": [
+          0.8947368421052633,
+          0.46643926260950863,
+          1.7163092406539173
+        ],
+        "rise": {
+          "first": 0.027479166666666666,
+          "last": 0.026875,
+          "relative_rise": -0.02198635329795297
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.0
+      },
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 14,
+            "p_logical": 0.007,
+            "ratio_vs_baseline_hybrid": [
+              1.272727272727273,
+              0.5791994458996824,
+              2.7966786263541388
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 19,
+            "p_logical": 0.0095,
+            "ratio_vs_baseline_hybrid": [
+              1.0,
+              0.5310600371308469,
+              1.8830262683720105
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": 0.00024768536612056083,
+        "detection_fraction_per_round": [
+          0.027875,
+          0.038,
+          0.0345625,
+          0.0336875,
+          0.03575,
+          0.0368125,
+          0.0371875,
+          0.0358125,
+          0.036375,
+          0.017125
+        ],
+        "generation": 0.0013,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.0010645772538358542,
+        "lifetime": 4.4,
+        "n_logical_errors": 19,
+        "p_logical": 0.0095,
+        "ratio_vs_baseline_hybrid": [
+          1.0,
+          0.5310600371308469,
+          1.8830262683720105
+        ],
+        "rise": {
+          "first": 0.03347916666666667,
+          "last": 0.02977083333333333,
+          "relative_rise": -0.11076540136901081
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.0
+      },
+      {
+        "by_rounds": {
+          "5": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 15,
+            "p_logical": 0.0075,
+            "ratio_vs_baseline_hybrid": [
+              1.3636363636363638,
+              0.6278774314079131,
+              2.961571859752578
+            ],
+            "shots_kept": 2000
+          },
+          "9": {
+            "keep_rate": 1.0,
+            "n_logical_errors": 21,
+            "p_logical": 0.0105,
+            "ratio_vs_baseline_hybrid": [
+              1.105263157894737,
+              0.5960705398951504,
+              2.0494330224981905
+            ],
+            "shots_kept": 2000
+          }
+        },
+        "covariance_lag1_excess": 0.00037567123405452874,
+        "detection_fraction_per_round": [
+          0.02825,
+          0.042,
+          0.040125,
+          0.0394375,
+          0.0369375,
+          0.036875,
+          0.036875,
+          0.03725,
+          0.038,
+          0.025
+        ],
+        "generation": 0.003,
+        "keep_rate": 1.0,
+        "ler_per_cycle": 0.0011777017507768586,
+        "lifetime": 4.4,
+        "n_logical_errors": 21,
+        "p_logical": 0.0105,
+        "ratio_vs_baseline_hybrid": [
+          1.105263157894737,
+          0.5960705398951504,
+          2.0494330224981905
+        ],
+        "rise": {
+          "first": 0.03679166666666667,
+          "last": 0.03341666666666667,
+          "relative_rise": -0.09173272933182322
+        },
+        "score": {
+          "joint": false,
+          "per_observable": {
+            "ratio": false,
+            "steady_population": true
+          }
+        },
+        "shots_kept": 2000,
+        "steady_population": 0.0
+      }
+    ]
+  },
+  "baseline_cross_check": {
+    "detection_curve_chi2": 3.1946850349259206,
+    "dof": 10,
+    "ler_ratio_stim_over_hybrid": 0.6295919990984725
+  },
+  "config": {
+    "distance": 3,
+    "generation_grid": [
+      0.0,
+      0.0013,
+      0.003
+    ],
+    "lifetime_grid": [
+      4.4
+    ],
+    "p": 0.0023,
+    "population_ceiling": 0.01,
+    "postselect_first_round": false,
+    "ratio_tolerance": 5.0,
+    "readout_multipliers": [
+      3.0
+    ],
+    "removal_boost": 5.0,
+    "rounds_list": [
+      5,
+      9
+    ],
+    "seed": 4242,
+    "shots": 2000,
+    "target_ratio": 6.6
+  },
+  "notes": [
+    "Generation mapping: heating_rate = -ln(1-g)/t_cycle and cz_leak_prob = 8e-4*(g/g_default), with g_default = 1-exp(-Gamma0*t_cycle), Gamma0 = 1/(700 us). At g_default these are the literature-default channels; at g=0 both creation channels are off. The 2023 SI channel ratio is preserved.",
+    "Using LeakageParams defaults: t_cycle=8.96e-07 seconds; g_default=0.001279181149413514. Transport and seepage retain engine defaults.",
+    "The readout path is readout_leak_prob = multiplier*g per measurement.",
+    "Rise and covariance are reported, not gated, because the supplement states no uncertainties for S23/S24 and no detector-level target data is public (SME major 6).",
+    "Arm 4 is a prediction, not a fit. removal_boost (default 5.0) is the v0 Miao-efficacy stand-in, not a fitted efficacy.",
+    "Results from this code at reduced scale are machinery demonstrations, not a verdict on the paper's attribution.",
+    "ratio_tolerance=5.0 is caller-supplied. Joint scoring uses target_ratio=6.6 and population_ceiling=0.01; the default ratio target 6.6 is the rounded LITERATURE comparison 5.3/0.8.",
+    "Baseline ratios against themselves are null. Leakage ratio_ci results use error counts and retained shots at each N. The baseline cross-check LER ratio uses per-cycle rates at the largest N.",
+    "The cross-check chi-square uses the smaller retained shot count because detection_curve_chi2 accepts one common count; with unequal postselected counts this is a conservative common-count approximation.",
+    "Logical failure means any observable prediction differs from its sampled flip. Covariance uses retained detector events. The population tail starts at floor(curve_length/2).",
+    "Undefined or nonfinite numerical results are JSON null; scoring is null when its ratio or population is unavailable. Rise is null if rise_summary raises. No pseudocounts are added by this driver."
+  ]
+}

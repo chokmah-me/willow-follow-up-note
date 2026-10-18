@@ -1,0 +1,5 @@
+{"distance": 3, "rounds_list": [5, 9], "p": 0.0023, "shots": 2000,
+ "seed": 4242, "generation_grid": [0.0, 0.0013, 0.003], "lifetime_grid": [4.4],
+ "readout_multipliers": [3.0], "removal_boost": 5.0,
+ "postselect_first_round": false, "target_ratio": 6.6, "ratio_tolerance": 5.0,
+ "population_ceiling": 0.01}

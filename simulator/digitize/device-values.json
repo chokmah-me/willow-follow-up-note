@@ -1,0 +1,1321 @@
+{
+ "source": {
+  "paper": "Rosenfeld et al., Magic state cultivation on a superconducting quantum processor, Science 2026; supplement of arXiv:2512.13908v1, Section V (Figs. S5, S7, S9; EDCF Figs. S6, S8)",
+  "pdf_sha256": "642ec2da74acd1b4df2a37985378dbbff69702b8c1314b7ad4e34ea1fcd5c43b",
+  "scope": "qubits and couplers active in the Fig. 4 grafting experiment, at the Fig. 4 control parameters (S9 caption; S5/S7 captions say Fig. 4 likewise, Section V text says the S9 parameters are taken from the Fig. 2 experiment)",
+  "method": "printed text values recovered from the PDF vector layer by cell geometry (digitize/extract_figs.py); no color estimation"
+ },
+ "qubits": {
+  "r3c7": {
+   "freq_ghz": 6.22,
+   "f10_f21_mhz": 201.0,
+   "max_freq_ghz": 6.72,
+   "t1_us": 96.0,
+   "t2_us": 65.0,
+   "gate_err_1q_x1e-4": 5.6,
+   "resonator_freq_ghz": 4.46,
+   "ringdown_ns": 18.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 27.0,
+   "freq_during_readout_ghz": 5.89,
+   "readout_pulse_ns": 355.0,
+   "readout_power_dbm": -126.0,
+   "max_photon_number": 7.6,
+   "readout_err_pct": 1.8
+  },
+  "r3c8": {
+   "freq_ghz": 6.51,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.71,
+   "t1_us": 109.0,
+   "t2_us": 72.0,
+   "gate_err_1q_x1e-4": 3.9,
+   "resonator_freq_ghz": 4.43,
+   "ringdown_ns": 22.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 30.0,
+   "freq_during_readout_ghz": 5.73,
+   "readout_pulse_ns": 375.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 3.5,
+   "readout_err_pct": 0.6
+  },
+  "r4c5": {
+   "freq_ghz": 6.57,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.69,
+   "t1_us": 96.0,
+   "t2_us": 84.0,
+   "gate_err_1q_x1e-4": 4.7,
+   "resonator_freq_ghz": 4.53,
+   "ringdown_ns": 22.0,
+   "coupling_eff_pct": 4.1,
+   "measurement_eff_pct": 20.0,
+   "freq_during_readout_ghz": 6.39,
+   "readout_pulse_ns": 315.0,
+   "readout_power_dbm": -122.0,
+   "max_photon_number": 24.0,
+   "readout_err_pct": 1.5
+  },
+  "r4c6": {
+   "freq_ghz": 6.72,
+   "f10_f21_mhz": 192.0,
+   "max_freq_ghz": 6.76,
+   "t1_us": 40.0,
+   "t2_us": 63.0,
+   "gate_err_1q_x1e-4": 6.9,
+   "resonator_freq_ghz": 4.5,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 21.0,
+   "freq_during_readout_ghz": 5.78,
+   "readout_pulse_ns": 385.0,
+   "readout_power_dbm": -127.0,
+   "max_photon_number": 6.0,
+   "readout_err_pct": 1.4
+  },
+  "r4c7": {
+   "freq_ghz": 6.46,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.67,
+   "t1_us": 112.0,
+   "t2_us": 77.0,
+   "gate_err_1q_x1e-4": 9.6,
+   "resonator_freq_ghz": 4.47,
+   "ringdown_ns": 16.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 6.02,
+   "readout_pulse_ns": 200.0,
+   "readout_power_dbm": -121.0,
+   "max_photon_number": 21.0,
+   "readout_err_pct": 0.6
+  },
+  "r4c8": {
+   "freq_ghz": 6.35,
+   "f10_f21_mhz": 198.0,
+   "max_freq_ghz": 6.69,
+   "t1_us": 82.0,
+   "t2_us": 75.0,
+   "gate_err_1q_x1e-4": 15.0,
+   "resonator_freq_ghz": 4.49,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.79,
+   "readout_pulse_ns": 415.0,
+   "readout_power_dbm": -128.0,
+   "max_photon_number": 4.3,
+   "readout_err_pct": 1.1
+  },
+  "r5c2": {
+   "freq_ghz": 6.51,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.73,
+   "t1_us": 105.0,
+   "t2_us": 91.0,
+   "gate_err_1q_x1e-4": 2.5,
+   "resonator_freq_ghz": 4.62,
+   "ringdown_ns": 13.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 30.0,
+   "freq_during_readout_ghz": 6.26,
+   "readout_pulse_ns": 415.0,
+   "readout_power_dbm": -125.0,
+   "max_photon_number": 8.5,
+   "readout_err_pct": 0.5
+  },
+  "r5c3": {
+   "freq_ghz": 6.44,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.6,
+   "t1_us": 62.0,
+   "t2_us": 45.0,
+   "gate_err_1q_x1e-4": 49.0,
+   "resonator_freq_ghz": 4.59,
+   "ringdown_ns": 12.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 30.0,
+   "freq_during_readout_ghz": 5.63,
+   "readout_pulse_ns": 455.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 1.8,
+   "readout_err_pct": 0.7
+  },
+  "r5c4": {
+   "freq_ghz": 6.49,
+   "f10_f21_mhz": 193.0,
+   "max_freq_ghz": 6.71,
+   "t1_us": 105.0,
+   "t2_us": 64.0,
+   "gate_err_1q_x1e-4": 3.2,
+   "resonator_freq_ghz": 4.57,
+   "ringdown_ns": 15.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 5.98,
+   "readout_pulse_ns": 140.0,
+   "readout_power_dbm": -122.0,
+   "max_photon_number": 17.0,
+   "readout_err_pct": 0.5
+  },
+  "r5c5": {
+   "freq_ghz": 6.26,
+   "f10_f21_mhz": 200.0,
+   "max_freq_ghz": 6.83,
+   "t1_us": 81.0,
+   "t2_us": 29.0,
+   "gate_err_1q_x1e-4": 6.4,
+   "resonator_freq_ghz": 4.54,
+   "ringdown_ns": 24.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 17.0,
+   "freq_during_readout_ghz": 5.82,
+   "readout_pulse_ns": 345.0,
+   "readout_power_dbm": -129.0,
+   "max_photon_number": 4.1,
+   "readout_err_pct": 0.8
+  },
+  "r5c6": {
+   "freq_ghz": 6.5,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.68,
+   "t1_us": 98.0,
+   "t2_us": 104.0,
+   "gate_err_1q_x1e-4": 6.3,
+   "resonator_freq_ghz": 4.51,
+   "ringdown_ns": 18.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 27.0,
+   "freq_during_readout_ghz": 5.66,
+   "readout_pulse_ns": 405.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.5,
+   "readout_err_pct": 0.7
+  },
+  "r5c7": {
+   "freq_ghz": 6.43,
+   "f10_f21_mhz": 199.0,
+   "max_freq_ghz": 6.78,
+   "t1_us": 70.0,
+   "t2_us": 35.0,
+   "gate_err_1q_x1e-4": 11.0,
+   "resonator_freq_ghz": 4.53,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 27.0,
+   "freq_during_readout_ghz": 5.7,
+   "readout_pulse_ns": 430.0,
+   "readout_power_dbm": -129.0,
+   "max_photon_number": 3.0,
+   "readout_err_pct": 0.6
+  },
+  "r5c8": {
+   "freq_ghz": 6.3,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.66,
+   "t1_us": 92.0,
+   "t2_us": 38.0,
+   "gate_err_1q_x1e-4": 18.0,
+   "resonator_freq_ghz": 4.5,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 5.76,
+   "readout_pulse_ns": 150.0,
+   "readout_power_dbm": -124.0,
+   "max_photon_number": 12.0,
+   "readout_err_pct": 0.9
+  },
+  "r5c9": {
+   "freq_ghz": 6.69,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.88,
+   "t1_us": 98.0,
+   "t2_us": 70.0,
+   "gate_err_1q_x1e-4": 3.8,
+   "resonator_freq_ghz": 4.43,
+   "ringdown_ns": 22.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.89,
+   "readout_pulse_ns": 335.0,
+   "readout_power_dbm": -127.0,
+   "max_photon_number": 8.2,
+   "readout_err_pct": 0.8
+  },
+  "r5c10": {
+   "freq_ghz": 6.38,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.72,
+   "t1_us": 71.0,
+   "t2_us": 63.0,
+   "gate_err_1q_x1e-4": 9.5,
+   "resonator_freq_ghz": 4.44,
+   "ringdown_ns": 24.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.96,
+   "readout_pulse_ns": 365.0,
+   "readout_power_dbm": -125.0,
+   "max_photon_number": 11.0,
+   "readout_err_pct": 0.6
+  },
+  "r6c2": {
+   "freq_ghz": 6.54,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.63,
+   "t1_us": 85.0,
+   "t2_us": 95.0,
+   "gate_err_1q_x1e-4": 10.0,
+   "resonator_freq_ghz": 4.63,
+   "ringdown_ns": 9.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 21.0,
+   "freq_during_readout_ghz": 5.61,
+   "readout_pulse_ns": 465.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 1.9,
+   "readout_err_pct": 0.6
+  },
+  "r6c3": {
+   "freq_ghz": 6.56,
+   "f10_f21_mhz": 197.0,
+   "max_freq_ghz": 6.66,
+   "t1_us": 95.0,
+   "t2_us": 110.0,
+   "gate_err_1q_x1e-4": 8.3,
+   "resonator_freq_ghz": 4.61,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 20.0,
+   "freq_during_readout_ghz": 6.12,
+   "readout_pulse_ns": 405.0,
+   "readout_power_dbm": -128.0,
+   "max_photon_number": 4.5,
+   "readout_err_pct": 1.7
+  },
+  "r6c4": {
+   "freq_ghz": 6.54,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.66,
+   "t1_us": 54.0,
+   "t2_us": 77.0,
+   "gate_err_1q_x1e-4": 4.1,
+   "resonator_freq_ghz": 4.58,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 21.0,
+   "freq_during_readout_ghz": 5.72,
+   "readout_pulse_ns": 355.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.8,
+   "readout_err_pct": 1.3
+  },
+  "r6c5": {
+   "freq_ghz": 6.11,
+   "f10_f21_mhz": 192.0,
+   "max_freq_ghz": 6.76,
+   "t1_us": 71.0,
+   "t2_us": 27.0,
+   "gate_err_1q_x1e-4": 17.0,
+   "resonator_freq_ghz": 4.55,
+   "ringdown_ns": 18.0,
+   "coupling_eff_pct": 4.5,
+   "measurement_eff_pct": 25.0,
+   "freq_during_readout_ghz": 6.36,
+   "readout_pulse_ns": 310.0,
+   "readout_power_dbm": -125.0,
+   "max_photon_number": 13.0,
+   "readout_err_pct": 0.9
+  },
+  "r6c6": {
+   "freq_ghz": 6.74,
+   "f10_f21_mhz": 189.0,
+   "max_freq_ghz": 6.79,
+   "t1_us": 96.0,
+   "t2_us": 101.0,
+   "gate_err_1q_x1e-4": 3.4,
+   "resonator_freq_ghz": 4.57,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 5.73,
+   "readout_pulse_ns": 400.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 2.4,
+   "readout_err_pct": 0.8
+  },
+  "r6c7": {
+   "freq_ghz": 6.62,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.7,
+   "t1_us": 96.0,
+   "t2_us": 113.0,
+   "gate_err_1q_x1e-4": 3.0,
+   "resonator_freq_ghz": 4.54,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 34.0,
+   "freq_during_readout_ghz": 6.2,
+   "readout_pulse_ns": 365.0,
+   "readout_power_dbm": -126.0,
+   "max_photon_number": 9.0,
+   "readout_err_pct": 0.7
+  },
+  "r6c8": {
+   "freq_ghz": 6.19,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.67,
+   "t1_us": 66.0,
+   "t2_us": 41.0,
+   "gate_err_1q_x1e-4": 6.0,
+   "resonator_freq_ghz": 4.47,
+   "ringdown_ns": 18.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 5.86,
+   "readout_pulse_ns": 405.0,
+   "readout_power_dbm": -128.0,
+   "max_photon_number": 4.7,
+   "readout_err_pct": 0.8
+  },
+  "r6c9": {
+   "freq_ghz": 6.65,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.71,
+   "t1_us": 89.0,
+   "t2_us": 112.0,
+   "gate_err_1q_x1e-4": 15.0,
+   "resonator_freq_ghz": 4.48,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 27.0,
+   "freq_during_readout_ghz": 6.34,
+   "readout_pulse_ns": 365.0,
+   "readout_power_dbm": -122.0,
+   "max_photon_number": 19.0,
+   "readout_err_pct": 0.5
+  },
+  "r6c10": {
+   "freq_ghz": 6.36,
+   "f10_f21_mhz": 197.0,
+   "max_freq_ghz": 6.88,
+   "t1_us": 94.0,
+   "t2_us": 65.0,
+   "gate_err_1q_x1e-4": 9.2,
+   "resonator_freq_ghz": 4.5,
+   "ringdown_ns": 16.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.72,
+   "readout_pulse_ns": 390.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 3.2,
+   "readout_err_pct": 1.8
+  },
+  "r7c2": {
+   "freq_ghz": 6.27,
+   "f10_f21_mhz": 198.0,
+   "max_freq_ghz": 6.64,
+   "t1_us": 97.0,
+   "t2_us": 86.0,
+   "gate_err_1q_x1e-4": 2.7,
+   "resonator_freq_ghz": 4.65,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 19.0,
+   "freq_during_readout_ghz": 6.18,
+   "readout_pulse_ns": 385.0,
+   "readout_power_dbm": -126.0,
+   "max_photon_number": 7.7,
+   "readout_err_pct": 1.0
+  },
+  "r7c3": {
+   "freq_ghz": 6.44,
+   "f10_f21_mhz": 198.0,
+   "max_freq_ghz": 6.68,
+   "t1_us": 88.0,
+   "t2_us": 58.0,
+   "gate_err_1q_x1e-4": 3.0,
+   "resonator_freq_ghz": 4.62,
+   "ringdown_ns": 11.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 19.0,
+   "freq_during_readout_ghz": 5.77,
+   "readout_pulse_ns": 405.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.7,
+   "readout_err_pct": 0.8
+  },
+  "r7c4": {
+   "freq_ghz": 6.67,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.71,
+   "t1_us": 97.0,
+   "t2_us": 94.0,
+   "gate_err_1q_x1e-4": 2.7,
+   "resonator_freq_ghz": 4.59,
+   "ringdown_ns": 11.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 27.0,
+   "freq_during_readout_ghz": 6.31,
+   "readout_pulse_ns": 380.0,
+   "readout_power_dbm": -124.0,
+   "max_photon_number": 11.0,
+   "readout_err_pct": 0.9
+  },
+  "r7c5": {
+   "freq_ghz": 6.41,
+   "f10_f21_mhz": 199.0,
+   "max_freq_ghz": 6.73,
+   "t1_us": 88.0,
+   "t2_us": 62.0,
+   "gate_err_1q_x1e-4": 2.8,
+   "resonator_freq_ghz": 4.6,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 25.0,
+   "freq_during_readout_ghz": 5.82,
+   "readout_pulse_ns": 430.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.5,
+   "readout_err_pct": 0.9
+  },
+  "r7c6": {
+   "freq_ghz": 6.7,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.77,
+   "t1_us": 81.0,
+   "t2_us": 84.0,
+   "gate_err_1q_x1e-4": 3.4,
+   "resonator_freq_ghz": 4.58,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 25.0,
+   "freq_during_readout_ghz": 6.06,
+   "readout_pulse_ns": 385.0,
+   "readout_power_dbm": -127.0,
+   "max_photon_number": 6.7,
+   "readout_err_pct": 0.7
+  },
+  "r7c7": {
+   "freq_ghz": 6.22,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.65,
+   "t1_us": 32.0,
+   "t2_us": 39.0,
+   "gate_err_1q_x1e-4": 13.0,
+   "resonator_freq_ghz": 4.51,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 29.0,
+   "freq_during_readout_ghz": 5.62,
+   "readout_pulse_ns": 435.0,
+   "readout_power_dbm": -132.0,
+   "max_photon_number": 1.7,
+   "readout_err_pct": 1.0
+  },
+  "r7c8": {
+   "freq_ghz": 6.17,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.84,
+   "t1_us": 62.0,
+   "t2_us": 19.0,
+   "gate_err_1q_x1e-4": 8.1,
+   "resonator_freq_ghz": 4.52,
+   "ringdown_ns": 12.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 6.27,
+   "readout_pulse_ns": 390.0,
+   "readout_power_dbm": -124.0,
+   "max_photon_number": 13.0,
+   "readout_err_pct": 0.9
+  },
+  "r7c9": {
+   "freq_ghz": 6.27,
+   "f10_f21_mhz": 191.0,
+   "max_freq_ghz": 6.89,
+   "t1_us": 88.0,
+   "t2_us": 28.0,
+   "gate_err_1q_x1e-4": 31.0,
+   "resonator_freq_ghz": 4.54,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 25.0,
+   "freq_during_readout_ghz": 5.89,
+   "readout_pulse_ns": 390.0,
+   "readout_power_dbm": -129.0,
+   "max_photon_number": 3.8,
+   "readout_err_pct": 0.9
+  },
+  "r7c10": {
+   "freq_ghz": 6.55,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.85,
+   "t1_us": 86.0,
+   "t2_us": 75.0,
+   "gate_err_1q_x1e-4": 4.4,
+   "resonator_freq_ghz": 4.47,
+   "ringdown_ns": 23.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.78,
+   "readout_pulse_ns": 360.0,
+   "readout_power_dbm": -129.0,
+   "max_photon_number": 3.8,
+   "readout_err_pct": 0.9
+  },
+  "r7c11": {
+   "freq_ghz": 6.29,
+   "f10_f21_mhz": 197.0,
+   "max_freq_ghz": 6.8,
+   "t1_us": 89.0,
+   "t2_us": 65.0,
+   "gate_err_1q_x1e-4": 4.3,
+   "resonator_freq_ghz": 4.44,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 22.0,
+   "freq_during_readout_ghz": 5.85,
+   "readout_pulse_ns": 405.0,
+   "readout_power_dbm": -125.0,
+   "max_photon_number": 8.4,
+   "readout_err_pct": 0.7
+  },
+  "r8c4": {
+   "freq_ghz": 6.05,
+   "f10_f21_mhz": 200.0,
+   "max_freq_ghz": 6.71,
+   "t1_us": 53.0,
+   "t2_us": 35.0,
+   "gate_err_1q_x1e-4": 16.0,
+   "resonator_freq_ghz": 4.65,
+   "ringdown_ns": 18.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 27.0,
+   "freq_during_readout_ghz": 5.87,
+   "readout_pulse_ns": 425.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.7,
+   "readout_err_pct": 0.8
+  },
+  "r8c5": {
+   "freq_ghz": 6.62,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.75,
+   "t1_us": 95.0,
+   "t2_us": 70.0,
+   "gate_err_1q_x1e-4": 11.0,
+   "resonator_freq_ghz": 4.62,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 6.16,
+   "readout_pulse_ns": 385.0,
+   "readout_power_dbm": -126.0,
+   "max_photon_number": 7.4,
+   "readout_err_pct": 0.6
+  },
+  "r8c6": {
+   "freq_ghz": 6.52,
+   "f10_f21_mhz": 202.0,
+   "max_freq_ghz": 6.7,
+   "t1_us": 104.0,
+   "t2_us": 83.0,
+   "gate_err_1q_x1e-4": 3.8,
+   "resonator_freq_ghz": 4.55,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.71,
+   "readout_pulse_ns": 375.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 2.2,
+   "readout_err_pct": 1.4
+  },
+  "r8c7": {
+   "freq_ghz": 6.09,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.81,
+   "t1_us": 102.0,
+   "t2_us": 53.0,
+   "gate_err_1q_x1e-4": 4.1,
+   "resonator_freq_ghz": 4.57,
+   "ringdown_ns": 20.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 25.0,
+   "freq_during_readout_ghz": 5.93,
+   "readout_pulse_ns": 360.0,
+   "readout_power_dbm": -128.0,
+   "max_photon_number": 5.0,
+   "readout_err_pct": 0.8
+  },
+  "r8c8": {
+   "freq_ghz": 6.32,
+   "f10_f21_mhz": 201.0,
+   "max_freq_ghz": 6.73,
+   "t1_us": 93.0,
+   "t2_us": 19.0,
+   "gate_err_1q_x1e-4": 8.9,
+   "resonator_freq_ghz": 4.58,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.72,
+   "readout_pulse_ns": 370.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.5,
+   "readout_err_pct": 2.2
+  },
+  "r8c9": {
+   "freq_ghz": 6.46,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.82,
+   "t1_us": 91.0,
+   "t2_us": 40.0,
+   "gate_err_1q_x1e-4": 4.9,
+   "resonator_freq_ghz": 4.51,
+   "ringdown_ns": 22.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 24.0,
+   "freq_during_readout_ghz": 6.16,
+   "readout_pulse_ns": 305.0,
+   "readout_power_dbm": -126.0,
+   "max_photon_number": 9.6,
+   "readout_err_pct": 1.0
+  },
+  "r8c10": {
+   "freq_ghz": 6.34,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.75,
+   "t1_us": 102.0,
+   "t2_us": 70.0,
+   "gate_err_1q_x1e-4": 6.2,
+   "resonator_freq_ghz": 4.48,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 6.2,
+   "readout_pulse_ns": 390.0,
+   "readout_power_dbm": -122.0,
+   "max_photon_number": 19.0,
+   "readout_err_pct": 0.5
+  },
+  "r8c11": {
+   "freq_ghz": 6.69,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.85,
+   "t1_us": 93.0,
+   "t2_us": 81.0,
+   "gate_err_1q_x1e-4": 9.6,
+   "resonator_freq_ghz": 4.5,
+   "ringdown_ns": 19.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 6.24,
+   "readout_pulse_ns": 370.0,
+   "readout_power_dbm": -125.0,
+   "max_photon_number": 12.0,
+   "readout_err_pct": 0.7
+  },
+  "r9c4": {
+   "freq_ghz": 6.58,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.6,
+   "t1_us": 86.0,
+   "t2_us": 105.0,
+   "gate_err_1q_x1e-4": 5.8,
+   "resonator_freq_ghz": 4.66,
+   "ringdown_ns": 13.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 29.0,
+   "freq_during_readout_ghz": 6.24,
+   "readout_pulse_ns": 360.0,
+   "readout_power_dbm": -127.0,
+   "max_photon_number": 6.8,
+   "readout_err_pct": 0.7
+  },
+  "r9c5": {
+   "freq_ghz": 6.19,
+   "f10_f21_mhz": 199.0,
+   "max_freq_ghz": 6.66,
+   "t1_us": 98.0,
+   "t2_us": 59.0,
+   "gate_err_1q_x1e-4": 5.7,
+   "resonator_freq_ghz": 4.59,
+   "ringdown_ns": 15.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 30.0,
+   "freq_during_readout_ghz": 5.8,
+   "readout_pulse_ns": 395.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 2.2,
+   "readout_err_pct": 0.7
+  },
+  "r9c6": {
+   "freq_ghz": 6.07,
+   "f10_f21_mhz": 198.0,
+   "max_freq_ghz": 6.81,
+   "t1_us": 27.0,
+   "t2_us": 26.0,
+   "gate_err_1q_x1e-4": 23.0,
+   "resonator_freq_ghz": 4.6,
+   "ringdown_ns": 15.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.77,
+   "readout_pulse_ns": 395.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 2.2,
+   "readout_err_pct": 1.0
+  },
+  "r9c7": {
+   "freq_ghz": 6.23,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.74,
+   "t1_us": 89.0,
+   "t2_us": 63.0,
+   "gate_err_1q_x1e-4": 4.5,
+   "resonator_freq_ghz": 4.62,
+   "ringdown_ns": 10.0,
+   "coupling_eff_pct": 4.5,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 5.61,
+   "readout_pulse_ns": 430.0,
+   "readout_power_dbm": -132.0,
+   "max_photon_number": 1.2,
+   "readout_err_pct": 0.9
+  },
+  "r9c8": {
+   "freq_ghz": 6.62,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.67,
+   "t1_us": 84.0,
+   "t2_us": 65.0,
+   "gate_err_1q_x1e-4": 4.1,
+   "resonator_freq_ghz": 4.55,
+   "ringdown_ns": 20.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 28.0,
+   "freq_during_readout_ghz": 6.08,
+   "readout_pulse_ns": 365.0,
+   "readout_power_dbm": -126.0,
+   "max_photon_number": 7.2,
+   "readout_err_pct": 0.7
+  },
+  "r9c9": {
+   "freq_ghz": 6.44,
+   "f10_f21_mhz": 193.0,
+   "max_freq_ghz": 6.77,
+   "t1_us": 87.0,
+   "t2_us": 60.0,
+   "gate_err_1q_x1e-4": 17.0,
+   "resonator_freq_ghz": 4.52,
+   "ringdown_ns": 14.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.79,
+   "readout_pulse_ns": 405.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.9,
+   "readout_err_pct": 0.8
+  },
+  "r10c6": {
+   "freq_ghz": 6.54,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.69,
+   "t1_us": 61.0,
+   "t2_us": 56.0,
+   "gate_err_1q_x1e-4": 30.0,
+   "resonator_freq_ghz": 4.66,
+   "ringdown_ns": 20.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 29.0,
+   "freq_during_readout_ghz": 5.67,
+   "readout_pulse_ns": 470.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 1.4,
+   "readout_err_pct": 0.7
+  },
+  "r10c7": {
+   "freq_ghz": 6.68,
+   "f10_f21_mhz": 189.0,
+   "max_freq_ghz": 6.71,
+   "t1_us": 61.0,
+   "t2_us": 59.0,
+   "gate_err_1q_x1e-4": 8.3,
+   "resonator_freq_ghz": 4.59,
+   "ringdown_ns": 15.0,
+   "coupling_eff_pct": 4.8,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 6.39,
+   "readout_pulse_ns": 250.0,
+   "readout_power_dbm": -118.0,
+   "max_photon_number": 43.0,
+   "readout_err_pct": 1.5
+  },
+  "r10c8": {
+   "freq_ghz": 6.55,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.77,
+   "t1_us": 85.0,
+   "t2_us": 60.0,
+   "gate_err_1q_x1e-4": 3.2,
+   "resonator_freq_ghz": 4.56,
+   "ringdown_ns": 15.0,
+   "coupling_eff_pct": 4.5,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 5.72,
+   "readout_pulse_ns": 435.0,
+   "readout_power_dbm": -131.0,
+   "max_photon_number": 2.1,
+   "readout_err_pct": 0.7
+  },
+  "r10c9": {
+   "freq_ghz": 6.46,
+   "f10_f21_mhz": 195.0,
+   "max_freq_ghz": 6.81,
+   "t1_us": 87.0,
+   "t2_us": 51.0,
+   "gate_err_1q_x1e-4": 42.0,
+   "resonator_freq_ghz": 4.58,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.2,
+   "measurement_eff_pct": 22.0,
+   "freq_during_readout_ghz": 5.67,
+   "readout_pulse_ns": 395.0,
+   "readout_power_dbm": -130.0,
+   "max_photon_number": 2.8,
+   "readout_err_pct": 0.5
+  },
+  "r11c6": {
+   "freq_ghz": 6.73,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.76,
+   "t1_us": 98.0,
+   "t2_us": 107.0,
+   "gate_err_1q_x1e-4": 7.1,
+   "resonator_freq_ghz": 4.63,
+   "ringdown_ns": 16.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 6.32,
+   "readout_pulse_ns": 365.0,
+   "readout_power_dbm": -124.0,
+   "max_photon_number": 14.0,
+   "readout_err_pct": 0.5
+  },
+  "r11c7": {
+   "freq_ghz": 6.64,
+   "f10_f21_mhz": 194.0,
+   "max_freq_ghz": 6.79,
+   "t1_us": 94.0,
+   "t2_us": 64.0,
+   "gate_err_1q_x1e-4": 3.8,
+   "resonator_freq_ghz": 4.6,
+   "ringdown_ns": 6.0,
+   "coupling_eff_pct": 4.4,
+   "measurement_eff_pct": 23.0,
+   "freq_during_readout_ghz": 5.76,
+   "readout_pulse_ns": 465.0,
+   "readout_power_dbm": -129.0,
+   "max_photon_number": 2.4,
+   "readout_err_pct": 0.7
+  }
+ },
+ "cz_pairs": {
+  "r3c7-r3c8": {
+   "interaction_freq_ghz": 6.57,
+   "cz_err_x1e-3": 3.6
+  },
+  "r3c7-r4c7": {
+   "interaction_freq_ghz": 6.53,
+   "cz_err_x1e-3": 6.1
+  },
+  "r3c8-r4c8": {
+   "interaction_freq_ghz": 6.43,
+   "cz_err_x1e-3": 1.6
+  },
+  "r4c5-r4c6": {
+   "interaction_freq_ghz": 6.62,
+   "cz_err_x1e-3": 1.9
+  },
+  "r4c6-r4c7": {
+   "interaction_freq_ghz": 6.6,
+   "cz_err_x1e-3": 2.3
+  },
+  "r4c7-r4c8": {
+   "interaction_freq_ghz": 6.45,
+   "cz_err_x1e-3": 3.5
+  },
+  "r4c5-r5c5": {
+   "interaction_freq_ghz": 6.41,
+   "cz_err_x1e-3": 1.9
+  },
+  "r4c6-r5c6": {
+   "interaction_freq_ghz": 6.61,
+   "cz_err_x1e-3": 1.5
+  },
+  "r4c7-r5c7": {
+   "interaction_freq_ghz": 6.38,
+   "cz_err_x1e-3": 2.1
+  },
+  "r4c8-r5c8": {
+   "interaction_freq_ghz": 6.22,
+   "cz_err_x1e-3": 0.0
+  },
+  "r5c2-r5c3": {
+   "interaction_freq_ghz": 6.17,
+   "cz_err_x1e-3": 0.0
+  },
+  "r5c3-r5c4": {
+   "interaction_freq_ghz": 6.54,
+   "cz_err_x1e-3": 0.0
+  },
+  "r5c4-r5c5": {
+   "interaction_freq_ghz": 6.56,
+   "cz_err_x1e-3": 2.0
+  },
+  "r5c5-r5c6": {
+   "interaction_freq_ghz": 6.14,
+   "cz_err_x1e-3": 2.6
+  },
+  "r5c6-r5c7": {
+   "interaction_freq_ghz": 6.35,
+   "cz_err_x1e-3": 1.6
+  },
+  "r5c7-r5c8": {
+   "interaction_freq_ghz": 6.37,
+   "cz_err_x1e-3": 0.77
+  },
+  "r5c8-r5c9": {
+   "interaction_freq_ghz": 6.53,
+   "cz_err_x1e-3": 0.77
+  },
+  "r5c9-r5c10": {
+   "interaction_freq_ghz": 6.54,
+   "cz_err_x1e-3": 3.7
+  },
+  "r5c2-r6c2": {
+   "interaction_freq_ghz": 6.46,
+   "cz_err_x1e-3": 1.2
+  },
+  "r5c3-r6c3": {
+   "interaction_freq_ghz": 6.24,
+   "cz_err_x1e-3": 0.0
+  },
+  "r5c4-r6c4": {
+   "interaction_freq_ghz": 6.34,
+   "cz_err_x1e-3": 1.8
+  },
+  "r5c5-r6c5": {
+   "interaction_freq_ghz": 6.2,
+   "cz_err_x1e-3": 2.1
+  },
+  "r5c6-r6c6": {
+   "interaction_freq_ghz": 6.63,
+   "cz_err_x1e-3": 0.67
+  },
+  "r5c7-r6c7": {
+   "interaction_freq_ghz": 6.54,
+   "cz_err_x1e-3": 1.0
+  },
+  "r5c8-r6c8": {
+   "interaction_freq_ghz": 6.45,
+   "cz_err_x1e-3": 1.9
+  },
+  "r5c9-r6c9": {
+   "interaction_freq_ghz": 6.72,
+   "cz_err_x1e-3": 0.41
+  },
+  "r5c10-r6c10": {
+   "interaction_freq_ghz": 6.24,
+   "cz_err_x1e-3": 1.9
+  },
+  "r6c2-r6c3": {
+   "interaction_freq_ghz": 6.42,
+   "cz_err_x1e-3": 0.97
+  },
+  "r6c3-r6c4": {
+   "interaction_freq_ghz": 6.41,
+   "cz_err_x1e-3": 3.0
+  },
+  "r6c4-r6c5": {
+   "interaction_freq_ghz": 6.24,
+   "cz_err_x1e-3": 3.8
+  },
+  "r6c5-r6c6": {
+   "interaction_freq_ghz": 6.25,
+   "cz_err_x1e-3": 3.6
+  },
+  "r6c6-r6c7": {
+   "interaction_freq_ghz": 6.61,
+   "cz_err_x1e-3": 2.6
+  },
+  "r6c7-r6c8": {
+   "interaction_freq_ghz": 6.41,
+   "cz_err_x1e-3": 3.3
+  },
+  "r6c8-r6c9": {
+   "interaction_freq_ghz": 6.46,
+   "cz_err_x1e-3": 3.2
+  },
+  "r6c9-r6c10": {
+   "interaction_freq_ghz": 6.56,
+   "cz_err_x1e-3": 1.4
+  },
+  "r6c2-r7c2": {
+   "interaction_freq_ghz": 6.47,
+   "cz_err_x1e-3": 0.9
+  },
+  "r6c3-r7c3": {
+   "interaction_freq_ghz": 6.4,
+   "cz_err_x1e-3": 2.1
+  },
+  "r6c4-r7c4": {
+   "interaction_freq_ghz": 6.37,
+   "cz_err_x1e-3": 3.1
+  },
+  "r6c5-r7c5": {
+   "interaction_freq_ghz": 6.21,
+   "cz_err_x1e-3": 2.0
+  },
+  "r6c6-r7c6": {
+   "interaction_freq_ghz": 6.65,
+   "cz_err_x1e-3": 1.4
+  },
+  "r6c7-r7c7": {
+   "interaction_freq_ghz": 6.32,
+   "cz_err_x1e-3": 1.5
+  },
+  "r6c8-r7c8": {
+   "interaction_freq_ghz": 6.28,
+   "cz_err_x1e-3": 4.4
+  },
+  "r6c9-r7c9": {
+   "interaction_freq_ghz": 6.53,
+   "cz_err_x1e-3": 0.0
+  },
+  "r6c10-r7c10": {
+   "interaction_freq_ghz": 6.45,
+   "cz_err_x1e-3": 1.1
+  },
+  "r7c2-r7c3": {
+   "interaction_freq_ghz": 6.35,
+   "cz_err_x1e-3": 1.7
+  },
+  "r7c3-r7c4": {
+   "interaction_freq_ghz": 6.55,
+   "cz_err_x1e-3": 1.6
+  },
+  "r7c4-r7c5": {
+   "interaction_freq_ghz": 6.52,
+   "cz_err_x1e-3": 2.0
+  },
+  "r7c5-r7c6": {
+   "interaction_freq_ghz": 6.35,
+   "cz_err_x1e-3": 2.6
+  },
+  "r7c6-r7c7": {
+   "interaction_freq_ghz": 6.56,
+   "cz_err_x1e-3": 2.4
+  },
+  "r7c7-r7c8": {
+   "interaction_freq_ghz": 6.29,
+   "cz_err_x1e-3": 4.1
+  },
+  "r7c8-r7c9": {
+   "interaction_freq_ghz": 6.15,
+   "cz_err_x1e-3": 0.56
+  },
+  "r7c9-r7c10": {
+   "interaction_freq_ghz": 6.48,
+   "cz_err_x1e-3": 1.6
+  },
+  "r7c10-r7c11": {
+   "interaction_freq_ghz": 6.52,
+   "cz_err_x1e-3": 2.4
+  },
+  "r7c4-r8c4": {
+   "interaction_freq_ghz": 6.32,
+   "cz_err_x1e-3": 1.9
+  },
+  "r7c5-r8c5": {
+   "interaction_freq_ghz": 6.43,
+   "cz_err_x1e-3": 0.55
+  },
+  "r7c6-r8c6": {
+   "interaction_freq_ghz": 6.57,
+   "cz_err_x1e-3": 2.1
+  },
+  "r7c7-r8c7": {
+   "interaction_freq_ghz": 6.17,
+   "cz_err_x1e-3": 4.7
+  },
+  "r7c8-r8c8": {
+   "interaction_freq_ghz": 6.26,
+   "cz_err_x1e-3": 2.8
+  },
+  "r7c9-r8c9": {
+   "interaction_freq_ghz": 6.57,
+   "cz_err_x1e-3": 2.2
+  },
+  "r7c10-r8c10": {
+   "interaction_freq_ghz": 6.24,
+   "cz_err_x1e-3": 3.0
+  },
+  "r7c11-r8c11": {
+   "interaction_freq_ghz": 6.71,
+   "cz_err_x1e-3": 1.3
+  },
+  "r8c4-r8c5": {
+   "interaction_freq_ghz": 6.26,
+   "cz_err_x1e-3": 0.55
+  },
+  "r8c5-r8c6": {
+   "interaction_freq_ghz": 6.62,
+   "cz_err_x1e-3": 0.3
+  },
+  "r8c6-r8c7": {
+   "interaction_freq_ghz": 6.42,
+   "cz_err_x1e-3": 3.0
+  },
+  "r8c7-r8c8": {
+   "interaction_freq_ghz": 6.05,
+   "cz_err_x1e-3": 3.0
+  },
+  "r8c8-r8c9": {
+   "interaction_freq_ghz": 6.68,
+   "cz_err_x1e-3": 5.0
+  },
+  "r8c9-r8c10": {
+   "interaction_freq_ghz": 6.38,
+   "cz_err_x1e-3": 1.9
+  },
+  "r8c10-r8c11": {
+   "interaction_freq_ghz": 6.21,
+   "cz_err_x1e-3": 4.8
+  },
+  "r8c4-r9c4": {
+   "interaction_freq_ghz": 6.09,
+   "cz_err_x1e-3": 0.88
+  },
+  "r8c5-r9c5": {
+   "interaction_freq_ghz": 6.18,
+   "cz_err_x1e-3": 1.4
+  },
+  "r8c6-r9c6": {
+   "interaction_freq_ghz": 6.28,
+   "cz_err_x1e-3": 1.5
+  },
+  "r8c7-r9c7": {
+   "interaction_freq_ghz": 6.13,
+   "cz_err_x1e-3": 3.5
+  },
+  "r8c8-r9c8": {
+   "interaction_freq_ghz": 6.46,
+   "cz_err_x1e-3": 1.9
+  },
+  "r8c9-r9c9": {
+   "interaction_freq_ghz": 6.56,
+   "cz_err_x1e-3": 4.8
+  },
+  "r9c4-r9c5": {
+   "interaction_freq_ghz": 6.15,
+   "cz_err_x1e-3": 3.3
+  },
+  "r9c5-r9c6": {
+   "interaction_freq_ghz": 6.13,
+   "cz_err_x1e-3": 0.48
+  },
+  "r9c6-r9c7": {
+   "interaction_freq_ghz": 6.11,
+   "cz_err_x1e-3": 0.45
+  },
+  "r9c7-r9c8": {
+   "interaction_freq_ghz": 6.48,
+   "cz_err_x1e-3": 3.4
+  },
+  "r9c8-r9c9": {
+   "interaction_freq_ghz": 6.53,
+   "cz_err_x1e-3": 0.82
+  },
+  "r9c6-r10c6": {
+   "interaction_freq_ghz": 6.51,
+   "cz_err_x1e-3": 0.95
+  },
+  "r9c7-r10c7": {
+   "interaction_freq_ghz": 6.58,
+   "cz_err_x1e-3": 2.7
+  },
+  "r9c8-r10c8": {
+   "interaction_freq_ghz": 6.64,
+   "cz_err_x1e-3": 1.6
+  },
+  "r9c9-r10c9": {
+   "interaction_freq_ghz": 6.4,
+   "cz_err_x1e-3": 0.0
+  },
+  "r10c6-r10c7": {
+   "interaction_freq_ghz": 6.58,
+   "cz_err_x1e-3": 0.0
+  },
+  "r10c7-r10c8": {
+   "interaction_freq_ghz": 6.6,
+   "cz_err_x1e-3": 3.2
+  },
+  "r10c8-r10c9": {
+   "interaction_freq_ghz": 6.59,
+   "cz_err_x1e-3": 0.0
+  },
+  "r10c6-r11c6": {
+   "interaction_freq_ghz": 6.51,
+   "cz_err_x1e-3": 0.0
+  },
+  "r10c7-r11c7": {
+   "interaction_freq_ghz": 6.55,
+   "cz_err_x1e-3": 1.8
+  },
+  "r11c6-r11c7": {
+   "interaction_freq_ghz": 6.62,
+   "cz_err_x1e-3": 2.1
+  }
+ },
+ "validation": {
+  "qubit_count": 54,
+  "cz_pair_count": 89,
+  "panel_sets_identical": "all 15 square-lattice panels (S5 x6, S9 x9) carry the same 54 (row, column) cells; both S7 panels carry the same 89 edge midpoints",
+  "adjacency_bijection": "the 89 S7 edges are exactly the nearest-neighbor pairs of the 54 qubits (checked both directions)",
+  "map_medians": {
+   "freq_ghz": 6.46,
+   "f10_f21_mhz": 196.0,
+   "max_freq_ghz": 6.725,
+   "t1_us": 89.0,
+   "t2_us": 64.5,
+   "gate_err_1q_x1e-4": 6.25,
+   "resonator_freq_ghz": 4.55,
+   "ringdown_ns": 17.0,
+   "coupling_eff_pct": 4.3,
+   "measurement_eff_pct": 26.0,
+   "freq_during_readout_ghz": 5.855,
+   "readout_pulse_ns": 385.0,
+   "readout_power_dbm": -128.0,
+   "max_photon_number": 4.6,
+   "readout_err_pct": 0.8,
+   "cz_interaction_freq_ghz": 6.45,
+   "cz_err_x1e-3": 1.9
+  },
+  "edcf_dashed_medians": {
+   "freq_ghz": 6.553,
+   "f10_f21_mhz": 195.2,
+   "max_freq_ghz": 6.688,
+   "t1_us": 88.9,
+   "t2_us": 64.2,
+   "cz_interaction_freq_ghz": 6.448,
+   "cz_err_x1e-3": 2.058
+  },
+  "edcf_note": "the EDCF dashed medians do not all reproduce from the map values (freq 6.553 vs map 6.46; CZ error 2.058 vs map 1.9; the rest agree within ~1%). The dashed lines do mark their own curves' medians (verified on S8b), so the EDCFs were computed on a different sample than the maps. Use the map values for the Fig. 4 patch."
+ }
+}
