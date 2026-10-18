@@ -1,25 +1,25 @@
 # Willow, Tested Again: working repo
 
 Private working repo for the follow-up note to "Notes on Google
-Willow (2024)." Status: DRAFT v5, evidence-ready residual from v2
+Willow (2024)." Status: DRAFT v6, evidence-ready residual from v2
 still named. Not minted, not published, no DOI reserved.
 Publication is the author's decision alone. Evidence-ready means
 the integrity residual is named and deferred. It does not mean
-scientifically verified. v3 was scanned 2026-10-16; v4 and v5
+scientifically verified. v3 was scanned 2026-10-16; v4, v5, and v6
 were scanned 2026-10-18 with I3 limited by the network. The JSON
 fail is the same ResearchGate DOI, already deferred.
 
 ## The draft
 
-`draft/follow-up-note-draft-v5.md` is the current working copy,
-retitled "What Would Confirm the Leakage Attribution in Magic-State
-Cultivation on Willow." v5 inverts v4: it leads with the
-attribution test and demotes the 2024 scorecard to one context
-section. `draft/follow-up-note-draft-v4.md`, `-v3`, `-v2`, and
-`draft/follow-up-note-draft.md` stay as the audit trail. Edit v5.
+`draft/follow-up-note-draft-v6.md` is the current working copy,
+titled "What Would Settle the Leakage Attribution in Magic-State
+Cultivation on Willow." v5 inverted v4 around the attribution test;
+v6 applies the critical review of v5. `draft/follow-up-note-draft-v5.md`,
+`-v4`, `-v3`, `-v2`, and `draft/follow-up-note-draft.md` stay as the
+audit trail. Edit v6.
 Process notes that used to sit above the title are in
 `draft/process-log.md` and are not part of the note.
-`AI-USE-STATEMENT.md` is a copy of the v5 AI Utilization
+`AI-USE-STATEMENT.md` is a copy of the v6 AI Utilization
 Statement.
 
 House style for this draft, enforced in every pass so far: no em
@@ -32,8 +32,8 @@ alternative, and the no-ablation fact all survive the edit.
 ## Contents
 
 - `draft/` the note itself, plus `process-log.md` and
-  `search-meta-v5.html` (v3 and v4 kept).
-- `AI-USE-STATEMENT.md` standalone copy of the v5 statement.
+  `search-meta-v6.html` (v3 to v5 kept).
+- `AI-USE-STATEMENT.md` standalone copy of the v6 statement.
 - `held-note/cultivation-leakage-note.md` the earlier held
   postscript note for the Zenodo paper, with the primary-source
   check and the follow-up assessment that led to this draft. It
@@ -71,16 +71,16 @@ in the note are cited priors (Rosenfeld et al. 2026, Google 2024,
 the 2024 note). There is no local results artifact, and none
 should be invented.
 
-`results/integrity_audit.json` is the 2026-10-18 scan of v5 (v4
-was scanned the same day), run
+`results/integrity_audit.json` is the 2026-10-18 scan of v6 (v4 and v5
+were scanned the same day), run
 with `--online` from a session whose network blocked Crossref and
 Zenodo. Status limited: I3 limited (no identifier answered), I1
-limited (8 unbound cited percents), I4 limited (local simulator
+limited (10 unbound cited percents), I4 limited (local simulator
 named; no misalignment on judgment), I5 warn ("first"). The v3 scan
 (2026-10-16) resolved seven DOIs and failed on
 `10.13140/RG.2.2.30911.01443`, deferred in
 `results/i3-researchgate-deferral.md`. A networked `--online`
-re-run of v4 is still owed. The scan does not mark the note
+re-run of v6 is still owed. The scan does not mark the note
 scientifically verified.
 
 A robustness check of v2 is in `results/robustness-check-v2.md`

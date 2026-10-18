@@ -2,8 +2,34 @@
 
 ## Unreleased
 
-DRAFT v5. Not minted. No public posting. v5 integrity scan
+DRAFT v6. Not minted. No public posting. v6 integrity scan
 2026-10-18: limited, I3 offline. I3 is the deferred ResearchGate DOI.
+
+### 2026-10-18 (v6)
+
+- Produced `draft/follow-up-note-draft-v6.md` from v5 by applying
+  `external-review/critical-review-v5.md`. Title now "What Would
+  Settle the Leakage Attribution in Magic-State Cultivation on
+  Willow."
+- Sec. II gains Table 1, what each route predicts for the gap, the
+  S23 rise, and the S24 spread. Routes (b), (c), and decoder or
+  model mismatch explain the gap's size but not the signatures
+  without a second mechanism; the abstract says so.
+- Sec. I: the unsupported "gap expected on general grounds"
+  sentence is replaced by the paper's own agreement of Figs. 2, 3,
+  and S21 with SI1000 at the same p.
+- Sec. IV: readings are taken against the same-run baseline arm B,
+  which must show a gap (lower 95% bound above 3); shots sized to a
+  15% interval at B's ratio. Three-state readout is cycle-resolved
+  on measure qubits and final on data qubits, cited to [7], [9].
+  Readings table is now Table 2; its first row notes a non-readout
+  entry path.
+- Smaller: 1.3e-5 to 2.5e-5 projection; SI1000 scope softened;
+  Akshay et al. added as [18] (mirror now [19]); "scoring
+  worksheet" dropped; abstract names the numbers section; the
+  "misread" sentence de-personalized. `search-meta-v6.html`, AI
+  statement, manifest, and integrity scan updated. README's stale
+  "re-run of v4" line corrected. Zenodo DOI still not minted.
 
 ### 2026-10-18 (v5)
 

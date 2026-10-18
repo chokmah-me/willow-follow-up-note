@@ -160,3 +160,8 @@ parts. v5 leads with the attribution reading, the missing N = 9
 data, and the pre-registered 2 by 2; the 2024 inventory is one
 context section. "Likely," variability, and no-ablation rechecked
 in the abstract, TL;DR, and conclusion. Scan re-run: limited.
+
+2026-10-18 (v6): critical review of v5 applied. Route predictions
+against S23 and S24 added; Section IV readings re-based on the
+same-run baseline; "likely," variability, and no-ablation rechecked
+in the abstract, TL;DR, and conclusion. Scan re-run: limited.

@@ -19,7 +19,8 @@ Moonshot Kimi K3 and Anthropic Claude Opus 5.5. Claude (Anthropic),
 through Claude Code, ran a further critical review of v3 and applied
 its findings to produce v4, checking each change against the local
 copy of arXiv:2512.13908v1, and at the author's direction
-restructured v4 into v5 around the attribution test. Every finding
+restructured v4 into v5 around the attribution test, then reviewed
+v5 and applied its findings to produce v6. Every finding
 from those passes was adjudicated before any revision was applied.
 The review files will be part of the Zenodo deposit when minted.
 They have no public URL yet. The author selected all sources, made
@@ -35,7 +36,7 @@ Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.
 ---
 
 Copied from the AI Utilization Statement in
-`draft/follow-up-note-draft-v5.md`, the section before the
+`draft/follow-up-note-draft-v6.md`, the section before the
 References. The working repository is
 https://github.com/chokmah-me/willow-follow-up-note
 Edit the statement in the draft, then copy it here. This file is
