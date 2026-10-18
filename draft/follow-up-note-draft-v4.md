@@ -120,8 +120,12 @@ Rosenfeld and a large Google team implemented magic-state
 cultivation on Willow [2], the protocol proposed by Gidney, Shutty,
 and Jones [3]. Article claims below that appear in the Science
 abstract [2] are labeled as such. Claims that I take from the
-supplement are from arXiv:2512.13908v1 (Dec 15, 2025). I did not
-compare that file against the published Science supplement.
+supplement are from arXiv:2512.13908v1 (Dec 15, 2025), and the
+section and figure numbers below are v1's. On Oct. 18, 2026 the
+scored items were compared against the published Science
+supplement: numbers and wording are unchanged, and only the
+numbering moved (Sec. XIV is Sec. VIII there; Figs. S22, S23, S24,
+and S14 are Figs. S20, S21, S22, and S11).
 
 A noisy magic state is injected into a distance-3 color code,
 refined by a fault-tolerant measurement of the logical Hadamard
@@ -460,11 +464,11 @@ I am scoring my own 2024 inventory, and the Table 2 grades come from
 the challenge table of that note, read in clean layout from the
 author's Mataroa mirror (the ResearchGate text's column layout did
 not survive extraction). The memory-experiment numbers, figure
-pins, and "likely" wording come from arXiv:2512.13908v1, not from
-the published Science supplement, which I did not compare. The v1
-data-availability line points to Zenodo record 10.5281/zenodo.17872003;
-opened on Oct. 18,
-2026, it holds detector-level files for Figs. 2, 3, and 4 and no
+pins, and "likely" wording are pinned to arXiv:2512.13908v1. The
+published Science supplement was compared on those items only, and
+the rest of it was not checked. The v1 data-availability line points
+to Zenodo record 10.5281/zenodo.17872003; opened on Oct. 18, 2026,
+it holds detector-level files for Figs. 2, 3, and 4 and no
 N = 9 directory for Figs. S22 to S24. I did not rerun the paper's
 simulations. The repository behind this note holds a distance-3
 calibration run of a local leakage simulator; it is not a result of
@@ -522,7 +526,8 @@ yet. The author selected all sources, made every publish and revise
 decision, and takes responsibility for the claims, the scoring, and
 the conclusions. AI output was treated as draft throughout. Claims
 scored here were checked against arXiv:2512.13908v1 and the Science
-abstract [2]. The published Science supplement was not compared. No
+abstract [2], and the scored items were compared against the
+published Science supplement. No
 AI system is listed as a co-author.
 
 Affiliation: Chokmah LLC, Norwich, VT. Contact: chokmah-dyb@pm.me.

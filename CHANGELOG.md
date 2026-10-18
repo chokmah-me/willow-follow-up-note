@@ -54,6 +54,10 @@ re-scanned for integrity. I3 is the deferred ResearchGate DOI.
   moved (Sec. XIV to VIII; S22 to S20, S23 to S21, S24 to S22,
   S14 to S11). The note's pins stay on v1, so its supplement
   disclosure stands.
+- Consistency fix: the draft's three "not compared" sentences
+  (Sec. II, Limitations, AI statement) now match the verification
+  run. Sec. II gives the v1-to-published renumbering; pins stay on
+  v1. `AI-USE-STATEMENT.md` re-synced.
 
 ### 2026-10-18
 

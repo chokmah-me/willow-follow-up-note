@@ -135,3 +135,9 @@ run. (2) Section I's 14% flag: the figure stays attributed to the
 beside it, from the arXiv text of [4]: applying the same decoder
 to the experimental data, the error budget overpredicts Lambda by
 20%. No score or other number moved.
+
+2026-10-18 (v4 consistency): Sec. II, Limitations, and the AI
+statement no longer say the Science supplement was not compared.
+They now record the comparison on the scored items and the
+renumbering. Open: Sec. V still says [14] was not read, and the
+Mataroa mirror has no URL or reference entry.
