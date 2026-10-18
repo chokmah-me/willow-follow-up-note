@@ -108,10 +108,12 @@ def test_magic_state_and_z_measurement():
     sim = HybridSimulator(1, params, rng)
     sim.inject_magic_state(0)
     assert sim.branch_count() == 2
-    coefficients = [branch.coefficient for branch in sim.branches]
-    assert np.allclose(np.abs(coefficients), 1 / math.sqrt(2))
-    assert np.allclose(coefficients[1] / coefficients[0], np.exp(1j * np.pi / 4))
-    assert [b.tableau.peek_z(0) for b in sim.branches] == [1, -1]
+    by_z = {b.tableau.peek_z(0): b.coefficient for b in sim.branches}
+    assert set(by_z) == {1, -1}
+    assert np.allclose(list(np.abs(list(by_z.values()))), 1 / math.sqrt(2))
+    # Prune sorts by |coefficient|; equal-weight |0> and |1> can swap order
+    # when those magnitudes differ by an ulp across platforms.
+    assert np.allclose(by_z[-1] / by_z[1], np.exp(1j * np.pi / 4))
 
     ones = 0
     for _ in range(4000):
