@@ -2,7 +2,7 @@
 
 Working repo for the follow-up note to "Notes on Google
 Willow (2024)." Status: draft v6, minted 2026-10-18. Paper version
-DOI 10.5281/zenodo.23455419. Paper concept DOI
+DOI 10.5281/zenodo.23455661. Paper concept DOI
 10.5281/zenodo.23452622. Software version DOI
 10.5281/zenodo.23452625. Software concept DOI
 10.5281/zenodo.23452624. The two concepts are separate. The mint

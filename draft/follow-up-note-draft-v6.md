@@ -10,7 +10,7 @@ A reading of the grafted-code memory experiment, with a pre-registered test
 October 18, 2026
 
 Daniyel Yaacov Bilar, Chokmah LLC, chokmah-dyb@pm.me , ORCID: [0000-0002-9040-6914](https://orcid.org/0000-0002-9040-6914)
-Version of record: https://doi.org/10.5281/zenodo.23455419
+Version of record: https://doi.org/10.5281/zenodo.23455661
 Concept DOI (always latest PDF): https://doi.org/10.5281/zenodo.23452622
 
 License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
@@ -115,9 +115,13 @@ Several figures from the cultivation paper are easy to quote out of their condit
 
 Figure 1 draws that gap beside the two rules in Section IV.
 
-![Figure 1. Grafted-code memory fits and this note's two rules](../results/fig_sevenfold_gap.png)
+<div style="page-break-inside: avoid; break-inside: avoid;">
 
-Figure 1. Top: the Fig. S22 exponential-fit labels, experiment 5.3% and SI1000 simulation 0.8%, drawn from zero. That caption does not say the percents are per cycle. Bottom: the ratio 5.3/0.8 = 6.6. The capped bar is only the rounding span of the one-significant-figure 0.8% (6.2 to 7.1). It is the published v1 ratio. The rerun is read against same-run baseline B, which need not equal 6.6. The solid line at 2 is the close line: an arm is closed when its upper 95% bound is below 2. The dashed line at 3 is the gate: the run counts only if B's lower 95% bound exceeds 3. Both lines were fixed before any rerun. No 2 by 2 arm has been run.
+<img src="../results/fig_sevenfold_gap.png" alt="Figure 1. Grafted-code memory fits and this note's two rules" style="width: 100%; height: auto;" />
+
+Figure 1. Left: the Fig. S22 exponential-fit labels, experiment 5.3% and SI1000 simulation 0.8%, drawn from zero. That caption does not say the percents are per cycle. Right: the ratio 5.3/0.8 = 6.6. The capped bar is only the rounding span of the one-significant-figure 0.8% (6.2 to 7.1). It is the published v1 ratio. The rerun is read against same-run baseline B, which need not equal 6.6. The solid line at 2 is the close line: an arm is closed when its upper 95% bound is below 2. The dashed line at 3 is the gate: the run counts only if B's lower 95% bound exceeds 3. Both lines were fixed before any rerun. No 2 by 2 arm has been run. A ratio of 1 is not the target. This is not the factor-of-about-40 state-error comparison.
+
+</div>
 
 - Two noise strengths. The main text uses p = 3.0e-3 for Fig. 2 and p = 2.3e-3 for Figs. 3 and 4, attributes the change to shifted qubit frequencies and different control calibrations, and reports logical-error variation of about 1e-4 over an hour. Section XIV carries p = 2.3e-3 over from Fig. 4; the seven-fold gap is relative to that value.
 - The residual detuning bound. Early tomography of cultivated states returned non-physical norms, which the supplement attributes to low-frequency phase noise and which led the team to build kickback tomography. With echoing, a simulation bounds the remaining |T> infidelity from quasi-static detunings near 1e-5. That bound assumes plus or minus 200 kHz quasi-static detunings and no depolarizing noise, and Fig. S14c still shows non-physical norms for some echoed draws.
@@ -137,7 +141,7 @@ The seven-fold gap in the grafted-code memory experiment has a named cause, leak
 
 ## Availability
 
-This note's PDF is the Zenodo paper record. The version of record is https://doi.org/10.5281/zenodo.23455419. The concept DOI, which resolves to the latest PDF, is https://doi.org/10.5281/zenodo.23452622. An OSF mirror of this PDF is https://osf.io/qme2w/ (10.17605/OSF.IO/QME2W). Zenodo is the version of record. The local simulator, the Figure 1 script, and the review files of this note are a separate software record: version https://doi.org/10.5281/zenodo.23452625, concept https://doi.org/10.5281/zenodo.23452624. The repository is https://github.com/chokmah-me/willow-follow-up-note. Third-party source pins and journal peer-review files stay local claim-checking copies. They are not in either Zenodo record, and this note's CC BY 4.0 license does not cover them. A distance-3 calibration of the simulator is not a result of this note.
+This note's PDF is the Zenodo paper record. The version of record is https://doi.org/10.5281/zenodo.23455661. The concept DOI, which resolves to the latest PDF, is https://doi.org/10.5281/zenodo.23452622. An OSF mirror of this PDF is https://osf.io/qme2w/ (10.17605/OSF.IO/QME2W). Zenodo is the version of record. The local simulator, the Figure 1 script, and the review files of this note are a separate software record: version https://doi.org/10.5281/zenodo.23452625, concept https://doi.org/10.5281/zenodo.23452624. The repository is https://github.com/chokmah-me/willow-follow-up-note. Third-party source pins and journal peer-review files stay local claim-checking copies. They are not in either Zenodo record, and this note's CC BY 4.0 license does not cover them. A distance-3 calibration of the simulator is not a result of this note.
 
 ## AI Utilization Statement
 

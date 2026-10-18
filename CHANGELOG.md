@@ -4,6 +4,12 @@
 
 Nothing waiting on a DOI. The 2026-10-18 mint is below.
 
+### 2026-10-18 (page-width figure)
+
+- Paper version DOI 10.5281/zenodo.23455661. Concept DOI stays
+  10.5281/zenodo.23452622. This Typora PDF has Figure 1 side by
+  side at page width. 10.5281/zenodo.23455419 is the previous print.
+
 ### 2026-10-18 (Typora PDF)
 
 - Paper version DOI 10.5281/zenodo.23455419 replaces

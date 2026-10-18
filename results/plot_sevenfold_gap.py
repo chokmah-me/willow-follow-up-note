@@ -27,22 +27,21 @@ OUT_DIR = Path(__file__).resolve().parent
 
 
 def build() -> plt.Figure:
-    # Single-column print width. Point sizes are the print sizes.
-    fig = plt.figure(figsize=(3.42, 6.35), dpi=300, facecolor="white")
+    # Page width, short enough that Typora keeps the figure on one page.
+    fig = plt.figure(figsize=(6.7, 3.25), dpi=300, facecolor="white")
 
     fig.text(
-        0.08,
-        0.988,
-        "Grafted-code memory fits\nand this note's two rules",
+        0.02,
+        0.97,
+        "Grafted-code memory fits and this note's two rules",
         ha="left",
         va="top",
-        fontsize=9,
+        fontsize=11,
         color=BLACK,
-        linespacing=1.15,
     )
 
     # A. Two labeled fits. Length from zero.
-    ax = fig.add_axes([0.40, 0.72, 0.52, 0.155])
+    ax = fig.add_axes([0.14, 0.20, 0.32, 0.62])
     ax.plot([0, EXP], [1, 1], color=BLACK, lw=1.15, solid_capstyle="butt", zorder=2)
     ax.plot(
         [0, SIM],
@@ -67,9 +66,9 @@ def build() -> plt.Figure:
     ax.set_xlim(-0.15, 6.15)
     ax.set_ylim(-0.62, 1.55)
     ax.set_yticks([0, 1])
-    ax.set_yticklabels(["Simulation fit", "Experiment fit"], fontsize=7.5)
+    ax.set_yticklabels(["Simulation fit", "Experiment fit"], fontsize=8.5)
     ax.set_xticks([0, SIM, EXP])
-    ax.set_xticklabels(["0", "0.8", "5.3"], fontsize=7.5)
+    ax.set_xticklabels(["0", "0.8", "5.3"], fontsize=8.5)
     ax.tick_params(axis="x", length=2.6, width=0.6, colors=BLACK, pad=1.5)
     ax.tick_params(axis="y", length=0, pad=2)
     for name in ("top", "right", "left"):
@@ -77,14 +76,14 @@ def build() -> plt.Figure:
     ax.spines["bottom"].set_color(BLACK)
     ax.spines["bottom"].set_linewidth(0.6)
     ax.spines["bottom"].set_bounds(0, EXP)
-    ax.set_xlabel("Logical error rate (%)", fontsize=7.5, labelpad=2, color=BLACK)
+    ax.set_xlabel("Logical error rate (%)", fontsize=8.5, labelpad=2, color=BLACK)
     ax.text(
         EXP - 0.12,
         1.16,
         "5.3%",
         ha="right",
         va="bottom",
-        fontsize=7.5,
+        fontsize=8.5,
         color=BLACK,
         clip_on=True,
     )
@@ -94,15 +93,15 @@ def build() -> plt.Figure:
         "0.8%",
         ha="left",
         va="bottom",
-        fontsize=7.5,
+        fontsize=8.5,
         color=BLUE,
         clip_on=True,
     )
-    fig.text(0.08, 0.80, "A", ha="left", va="center", fontsize=9, color=BLACK)
+    fig.text(0.02, 0.82, "A", ha="left", va="center", fontsize=12, color=BLACK)
 
     # B. Published v1 ratio, plus the two v6 rules. Vermillion is only
     # for those rules; solid vs dashed keeps them apart in grayscale.
-    bx = fig.add_axes([0.40, 0.42, 0.52, 0.20])
+    bx = fig.add_axes([0.62, 0.20, 0.34, 0.62])
     range_y = 0.46
     cap = 0.10
     bx.plot(
@@ -151,7 +150,7 @@ def build() -> plt.Figure:
     bx.set_ylim(0.0, 1.15)
     bx.set_yticks([])
     bx.set_xticks([0, CLOSE, GATE, 6, HI])
-    bx.set_xticklabels(["0", "2", "3", "6", "7.1"], fontsize=7.5)
+    bx.set_xticklabels(["0", "2", "3", "6", "7.1"], fontsize=8.5)
     bx.tick_params(axis="x", length=2.6, width=0.6, colors=BLACK, pad=1.5)
     bx.tick_params(axis="y", length=0)
     for name in ("top", "right", "left"):
@@ -159,14 +158,14 @@ def build() -> plt.Figure:
     bx.spines["bottom"].set_color(BLACK)
     bx.spines["bottom"].set_linewidth(0.6)
     bx.spines["bottom"].set_bounds(0, HI)
-    bx.set_xlabel("Ratio of the two fit labels", fontsize=7.5, labelpad=2)
+    bx.set_xlabel("Ratio of the two fit labels", fontsize=8.5, labelpad=2)
     bx.text(
         RATIO,
         range_y + cap + 0.05,
         "6.6  v1",
         ha="center",
         va="bottom",
-        fontsize=7.5,
+        fontsize=8.5,
         color=BLACK,
         clip_on=True,
     )
@@ -176,7 +175,7 @@ def build() -> plt.Figure:
         "6.2 to 7.1",
         ha="center",
         va="top",
-        fontsize=7,
+        fontsize=8,
         color=INK,
         clip_on=True,
     )
@@ -186,7 +185,7 @@ def build() -> plt.Figure:
         "close",
         ha="right",
         va="bottom",
-        fontsize=7,
+        fontsize=8,
         color=VERMILLION,
         clip_on=True,
     )
@@ -196,39 +195,11 @@ def build() -> plt.Figure:
         "arm B",
         ha="left",
         va="bottom",
-        fontsize=7,
+        fontsize=8,
         color=VERMILLION,
         clip_on=True,
     )
-    fig.text(0.08, 0.52, "B", ha="left", va="center", fontsize=9, color=BLACK)
-
-    footer = (
-        "A is the two exponential-fit labels on Fig. S22\n"
-        "of the v1 supplement. Length is the percent,\n"
-        "from zero. That caption does not say per cycle.\n"
-        "B is 5.3/0.8 = 6.6. The capped bar is only the\n"
-        "rounding span of the one-significant-figure 0.8%\n"
-        "(6.2 to 7.1). It is the published v1 ratio.\n"
-        "The rerun is read against same-run baseline B,\n"
-        "which need not equal 6.6.\n"
-        "Solid line at 2: an arm is closed when its upper\n"
-        "95% bound is below 2. Dashed line at 3: the run\n"
-        "counts only if B's lower 95% bound exceeds 3.\n"
-        "Both lines are rules set before any rerun.\n"
-        "No 2 by 2 arm has been run. A ratio of 1 is not\n"
-        "the target. This is not the factor-of-about-40\n"
-        "state-error comparison."
-    )
-    fig.text(
-        0.08,
-        0.016,
-        footer,
-        ha="left",
-        va="bottom",
-        fontsize=6.6,
-        color=INK,
-        linespacing=1.22,
-    )
+    fig.text(0.50, 0.82, "B", ha="left", va="center", fontsize=12, color=BLACK)
     return fig
 
 
