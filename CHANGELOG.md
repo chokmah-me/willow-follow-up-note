@@ -2,8 +2,30 @@
 
 ## Unreleased
 
-DRAFT v4. Not minted. No public posting. v4 integrity scan
+DRAFT v5. Not minted. No public posting. v5 integrity scan
 2026-10-18: limited, I3 offline. I3 is the deferred ResearchGate DOI.
+
+### 2026-10-18 (v5)
+
+- Produced `draft/follow-up-note-draft-v5.md` by inverting v4.
+  New title: "What Would Confirm the Leakage Attribution in
+  Magic-State Cultivation on Willow." Order: the claim and what it
+  rests on; three routes to the gap; what the public record can
+  and cannot check (no N = 9 data in Zenodo 10.5281/zenodo.17872003);
+  the settling 2 by 2 (Table 1, formerly Table 3); numbers to cite
+  with care; the 2024 inventory as one context section; limitations.
+- Dropped from the body: the six-channel scorecard table, the
+  verdict list, the 2024 Willow headline numbers (0.143%, Lambda,
+  80/10/10 budget, 14% vs 20%), and the third-party objection
+  table. Their content survives in v4 and in one paragraph of v5
+  Section VI. Section IV rules and Table 1 readings are unchanged
+  in substance; readings no longer refer to the 2024 inventory.
+- References renumbered by first citation (Rosenfeld et al. is
+  now [1], the 2024 note [13], the Mataroa mirror [18]).
+  `search-meta-v5.html` added with the new title, abstract, and
+  keywords. AI statement extended for the restructuring and
+  re-synced to `AI-USE-STATEMENT.md`. Manifest points at v5;
+  integrity scan re-run, still limited by the network.
 
 ### 2026-10-18 (v4 integrity scan)
 
