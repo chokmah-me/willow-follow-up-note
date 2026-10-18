@@ -1,7 +1,7 @@
 {
   "schema": "cd-manuscript-integrity/v1",
   "ok": true,
-  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 8; I3 limited (0 resolved, 0 unresolved))",
+  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 10; I3 limited (0 resolved, 0 unresolved))",
   "unbound_result_claims": [
     {
       "value": 12.0,
@@ -30,7 +30,7 @@
     {
       "value": 8.0,
       "token": "8%",
-      "context": "aphy circuit of Fig. 3 serves as a cross-check, not as the calibration, because its 8% retention makes a fitted p depend on the postselection rule. 2. Matched simulation. Th",
+      "context": "aphy circuit of Fig. 3 serves as a cross-check, not as the calibration, because its 8% retention makes a fitted p depend on the postselection rule. Because p is re-frozen, t",
       "suggested_id": "aphy-circuit-of-fig-3-serves-as-a-cr-8%",
       "in_table": false,
       "bucket": "other"
@@ -38,24 +38,40 @@
     {
       "value": 95.0,
       "token": "95%",
-      "context": "or as well as the numerator. 3. Pass margin. Fix the shot count in advance so that the 95% interval on each arm's LER ratio is no wider than plus or minus 1 at a ratio of 7.",
-      "suggested_id": "or-as-well-as-the-numerator-3-pass-m-95%",
+      "context": "l as the numerator. 3. Pass margin. The run counts only if B shows a gap: the lower 95% bound on B's LER ratio must exceed 3. Fix the shot count in advance so that the 95% in",
+      "suggested_id": "l-as-the-numerator-3-pass-margin-the-95%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 95.0,
       "token": "95%",
-      "context": "ied, so a ratio of exactly one is not the target. Call an arm closed when the upper 95% bound on its ratio is below 2; unchanged when its interval overlaps the v1 range of 6.",
-      "suggested_id": "ied-so-a-ratio-of-exactly-one-is-not-95%",
+      "context": "95% bound on B's LER ratio must exceed 3. Fix the shot count in advance so that the 95% interval on each arm's ratio is no wider than plus or minus 15% of B's observed ratio;",
+      "suggested_id": "95-bound-on-b-s-ler-ratio-must-excee-95%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 15.0,
+      "token": "15%",
+      "context": "advance so that the 95% interval on each arm's ratio is no wider than plus or minus 15% of B's observed ratio; if B's interval comes out wider, add shots before reading any o",
+      "suggested_id": "advance-so-that-the-95-interval-on-e-15%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 95.0,
       "token": "95%",
-      "context": "lation over cycles 2 to 9 is below half that of the baseline arm, with non-overlapping 95% intervals. Table 1. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
-      "suggested_id": "lation-over-cycles-2-to-9-is-below-h-95%",
+      "context": "lified, so a ratio of exactly one is not the target. Call an arm closed when the upper 95% bound on its ratio is below 2; unchanged when its interval overlaps B's; widened wh",
+      "suggested_id": "lified-so-a-ratio-of-exactly-one-is--95%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 95.0,
+      "token": "95%",
+      "context": "nal |2> population on data qubits, are each below half of B's, with non-overlapping 95% intervals. Table 2. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
+      "suggested_id": "nal-2-population-on-data-qubits-are--95%",
       "in_table": false,
       "bucket": "other"
     },
@@ -69,16 +85,16 @@
     }
   ],
   "unbound_buckets": {
-    "other": 8
+    "other": 10
   },
   "status": "limited",
   "project": "willow-follow-up-note",
-  "manuscript": "draft/follow-up-note-draft-v5.md",
+  "manuscript": "draft/follow-up-note-draft-v6.md",
   "bibliography": null,
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-18T08:17:53Z",
+  "timestamp_utc": "2026-10-18T12:13:03Z",
   "citations": [
     {
       "kind": "numbered",
@@ -186,6 +202,12 @@
       "kind": "numbered",
       "token": "18",
       "needs_bib_key": false,
+      "identifier": "10.1103/PhysRevLett.124.090504"
+    },
+    {
+      "kind": "numbered",
+      "token": "19",
+      "needs_bib_key": false,
       "identifier": null
     },
     {
@@ -267,13 +289,19 @@
       "identifier": "10.3390/e23121577"
     },
     {
+      "kind": "doi",
+      "token": "10.1103/PhysRevLett.124.090504",
+      "needs_bib_key": false,
+      "identifier": "10.1103/PhysRevLett.124.090504"
+    },
+    {
       "kind": "author_year",
       "token": "Willow 2024",
       "needs_bib_key": false,
       "identifier": null
     }
   ],
-  "result_claim_count": 8,
+  "result_claim_count": 10,
   "bib_keys": [],
   "numbered_refs": [
     "1",
@@ -293,7 +321,8 @@
     "15",
     "16",
     "17",
-    "18"
+    "18",
+    "19"
   ],
   "checks": {
     "I1": "limited",
@@ -373,13 +402,19 @@
       "check": "I3",
       "severity": "limited",
       "code": "resolve_limited",
+      "detail": "10.1103/PhysRevLett.124.090504 {'resolved': None, 'via': 'crossref-doi', 'http': 0, 'limited': True}"
+    },
+    {
+      "check": "I3",
+      "severity": "limited",
+      "code": "resolve_limited",
       "detail": "10.5281/zenodo.17872003 {'resolved': None, 'via': 'zenodo', 'http': 0, 'limited': True}"
     },
     {
       "check": "I1",
       "severity": "limited",
       "code": "unbound_result_claim",
-      "detail": "8 unbound (other=8)"
+      "detail": "10 unbound (other=10)"
     },
     {
       "check": "I4",
