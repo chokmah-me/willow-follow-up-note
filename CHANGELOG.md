@@ -58,6 +58,7 @@ re-scanned for integrity. I3 is the deferred ResearchGate DOI.
   (Sec. II, Limitations, AI statement) now match the verification
   run. Sec. II gives the v1-to-published renumbering; pins stay on
   v1. `AI-USE-STATEMENT.md` re-synced.
+- Sec. V: deleted the sentence saying [14] was not read.
 
 ### 2026-10-18
 

@@ -141,3 +141,7 @@ statement no longer say the Science supplement was not compared.
 They now record the comparison on the scored items and the
 renumbering. Open: Sec. V still says [14] was not read, and the
 Mataroa mirror has no URL or reference entry.
+
+2026-10-18 (v4 [14] line): the Sec. V sentence saying [14] was not
+read is deleted at the author's instruction. Still open: a URL or
+reference entry for the Mataroa mirror.

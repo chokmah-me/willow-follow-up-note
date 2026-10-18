@@ -379,9 +379,8 @@ only measurement that separates route (a) from route (b). The
 second check needs no device: rerun the simulations with leakage
 injected. The v1 supplement cites Marshall and Kafri's incoherent
 approximation of leakage [14] (its references 38 and 43) for its
-leakage modeling. I have not read [14] and do not evaluate that
-method here; the cultivation team can apply its own implementation
-directly. No leakage rates have been measured on the grafted
+leakage modeling. The cultivation team can apply its own
+implementation directly. No leakage rates have been measured on the grafted
 circuit, so an outside rerun would have to borrow rates from the
 2023 paper [12]. That makes it an order-of-magnitude check on
 whether leakage at 2023-like rates can produce a gap of about
