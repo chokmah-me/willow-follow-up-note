@@ -16,7 +16,13 @@ Keep the DOI in the draft header and in reference [1]. The reader path is the Re
 
 https://www.researchgate.net/publication/387576664_Notes_on_Google_Willow_2024_aka_Quantum_Error_Correction_Below_the_Surface_Code_Threshold
 
-Do not replace the DOI with a made-up Crossref identifier. Do not mark I3 pass.
+Do not replace the DOI with a made-up Crossref identifier.
+
+## Grandfathered, 2026-10-19
+
+The author made an exception. This 2024 publication is grandfathered. The DOI stays in reference [13]. The scan records WARN `grandfathered` from `i3_grandfathered` in `integrity-manifest.json`. That warning is not a blocking fail. The 2026-10-16 line that said not to mark I3 pass is superseded for this identifier only.
+
+The same day's rescan found the DOI in DataCite, not Crossref. The record is findable, client `rg.rg`, issued 2024, title matching the 2024 note. The creator string there is "Daniel Yaacob Bilar," which is not the house byline. The reader path stays the ResearchGate URL. The note is still not scientifically verified.
 
 ## What this does not close
 

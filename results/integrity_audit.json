@@ -1,7 +1,7 @@
 {
   "schema": "cd-manuscript-integrity/v1",
-  "ok": false,
-  "status_line": "willow-follow-up-note \u2014 fail (I1 limited unbound 13; I3 fail (17 resolved, 2 unresolved))",
+  "ok": true,
+  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 13; I3 pass (19 resolved, 0 unresolved, 1 grandfathered))",
   "unbound_result_claims": [
     {
       "value": 12.0,
@@ -111,14 +111,14 @@
   "unbound_buckets": {
     "other": 13
   },
-  "status": "fail",
+  "status": "limited",
   "project": "willow-follow-up-note",
   "manuscript": "draft/follow-up-note-draft-v6.md",
   "bibliography": null,
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-19T07:16:31Z",
+  "timestamp_utc": "2026-10-19T07:45:46Z",
   "citations": [
     {
       "kind": "numbered",
@@ -411,7 +411,7 @@
   "checks": {
     "I1": "limited",
     "I2": "n/a",
-    "I3": "fail",
+    "I3": "pass",
     "I4": "limited",
     "I5": "warn"
   },
@@ -472,9 +472,15 @@
     },
     {
       "check": "I3",
-      "severity": "fail",
-      "code": "unresolved",
-      "detail": "10.13140/RG.2.2.30911.01443 not found via crossref-doi"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.13140/RG.2.2.30911.01443 via datacite-doi"
+    },
+    {
+      "check": "I3",
+      "severity": "warn",
+      "code": "grandfathered",
+      "detail": "10.13140/RG.2.2.30911.01443 grandfathered: 2024 ResearchGate note, grandfathered 2026-10-19. Crossref has no record. DataCite does, client rg.rg, issued 2024. The exception stands with that hit. Reader path is the ResearchGate URL in reference [13]."
     },
     {
       "check": "I3",
@@ -526,9 +532,9 @@
     },
     {
       "check": "I3",
-      "severity": "fail",
-      "code": "unresolved",
-      "detail": "10.17605/OSF.IO/QME2W not found via crossref-doi"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.17605/OSF.IO/QME2W via datacite-doi"
     },
     {
       "check": "I1",

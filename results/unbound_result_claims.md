@@ -1,6 +1,6 @@
 # Unbound result-claims — willow-follow-up-note
 
-willow-follow-up-note — fail (I1 limited unbound 13; I3 fail (17 resolved, 2 unresolved))
+willow-follow-up-note — limited (I1 limited unbound 13; I3 pass (19 resolved, 0 unresolved, 1 grandfathered))
 
 Buckets: {'other': 13}
 
