@@ -1,7 +1,7 @@
 {
   "schema": "cd-manuscript-integrity/v1",
-  "ok": true,
-  "status_line": "willow-follow-up-note \u2014 limited (I1 limited unbound 12; I3 limited (9 resolved, 0 unresolved))",
+  "ok": false,
+  "status_line": "willow-follow-up-note \u2014 fail (I1 limited unbound 13; I3 fail (17 resolved, 2 unresolved))",
   "unbound_result_claims": [
     {
       "value": 12.0,
@@ -30,56 +30,64 @@
     {
       "value": 8.0,
       "token": "8%",
-      "context": "aphy circuit of Fig. 3 serves as a cross-check, not as the calibration, because its 8% retention makes a fitted p depend on the postselection rule. Because p is re-frozen, t",
-      "suggested_id": "aphy-circuit-of-fig-3-serves-as-a-cr-8%",
+      "context": "tomography circuit of Fig. 3 serves as a cross-check, not as the calibration, because its 8% retention makes a fitted p depend on the postselection rule. Because p is re-frozen, the",
+      "suggested_id": "tomography-circuit-of-fig-3-serves-a-8%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 95.0,
       "token": "95%",
-      "context": "l as the numerator. 3. Pass margin. The run counts only if B shows a gap: the lower 95% bound on B's LER ratio must exceed 3. Fix the shot count in advance so that the 95% in",
-      "suggested_id": "l-as-the-numerator-3-pass-margin-the-95%",
+      "context": "as well as the numerator. 3. Pass margin. The run counts only if B shows a gap: the lower 95% bound on B's LER ratio must exceed 3. Fix the shot count in advance so that the 95% inter",
+      "suggested_id": "as-well-as-the-numerator-3-pass-marg-95%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 95.0,
       "token": "95%",
-      "context": "95% bound on B's LER ratio must exceed 3. Fix the shot count in advance so that the 95% interval on each arm's ratio is no wider than plus or minus 15% of B's observed ratio;",
-      "suggested_id": "95-bound-on-b-s-ler-ratio-must-excee-95%",
+      "context": "lower 95% bound on B's LER ratio must exceed 3. Fix the shot count in advance so that the 95% interval on each arm's ratio is no wider than plus or minus 15% of B's observed ratio; if",
+      "suggested_id": "lower-95-bound-on-b-s-ler-ratio-must-95%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 15.0,
       "token": "15%",
-      "context": "advance so that the 95% interval on each arm's ratio is no wider than plus or minus 15% of B's observed ratio; if B's interval comes out wider, add shots before reading any o",
-      "suggested_id": "advance-so-that-the-95-interval-on-e-15%",
+      "context": "nt in advance so that the 95% interval on each arm's ratio is no wider than plus or minus 15% of B's observed ratio; if B's interval comes out wider, add shots before reading any othe",
+      "suggested_id": "nt-in-advance-so-that-the-95-interva-15%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 95.0,
       "token": "95%",
-      "context": "lified, so a ratio of exactly one is not the target. Call an arm closed when the upper 95% bound on its ratio is below 2; unchanged when its interval overlaps B's; widened wh",
-      "suggested_id": "lified-so-a-ratio-of-exactly-one-is--95%",
+      "context": "implified, so a ratio of exactly one is not the target. Call an arm closed when the upper 95% bound on its ratio is below 2; unchanged when its interval overlaps B's; widened when its",
+      "suggested_id": "implified-so-a-ratio-of-exactly-one--95%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 95.0,
       "token": "95%",
-      "context": "nal |2> population on data qubits, are each below half of B's, with non-overlapping 95% intervals. Table 2. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
-      "suggested_id": "nal-2-population-on-data-qubits-are--95%",
+      "context": "its final |2> population on data qubits, are each below half of B's, with non-overlapping 95% intervals. Table 2. Pre-registered readings of the 2 by 2. Arms: B, baseline (no removal",
+      "suggested_id": "its-final-2-population-on-data-qubit-95%",
       "in_table": false,
       "bucket": "other"
     },
     {
       "value": 8.0,
       "token": "8%",
-      "context": "ces the error by a factor of 40, with a state fidelity of at least 0.9999(1), retaining 8% of attempts. The v1 preprint gives injection-only error 4.4(2)e-3, which the main tex",
-      "suggested_id": "ces-the-error-by-a-factor-of-40-with-8%",
+      "context": "duces the error by a factor of 40, with a state fidelity of at least 0.9999(1), retaining 8% of attempts. The v1 preprint gives injection-only error 4.4(2)e-3, which the main text ca",
+      "suggested_id": "duces-the-error-by-a-factor-of-40-wi-8%",
+      "in_table": false,
+      "bucket": "other"
+    },
+    {
+      "value": 100.0,
+      "token": "100%",
+      "context": "gap.png\" alt=\"Figure 1. Grafted-code memory fits and this note's two rules\" style=\"width: 100%; height: auto;\" /> Figure 1. Left: the Fig. S22 exponential-fit labels, experiment 5.3%",
+      "suggested_id": "gap-png-alt-figure-1-grafted-code-me-100%",
       "in_table": false,
       "bucket": "other"
     },
@@ -94,23 +102,23 @@
     {
       "value": 95.0,
       "token": "95%",
-      "context": "95% bound is below 2. The dashed line at 3 is the gate: the run counts only if B's lower 95% bound exceeds 3. Both lines were fixed before any rerun. No 2 by 2 arm has been run. - T",
+      "context": "95% bound is below 2. The dashed line at 3 is the gate: the run counts only if B's lower 95% bound exceeds 3. Both lines were fixed before any rerun. No 2 by 2 arm has been run. A ra",
       "suggested_id": "95-bound-is-below-2-the-dashed-line--95%",
       "in_table": false,
       "bucket": "other"
     }
   ],
   "unbound_buckets": {
-    "other": 12
+    "other": 13
   },
-  "status": "limited",
+  "status": "fail",
   "project": "willow-follow-up-note",
   "manuscript": "draft/follow-up-note-draft-v6.md",
   "bibliography": null,
   "manifest": "integrity-manifest.json",
   "companions": [],
   "online": true,
-  "timestamp_utc": "2026-10-18T13:01:04Z",
+  "timestamp_utc": "2026-10-19T07:16:31Z",
   "citations": [
     {
       "kind": "numbered",
@@ -228,15 +236,75 @@
     },
     {
       "kind": "zenodo",
+      "token": "23455661",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23455661"
+    },
+    {
+      "kind": "zenodo",
+      "token": "23452622",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23452622"
+    },
+    {
+      "kind": "zenodo",
       "token": "17872003",
       "needs_bib_key": false,
       "identifier": "10.5281/zenodo.17872003"
+    },
+    {
+      "kind": "zenodo",
+      "token": "23452625",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23452625"
+    },
+    {
+      "kind": "zenodo",
+      "token": "23452624",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23452624"
+    },
+    {
+      "kind": "osf",
+      "token": "qme2w",
+      "needs_bib_key": false,
+      "identifier": "osf:qme2w"
+    },
+    {
+      "kind": "doi",
+      "token": "10.5281/zenodo.23455661",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23455661"
+    },
+    {
+      "kind": "doi",
+      "token": "10.5281/zenodo.23452622",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23452622"
     },
     {
       "kind": "doi",
       "token": "10.5281/zenodo.17872003",
       "needs_bib_key": false,
       "identifier": "10.5281/zenodo.17872003"
+    },
+    {
+      "kind": "doi",
+      "token": "10.17605/OSF.IO/QME2W",
+      "needs_bib_key": false,
+      "identifier": "10.17605/OSF.IO/QME2W"
+    },
+    {
+      "kind": "doi",
+      "token": "10.5281/zenodo.23452625",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23452625"
+    },
+    {
+      "kind": "doi",
+      "token": "10.5281/zenodo.23452624",
+      "needs_bib_key": false,
+      "identifier": "10.5281/zenodo.23452624"
     },
     {
       "kind": "doi",
@@ -317,7 +385,7 @@
       "identifier": null
     }
   ],
-  "result_claim_count": 12,
+  "result_claim_count": 13,
   "bib_keys": [],
   "numbered_refs": [
     "1",
@@ -343,7 +411,7 @@
   "checks": {
     "I1": "limited",
     "I2": "n/a",
-    "I3": "limited",
+    "I3": "fail",
     "I4": "limited",
     "I5": "warn"
   },
@@ -380,15 +448,15 @@
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.26421/QIC15.11-12-8 {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.26421/QIC15.11-12-8 via crossref-doi"
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1038/s41467-021-21982-y {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1038/s41467-021-21982-y via crossref-doi"
     },
     {
       "check": "I3",
@@ -398,15 +466,15 @@
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.1103/PhysRevApplied.23.054025 {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.1103/PhysRevApplied.23.054025 via crossref-doi"
     },
     {
       "check": "I3",
-      "severity": "limited",
-      "code": "resolve_limited",
-      "detail": "10.13140/RG.2.2.30911.01443 {'resolved': None, 'via': 'crossref-doi', 'http': 429, 'limited': True}"
+      "severity": "fail",
+      "code": "unresolved",
+      "detail": "10.13140/RG.2.2.30911.01443 not found via crossref-doi"
     },
     {
       "check": "I3",
@@ -424,13 +492,49 @@
       "check": "I3",
       "severity": "info",
       "code": "resolved",
+      "detail": "10.5281/zenodo.23455661 via zenodo"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.5281/zenodo.23452622 via zenodo"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
       "detail": "10.5281/zenodo.17872003 via zenodo"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.5281/zenodo.23452625 via zenodo"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "10.5281/zenodo.23452624 via zenodo"
+    },
+    {
+      "check": "I3",
+      "severity": "info",
+      "code": "resolved",
+      "detail": "osf:qme2w via osf"
+    },
+    {
+      "check": "I3",
+      "severity": "fail",
+      "code": "unresolved",
+      "detail": "10.17605/OSF.IO/QME2W not found via crossref-doi"
     },
     {
       "check": "I1",
       "severity": "limited",
       "code": "unbound_result_claim",
-      "detail": "12 unbound (other=12)"
+      "detail": "13 unbound (other=13)"
     },
     {
       "check": "I4",
